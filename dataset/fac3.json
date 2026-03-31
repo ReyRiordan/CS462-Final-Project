@@ -1,0 +1,2706 @@
+[
+  {
+    "_id": "6895046d1f753a01024ba09f",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d4c",
+      "netid": "mi360",
+      "patient": "Jeffrey Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-07T19:54:21.533949": "start",
+      "2025-08-12T19:39:58.605256": "start",
+      "2025-08-12T19:40:00.391672": "end",
+      "2025-08-12T19:40:03.481891": "start",
+      "2025-08-12T19:42:28.625445": "mark",
+      "2025-08-12T19:43:48.836457": "end",
+      "2025-08-12T21:53:33.096414": "start",
+      "2025-08-12T21:54:52.746359": "end",
+      "2025-09-02T18:33:21.643651": "start",
+      "2025-10-13T19:23:00.932293": "start",
+      "2025-10-13T19:23:14.861574": "end",
+      "2025-10-13T19:41:11.457254": "start",
+      "2025-10-13T19:41:18.170168": "end",
+      "2025-10-13T19:46:35.643769": "start",
+      "2025-10-13T19:46:37.261380": "end",
+      "2025-10-13T19:46:37.601183": "start",
+      "2025-10-13T19:46:39.838213": "end",
+      "2025-10-13T19:46:40.147732": "start",
+      "2025-10-13T19:46:41.955083": "end",
+      "2025-10-13T19:46:42.272906": "start",
+      "2025-10-13T19:52:09.499885": "start",
+      "2025-10-13T19:52:26.327738": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "mentions risk factors without explicitly stating what they are",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "ideally should explicitly state what each diagnostic test is looking for",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 5.113182116666667
+  },
+  {
+    "_id": "689a577a277d50edca593182",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d4e",
+      "netid": "nrp147",
+      "patient": "Jeffrey Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-11T20:50:02.453544": "start",
+      "2025-08-11T20:52:03.259715": "save",
+      "2025-08-12T18:27:23.794586": "start",
+      "2025-08-12T18:32:09.304129": "mark",
+      "2025-08-12T18:48:21.397632": "end",
+      "2025-08-12T21:53:15.206901": "start",
+      "2025-08-12T21:53:20.203379": "end",
+      "2025-10-13T19:23:29.034153": "start",
+      "2025-10-13T19:23:31.888156": "end",
+      "2025-10-13T19:41:22.590066": "start",
+      "2025-10-13T19:41:24.083409": "end",
+      "2025-10-13T19:46:31.748730": "start",
+      "2025-10-13T19:46:33.329524": "end",
+      "2025-10-13T19:52:28.070525": "start",
+      "2025-10-13T19:52:29.031457": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Surgical history of hernia not necessary, no mention of episodic nature of pain- important to note this is not constant pain for 6 months. ",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "specifically linked to \"cardiac history\" but does not define what is meant by cardiac history- in fact, the patient did not have a cardiac history, but had multiple cardiac risk factors.\nSaying pancreatitis and cholecystitis \"can also present like this\" is vague- should be more specifically linked to patient's key features/objective data points",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "conflicting plan- PPI and then Pepcid, no diagnostic testing is mentioned",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": false,
+            "E": false
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 21.043325399999997
+  },
+  {
+    "_id": "689b8c75277d50edca597fb4",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d4f",
+      "netid": "cep128",
+      "patient": "Jeffrey Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T18:48:21.756585": "start",
+      "2025-08-12T18:51:36.144702": "mark",
+      "2025-08-12T21:53:20.549162": "start",
+      "2025-08-12T21:53:23.093846": "end",
+      "2025-10-13T19:23:32.217415": "start",
+      "2025-10-13T19:23:35.730147": "end",
+      "2025-10-13T19:41:24.405580": "start",
+      "2025-10-13T19:41:26.893160": "end",
+      "2025-10-13T19:46:30.052627": "start",
+      "2025-10-13T19:46:31.394642": "end",
+      "2025-10-13T19:52:29.329742": "start",
+      "2025-10-13T19:52:30.228738": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Ideally, should specify what is being assessed with each diagnostic test- example, EKG and troponin to rule out ACS, EGD to evaluate for esophagitis or PUD. ",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 3.28221335
+  },
+  {
+    "_id": "689b910f277d50edca597fe0",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d51",
+      "netid": "sb1709",
+      "patient": "Jeffrey Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T19:07:59.238694": "start",
+      "2025-08-12T19:10:15.932338": "mark",
+      "2025-08-12T19:14:49.553265": "end",
+      "2025-08-12T21:53:23.392264": "start",
+      "2025-08-12T21:53:25.022532": "end",
+      "2025-10-13T19:23:36.036809": "start",
+      "2025-10-13T19:23:37.712662": "end",
+      "2025-10-13T19:41:27.235033": "start",
+      "2025-10-13T19:41:28.596475": "end",
+      "2025-10-13T19:46:28.122710": "start",
+      "2025-10-13T19:46:29.749055": "end",
+      "2025-10-13T19:52:30.529875": "start",
+      "2025-10-13T19:52:31.423183": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": false,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": false,
+            "E": true
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 6.865747316666667
+  },
+  {
+    "_id": "689b92a9277d50edca597ff0",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d5c",
+      "netid": "ef208",
+      "patient": "Jenny Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T19:14:49.903525": "start",
+      "2025-08-12T19:18:47.658127": "mark",
+      "2025-08-12T19:29:22.424782": "end",
+      "2025-08-12T21:53:25.345545": "start",
+      "2025-08-12T21:53:26.974666": "end",
+      "2025-10-13T19:24:21.797445": "start",
+      "2025-10-13T19:24:25.063150": "end",
+      "2025-10-13T19:42:03.570968": "start",
+      "2025-10-13T19:42:05.416152": "end",
+      "2025-10-13T19:46:14.848867": "start",
+      "2025-10-13T19:46:17.171022": "end",
+      "2025-10-13T19:52:38.232769": "start",
+      "2025-10-13T19:52:39.188334": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": "only mentions quality and onset of symptoms without explicitly stating what those are or what about those features support the leading diagnosis",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "S4 is not necessarily a risk factor for angina",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "ideally should be explicit about what each diagnostic test is looking for",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 14.569172966666667
+  },
+  {
+    "_id": "689b9612277d50edca598011",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d59",
+      "netid": "bs1111",
+      "patient": "Jenny Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T19:29:22.780170": "start",
+      "2025-08-12T19:32:34.809252": "mark",
+      "2025-08-12T19:39:58.187943": "end",
+      "2025-08-12T21:53:27.312687": "start",
+      "2025-08-12T21:53:32.718659": "end",
+      "2025-10-13T19:23:49.802575": "start",
+      "2025-10-13T19:24:18.435500": "end",
+      "2025-10-13T19:41:34.374832": "start",
+      "2025-10-13T19:41:56.444098": "mark",
+      "2025-10-13T19:42:00.959654": "end",
+      "2025-10-13T19:46:20.896445": "start",
+      "2025-10-13T19:46:22.930618": "end",
+      "2025-10-13T19:52:35.512064": "start",
+      "2025-10-13T19:52:36.460320": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Not a summary statement, more like a brief HPI",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "mentions EKG but states NOT to do it",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": true
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 10.680229083333334
+  },
+  {
+    "_id": "689b9890277d50edca598022",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d56",
+      "netid": "jag638",
+      "patient": "Jenny Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T19:40:00.729107": "start",
+      "2025-08-12T19:40:03.221701": "end",
+      "2025-08-12T19:43:49.155511": "start",
+      "2025-08-12T19:46:33.060768": "mark",
+      "2025-08-12T19:46:38.329923": "end",
+      "2025-08-12T21:54:53.042174": "start",
+      "2025-08-12T21:54:55.438115": "end",
+      "2025-10-13T19:23:45.396773": "start",
+      "2025-10-13T19:23:47.879817": "end",
+      "2025-10-13T19:41:31.070935": "start",
+      "2025-10-13T19:41:32.351331": "end",
+      "2025-10-13T19:46:25.243967": "start",
+      "2025-10-13T19:46:26.273853": "end",
+      "2025-10-13T19:52:33.020599": "start",
+      "2025-10-13T19:52:33.948196": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "missing most of the features of a summary statement",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": false,
+            "E": false,
+            "F": false,
+            "G": false
+          },
+          "score": 1
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": "no supporting features mentioned",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "no supporting features mentioned",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "does not state what is being tested, diagnoses listed in assessment would not be tested with H pylori. ",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false,
+            "D": false,
+            "E": true
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 2.9010491166666665
+  },
+  {
+    "_id": "689b9a1e277d50edca59802d",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d5a",
+      "netid": "dt724",
+      "patient": "Jenny Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T19:46:38.666552": "start",
+      "2025-08-12T19:48:26.264222": "mark",
+      "2025-08-12T19:48:29.683607": "end",
+      "2025-08-12T21:54:55.780242": "start",
+      "2025-08-12T21:55:00.181338": "end",
+      "2025-10-13T19:24:18.829916": "start",
+      "2025-10-13T19:24:21.464976": "end",
+      "2025-10-13T19:42:01.347296": "start",
+      "2025-10-13T19:42:03.227098": "end",
+      "2025-10-13T19:46:17.491879": "start",
+      "2025-10-13T19:46:20.567910": "end",
+      "2025-10-13T19:52:36.859870": "start",
+      "2025-10-13T19:52:37.922601": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": false,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 1.9236358500000001
+  },
+  {
+    "_id": "689b9a8e277d50edca598030",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d5e",
+      "netid": "jb1792",
+      "patient": "Jenny Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T19:48:30.022697": "start",
+      "2025-08-12T19:50:30.067373": "mark",
+      "2025-08-12T19:50:52.190852": "mark",
+      "2025-08-12T19:50:56.305206": "end",
+      "2025-08-12T21:55:00.514504": "start",
+      "2025-08-12T21:55:02.240055": "end",
+      "2025-10-13T19:24:34.962624": "start",
+      "2025-10-13T19:24:36.980273": "end",
+      "2025-10-13T19:42:16.820905": "start",
+      "2025-10-13T19:42:18.473310": "end",
+      "2025-10-13T19:46:04.330120": "start",
+      "2025-10-13T19:46:06.108072": "end",
+      "2025-10-13T19:52:40.765649": "start",
+      "2025-10-13T19:52:41.735409": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "not a summary but a recap of all data",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false,
+            "D": false,
+            "E": false
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 2.4668010000000002
+  },
+  {
+    "_id": "689b9b20277d50edca598036",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d5f",
+      "netid": "sb2408",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T19:50:56.618001": "start",
+      "2025-08-12T19:52:51.744752": "mark",
+      "2025-08-12T19:53:30.872683": "end",
+      "2025-08-12T21:55:02.633520": "start",
+      "2025-08-12T21:55:10.620136": "end",
+      "2025-10-13T19:24:37.321520": "start",
+      "2025-10-13T19:24:39.285578": "end",
+      "2025-10-13T19:42:18.788624": "start",
+      "2025-10-13T19:42:22.140042": "end",
+      "2025-10-13T19:45:52.458191": "start",
+      "2025-10-13T19:45:55.621066": "end",
+      "2025-10-13T19:46:02.897261": "start",
+      "2025-10-13T19:46:04.026871": "end",
+      "2025-10-13T19:52:42.049557": "start",
+      "2025-10-13T19:52:42.900992": "end",
+      "2025-10-13T19:52:44.997955": "start",
+      "2025-10-13T19:52:49.658176": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "> 2 semantic qualifiers: non-radiating, refractory to, elicited by",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": true
+          },
+          "score": 4
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 2.7040216333333333
+  },
+  {
+    "_id": "689b9bbb277d50edca59803b",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d52",
+      "netid": "cw1028",
+      "patient": "Jeffrey Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T19:53:31.191792": "start",
+      "2025-08-12T19:56:00.671204": "mark",
+      "2025-08-12T19:56:07.114094": "end",
+      "2025-08-12T21:55:10.949780": "start",
+      "2025-08-12T21:55:12.555444": "end",
+      "2025-10-13T19:23:38.043109": "start",
+      "2025-10-13T19:23:45.084755": "end",
+      "2025-10-13T19:41:28.908752": "start",
+      "2025-10-13T19:41:30.759266": "end",
+      "2025-10-13T19:46:26.620270": "start",
+      "2025-10-13T19:46:27.822755": "end",
+      "2025-10-13T19:52:31.748397": "start",
+      "2025-10-13T19:52:32.706907": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "does not reflect the patient's history at all",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false,
+            "D": false,
+            "E": false,
+            "F": false,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": "not reflective of the patient encounter- maybe missed the whole history?",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "not reflective of the patient encounter",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "looks like history obtained was limited or not reflective of the patient's actual story ",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false,
+            "D": true,
+            "E": false
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 2.6254660999999997
+  },
+  {
+    "_id": "689b9c57277d50edca598042",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d58",
+      "netid": "kag365",
+      "patient": "Jenny Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T19:56:07.518055": "start",
+      "2025-08-12T19:57:55.111006": "mark",
+      "2025-08-12T21:55:12.954361": "start",
+      "2025-08-12T21:55:15.287870": "end",
+      "2025-10-13T19:23:48.194523": "start",
+      "2025-10-13T19:23:49.488793": "end",
+      "2025-10-13T19:41:32.690480": "start",
+      "2025-10-13T19:41:34.056948": "end",
+      "2025-10-13T19:46:23.311263": "start",
+      "2025-10-13T19:46:24.929636": "end",
+      "2025-10-13T19:52:34.259646": "start",
+      "2025-10-13T19:52:35.190060": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": false,
+            "C": true,
+            "D": false,
+            "E": true
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 1.8321076666666667
+  },
+  {
+    "_id": "689ba191277d50edca5980a1",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d4d",
+      "netid": "njs172",
+      "patient": "Jeffrey Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T20:18:25.858361": "start",
+      "2025-08-12T20:19:48.078788": "mark",
+      "2025-08-12T20:19:50.223099": "end",
+      "2025-08-12T21:55:15.633336": "start",
+      "2025-08-12T21:55:42.355109": "mark",
+      "2025-08-12T21:55:49.385908": "end",
+      "2025-10-13T19:23:15.168477": "start",
+      "2025-10-13T19:23:27.389550": "mark",
+      "2025-10-13T19:23:28.720747": "end",
+      "2025-10-13T19:41:18.496905": "start",
+      "2025-10-13T19:41:22.237932": "end",
+      "2025-10-13T19:46:33.642821": "start",
+      "2025-10-13T19:46:35.330475": "end",
+      "2025-10-13T19:52:26.670939": "start",
+      "2025-10-13T19:52:27.767704": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": false,
+            "E": true
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 1.9686218333333332
+  },
+  {
+    "_id": "689ba1e6277d50edca5980a5",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d5d",
+      "netid": "hs1154",
+      "patient": "Jenny Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T20:19:50.519317": "start",
+      "2025-08-12T20:21:51.789483": "mark",
+      "2025-08-12T20:29:27.835444": "end",
+      "2025-08-12T21:55:49.712243": "start",
+      "2025-08-12T21:55:59.241747": "mark",
+      "2025-08-12T21:56:02.967675": "end",
+      "2025-10-13T19:24:25.392749": "start",
+      "2025-10-13T19:24:32.601063": "mark",
+      "2025-10-13T19:24:34.651985": "end",
+      "2025-10-13T19:42:05.739945": "start",
+      "2025-10-13T19:42:16.484263": "end",
+      "2025-10-13T19:46:06.447937": "start",
+      "2025-10-13T19:46:14.526325": "end",
+      "2025-10-13T19:52:39.531262": "start",
+      "2025-10-13T19:52:40.453447": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": false,
+            "C": true,
+            "D": false,
+            "E": true
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 9.842859316666667
+  },
+  {
+    "_id": "689ba428277d50edca5980bd",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d6e",
+      "netid": "jz1092",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T20:29:28.159280": "start",
+      "2025-08-12T20:30:59.163242": "mark",
+      "2025-08-12T21:56:03.298462": "start",
+      "2025-08-12T21:56:05.188988": "end",
+      "2025-10-13T19:25:46.823944": "start",
+      "2025-10-13T19:25:49.126258": "end",
+      "2025-10-13T19:43:38.642851": "start",
+      "2025-10-13T19:43:40.355807": "end",
+      "2025-10-13T19:44:21.050833": "start",
+      "2025-10-13T19:44:22.525989": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Not a summary",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 1.5482414666666666
+  },
+  {
+    "_id": "689bb1f0277d50edca598163",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d71",
+      "netid": "ih217",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T21:28:16.423041": "start",
+      "2025-08-12T21:30:05.011915": "mark",
+      "2025-08-12T21:30:06.395036": "end",
+      "2025-08-12T21:56:05.538658": "start",
+      "2025-08-12T21:56:07.009936": "end",
+      "2025-10-13T19:25:51.724251": "start",
+      "2025-10-13T19:25:53.619891": "end",
+      "2025-10-13T19:43:44.141549": "start",
+      "2025-10-13T19:43:45.744576": "end",
+      "2025-10-13T19:43:52.693026": "start",
+      "2025-10-13T19:43:54.625537": "end",
+      "2025-10-13T19:44:16.811510": "start",
+      "2025-10-13T19:44:18.829695": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "not a summary",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 1.8573878833333335
+  },
+  {
+    "_id": "689bb25e277d50edca598169",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d6a",
+      "netid": "de252",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T21:30:06.714960": "start",
+      "2025-08-12T21:31:50.823534": "mark",
+      "2025-08-12T21:31:54.468948": "end",
+      "2025-08-12T21:56:07.329000": "start",
+      "2025-08-12T21:56:19.518802": "mark",
+      "2025-08-12T21:56:21.178744": "end",
+      "2025-09-22T16:02:20.927004": "start",
+      "2025-10-13T19:25:25.304029": "start",
+      "2025-10-13T19:25:32.045288": "end",
+      "2025-10-13T19:43:10.110122": "start",
+      "2025-10-13T19:43:26.943388": "mark",
+      "2025-10-13T19:43:30.566918": "end",
+      "2025-10-13T19:44:30.725057": "start",
+      "2025-10-13T19:44:31.917303": "end",
+      "2025-10-13T19:44:44.153120": "start",
+      "2025-10-13T19:44:49.902046": "mark",
+      "2025-10-13T19:45:09.039900": "mark",
+      "2025-10-13T19:45:14.887184": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": "\"progressive nature\" without specifying what is progressive",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "mentions GERD but no explanation provided",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false,
+            "D": true,
+            "E": false
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 2.0267288666666667
+  },
+  {
+    "_id": "689bb2ca277d50edca59816c",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d62",
+      "netid": "mv654",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T21:31:54.806566": "start",
+      "2025-08-12T21:34:33.977019": "mark",
+      "2025-08-12T21:34:55.702884": "end",
+      "2025-08-12T21:56:21.492376": "start",
+      "2025-08-12T21:56:31.187170": "mark",
+      "2025-08-12T21:56:32.515624": "end",
+      "2025-10-13T19:24:49.479468": "start",
+      "2025-10-13T19:24:56.070999": "mark",
+      "2025-10-13T19:24:56.875716": "end",
+      "2025-10-13T19:42:30.491124": "start",
+      "2025-10-13T19:42:37.474421": "end",
+      "2025-10-13T19:45:29.346313": "start",
+      "2025-10-13T19:45:41.933466": "mark",
+      "2025-10-13T19:45:49.135384": "mark",
+      "2025-10-13T19:45:49.992745": "end",
+      "2025-10-13T19:52:51.351295": "start",
+      "2025-10-13T19:52:56.659233": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": "risk factors not specified",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "nature and history of pain not spcified- should link what specific detail makes a given diagnosis more likely ",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "should not do stress test in a patient who is suspected of having a STEMI",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 3.198659433333334
+  },
+  {
+    "_id": "689bb380277d50edca598177",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d63",
+      "netid": "wc614",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T21:34:56.018138": "start",
+      "2025-08-12T21:36:54.514887": "mark",
+      "2025-08-12T21:39:01.334425": "end",
+      "2025-08-12T21:56:32.829677": "start",
+      "2025-08-12T21:56:34.376825": "end",
+      "2025-10-13T19:24:57.191046": "start",
+      "2025-10-13T19:24:59.906577": "end",
+      "2025-10-13T19:42:37.829947": "start",
+      "2025-10-13T19:42:39.621377": "end",
+      "2025-10-13T19:45:27.796911": "start",
+      "2025-10-13T19:45:29.037938": "end",
+      "2025-10-13T19:52:56.969684": "start",
+      "2025-10-13T19:52:58.074609": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "missing core elements of summary statement",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false,
+            "F": false,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": "should specify what parts of history, physical suggest GERD",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "no explanation for alternative diagnosis",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": false,
+            "E": true
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 4.114390583333334
+  },
+  {
+    "_id": "689bb475277d50edca598180",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d70",
+      "netid": "ms3648",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T21:39:01.691319": "start",
+      "2025-08-12T21:40:48.797438": "mark",
+      "2025-08-12T21:40:50.662385": "end",
+      "2025-08-12T21:56:34.732251": "start",
+      "2025-08-12T21:56:47.037246": "end",
+      "2025-10-13T19:25:49.440741": "start",
+      "2025-10-13T19:25:51.374140": "end",
+      "2025-10-13T19:43:40.693035": "start",
+      "2025-10-13T19:43:43.806696": "end",
+      "2025-10-13T19:44:19.142013": "start",
+      "2025-10-13T19:44:20.735220": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": false,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 2.0212676833333334
+  },
+  {
+    "_id": "689bb4e3277d50edca598183",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d66",
+      "netid": "ac2676",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T21:40:50.975351": "start",
+      "2025-08-12T21:42:33.790272": "mark",
+      "2025-08-12T21:43:08.412971": "end",
+      "2025-08-12T21:56:47.379168": "start",
+      "2025-08-12T21:56:56.997871": "end",
+      "2025-10-13T19:25:07.056769": "start",
+      "2025-10-13T19:25:14.466371": "mark",
+      "2025-10-13T19:25:15.306783": "end",
+      "2025-10-13T19:42:55.041216": "start",
+      "2025-10-13T19:42:58.463246": "end",
+      "2025-10-13T19:45:21.162935": "start",
+      "2025-10-13T19:45:22.510139": "end",
+      "2025-10-13T19:52:59.635776": "start",
+      "2025-10-13T19:53:00.737401": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": true,
+            "F": false,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "no diagnostic test for GI disease",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 2.4509387166666667
+  },
+  {
+    "_id": "689bb56c277d50edca598186",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d68",
+      "netid": "et519",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T21:43:08.750487": "start",
+      "2025-08-12T21:45:07.666288": "mark",
+      "2025-08-12T21:45:09.099745": "end",
+      "2025-08-12T21:56:57.348455": "start",
+      "2025-08-12T21:57:00.632019": "end",
+      "2025-10-13T19:25:18.716244": "start",
+      "2025-10-13T19:25:22.266996": "end",
+      "2025-10-13T19:43:01.181785": "start",
+      "2025-10-13T19:43:03.172375": "end",
+      "2025-10-13T19:43:05.940071": "start",
+      "2025-10-13T19:43:07.602020": "end",
+      "2025-10-13T19:44:34.068621": "start",
+      "2025-10-13T19:44:42.143727": "end",
+      "2025-10-13T19:45:17.592223": "start",
+      "2025-10-13T19:45:19.339457": "end",
+      "2025-10-13T19:53:02.484573": "start",
+      "2025-10-13T19:53:04.092634": "end",
+      "2025-10-13T19:53:07.948856": "start"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "too long and detailed to be a summary statement, should shorten with use of semantic qualifiers",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 2.060547033333333
+  },
+  {
+    "_id": "689bb5e5277d50edca59818e",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d67",
+      "netid": "bh558",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T21:45:09.441977": "start",
+      "2025-08-12T21:47:34.775718": "mark",
+      "2025-08-12T21:47:38.034940": "end",
+      "2025-08-12T21:57:00.971339": "start",
+      "2025-08-12T21:57:02.811302": "end",
+      "2025-10-13T19:25:15.622908": "start",
+      "2025-10-13T19:25:18.408629": "end",
+      "2025-10-13T19:42:58.774389": "start",
+      "2025-10-13T19:43:00.858063": "end",
+      "2025-10-13T19:45:19.650866": "start",
+      "2025-10-13T19:45:20.864298": "end",
+      "2025-10-13T19:53:01.045384": "start",
+      "2025-10-13T19:53:02.122257": "end",
+      "2025-10-13T19:53:04.403995": "start",
+      "2025-10-13T19:53:07.641058": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Is this student's actual response? reads like AI",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 2.507215433333333
+  },
+  {
+    "_id": "689bb67a277d50edca598192",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d72",
+      "netid": "as3257",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T21:47:38.343474": "start",
+      "2025-08-12T21:50:03.332269": "mark",
+      "2025-08-12T21:50:46.203403": "end",
+      "2025-08-12T21:57:03.133570": "start",
+      "2025-08-12T21:57:05.001791": "end",
+      "2025-08-12T21:57:19.164934": "start",
+      "2025-08-12T21:57:43.813773": "save",
+      "2025-10-13T19:25:53.928762": "start",
+      "2025-10-13T19:25:57.121075": "end",
+      "2025-10-13T19:43:46.064816": "start",
+      "2025-10-13T19:43:47.613569": "end",
+      "2025-10-13T19:43:50.468875": "start",
+      "2025-10-13T19:43:52.375151": "end",
+      "2025-10-13T19:43:54.962690": "start",
+      "2025-10-13T19:44:01.370687": "end",
+      "2025-10-13T19:44:14.432772": "start",
+      "2025-10-13T19:44:16.469293": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "not a summary- 3 sentences long,  includes irrelevant detail such as tonsillectomy. ",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "one would not go straight to cath without any other testing such as EKG, troponin",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 3.162135833333333
+  },
+  {
+    "_id": "689bb736277d50edca59819a",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d61",
+      "netid": "ah1208",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T21:50:46.528672": "start",
+      "2025-08-12T21:53:09.801326": "mark",
+      "2025-08-12T21:53:15.007746": "end",
+      "2025-08-12T21:57:05.317991": "start",
+      "2025-08-12T21:57:06.955873": "end",
+      "2025-08-12T21:57:16.066221": "start",
+      "2025-08-12T21:57:18.822799": "end",
+      "2025-10-13T19:24:39.581752": "start",
+      "2025-10-13T19:24:48.007995": "mark",
+      "2025-10-13T19:24:49.158932": "end",
+      "2025-10-13T19:42:22.482568": "start",
+      "2025-10-13T19:42:30.150338": "end",
+      "2025-10-13T19:45:50.311496": "start",
+      "2025-10-13T19:45:52.123278": "end",
+      "2025-10-13T19:45:55.939476": "start",
+      "2025-10-13T19:46:02.577186": "end",
+      "2025-10-13T19:52:43.215491": "start",
+      "2025-10-13T19:52:44.671878": "end",
+      "2025-10-13T19:52:49.972177": "start",
+      "2025-10-13T19:52:51.039551": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": "no specific feature of history and exam linked to leading dx",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "should specify what each test is looking for",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 2.5478922333333336
+  },
+  {
+    "_id": "689bb8b3277d50edca5981aa",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d6b",
+      "netid": "lk508",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T21:57:07.272671": "start",
+      "2025-08-12T21:57:09.143280": "end",
+      "2025-08-12T21:57:12.584488": "start",
+      "2025-08-12T21:57:15.752477": "end",
+      "2025-08-13T15:44:04.564760": "start",
+      "2025-08-13T15:45:28.418917": "save",
+      "2025-08-13T15:46:12.499595": "mark",
+      "2025-08-13T15:49:17.105096": "end",
+      "2025-10-13T19:25:32.365130": "start",
+      "2025-10-13T19:25:37.319880": "mark",
+      "2025-10-13T19:25:38.754458": "end",
+      "2025-10-13T19:43:30.926559": "start",
+      "2025-10-13T19:43:35.983204": "end",
+      "2025-10-13T19:44:28.170626": "start",
+      "2025-10-13T19:44:30.399150": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": false,
+            "E": true
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 5.292982233333333
+  },
+  {
+    "_id": "689bb8b5277d50edca5981ab",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d64",
+      "netid": "ait18",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-12T21:57:09.491477": "start",
+      "2025-08-12T21:57:12.223444": "end",
+      "2025-08-13T15:49:17.456230": "start",
+      "2025-08-13T15:51:13.094747": "mark",
+      "2025-08-13T15:51:18.503419": "end",
+      "2025-10-13T19:25:00.228923": "start",
+      "2025-10-13T19:25:05.383388": "mark",
+      "2025-10-13T19:25:06.744488": "end",
+      "2025-10-13T19:42:39.965757": "start",
+      "2025-10-13T19:42:54.715924": "end",
+      "2025-10-13T19:45:22.832942": "start",
+      "2025-10-13T19:45:27.471823": "end",
+      "2025-10-13T19:52:58.381959": "start",
+      "2025-10-13T19:52:59.331479": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "more than 2 sentences",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 2.0629859333333336
+  },
+  {
+    "_id": "689cb476277d50edca599a49",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d69",
+      "netid": "pm787",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-13T15:51:18.839227": "start",
+      "2025-08-13T15:51:19.064938": "end",
+      "2025-08-13T15:51:19.270998": "start",
+      "2025-08-13T15:51:19.353059": "end",
+      "2025-08-13T15:54:48.924291": "start",
+      "2025-08-13T15:55:01.212365": "save",
+      "2025-08-13T15:56:23.461887": "mark",
+      "2025-10-13T19:25:22.604687": "start",
+      "2025-10-13T19:25:25.000060": "end",
+      "2025-10-13T19:43:03.496508": "start",
+      "2025-10-13T19:43:05.629889": "end",
+      "2025-10-13T19:43:07.922288": "start",
+      "2025-10-13T19:43:09.798607": "end",
+      "2025-10-13T19:44:32.238517": "start",
+      "2025-10-13T19:44:33.752861": "end",
+      "2025-10-13T19:44:42.488297": "start",
+      "2025-10-13T19:44:43.824510": "end",
+      "2025-10-13T19:45:15.203622": "start",
+      "2025-10-13T19:45:17.275386": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 1.5807561333333333
+  },
+  {
+    "_id": "689cb477277d50edca599a4a",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d6c",
+      "netid": "psr53",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-13T15:51:19.680768": "start",
+      "2025-08-13T15:52:44.479665": "mark",
+      "2025-08-13T15:52:45.911460": "end",
+      "2025-10-13T19:25:39.041768": "start",
+      "2025-10-13T19:25:45.603048": "mark",
+      "2025-10-13T19:25:46.480337": "end",
+      "2025-10-13T19:43:36.283799": "start",
+      "2025-10-13T19:43:38.325791": "end",
+      "2025-10-13T19:44:22.852946": "start",
+      "2025-10-13T19:44:27.862007": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 1.4371782000000002
+  },
+  {
+    "_id": "689cb4ce277d50edca599a4d",
+    "username": "Fac3",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d7f",
+      "netid": "jg1512",
+      "patient": "Jeffrey Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-08-13T15:52:46.244495": "start",
+      "2025-08-13T15:54:39.071533": "mark",
+      "2025-08-13T15:54:41.227536": "end",
+      "2025-08-13T15:54:41.541191": "start",
+      "2025-08-13T15:54:44.000757": "end",
+      "2025-08-13T15:54:44.347656": "start",
+      "2025-08-13T15:54:48.725308": "end",
+      "2025-10-13T19:25:57.452214": "start",
+      "2025-10-13T19:26:07.140963": "mark",
+      "2025-10-13T19:26:08.165360": "end",
+      "2025-10-13T19:26:08.503616": "start",
+      "2025-10-13T19:26:10.874570": "end",
+      "2025-10-13T19:26:11.175940": "start",
+      "2025-10-13T19:43:47.929392": "start",
+      "2025-10-13T19:43:48.298445": "end",
+      "2025-10-13T19:43:48.777503": "start",
+      "2025-10-13T19:43:48.858245": "end",
+      "2025-10-13T19:43:49.163009": "start",
+      "2025-10-13T19:43:50.139808": "end",
+      "2025-10-13T19:44:01.710849": "start",
+      "2025-10-13T19:44:06.040127": "end",
+      "2025-10-13T19:44:06.357064": "start",
+      "2025-10-13T19:44:08.685709": "end",
+      "2025-10-13T19:44:08.986931": "start",
+      "2025-10-13T19:44:11.002005": "end",
+      "2025-10-13T19:44:11.305877": "start",
+      "2025-10-13T19:44:14.120201": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": true,
+            "F": false,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 2.03033765
+  }
+]

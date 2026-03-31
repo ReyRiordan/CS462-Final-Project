@@ -1,0 +1,2685 @@
+[
+  {
+    "_id": "68b71f86e18dee852838396d",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d4c",
+      "netid": "mi360",
+      "patient": "Jeffrey Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T16:47:02.579188": "start",
+      "2025-09-02T16:51:07.317117": "save",
+      "2025-09-02T16:51:07.958027": "end",
+      "2025-09-02T17:45:43.680036": "start",
+      "2025-09-02T17:45:47.981163": "mark",
+      "2025-09-02T17:45:50.648184": "end",
+      "2025-09-02T18:34:05.740707": "start",
+      "2025-09-02T19:04:14.722814": "start",
+      "2025-09-02T19:08:49.275200": "save",
+      "2025-09-02T19:08:54.251998": "mark",
+      "2025-09-02T19:08:55.898289": "end",
+      "2025-09-23T15:04:24.317124": "start",
+      "2025-09-23T15:06:29.663685": "save",
+      "2025-09-23T15:06:32.548538": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Mention how long pain lasts when it comes (has it been constant for months, vs. episodic lasting seconds/minutes/hours?  What medication has it been refarctory to/?\n\n",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Nice discussion and listing of probability\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Be a little more specific about what you are looking for (e.g. an EKG will likely not show you stable angina if it is obtained while the patient is pain-free).\n",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false,
+            "D": true,
+            "E": true
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 8.892041033333333
+  },
+  {
+    "_id": "68b7207ce18dee852838397e",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d4d",
+      "netid": "njs172",
+      "patient": "Jeffrey Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T16:51:08.270849": "start",
+      "2025-09-02T16:53:21.184904": "save",
+      "2025-09-02T16:53:22.862827": "end",
+      "2025-09-02T17:45:50.961069": "start",
+      "2025-09-02T17:45:53.721810": "mark",
+      "2025-09-02T17:45:55.314310": "end",
+      "2025-09-02T19:08:56.232996": "start",
+      "2025-09-02T19:13:06.349765": "mark",
+      "2025-09-02T19:13:08.043042": "end",
+      "2025-09-23T15:06:32.851506": "start",
+      "2025-09-23T15:08:41.429107": "save",
+      "2025-09-23T15:08:42.849970": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Refine description of time course - is it continuous vs episodic, and do the episodes last seconds/minutes/hours?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Always consider a more serious diagnosis, even if it seems less likely - this person has cardiac risk factors and might have cardiac ischemia.\n\n",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "As above, need to consider cardiac disease as well.\nEndoscopy can also look for signs of/complications of GERD.\n",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": false,
+            "E": true
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 6.51258775
+  },
+  {
+    "_id": "68b72103e18dee8528383c07",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d4e",
+      "netid": "nrp147",
+      "patient": "Jeffrey Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T16:53:23.179593": "start",
+      "2025-09-02T16:55:05.256303": "save",
+      "2025-09-02T16:55:08.949911": "end",
+      "2025-09-02T17:45:55.627436": "start",
+      "2025-09-02T17:45:57.088619": "mark",
+      "2025-09-02T17:45:58.902719": "end",
+      "2025-09-02T19:13:08.346952": "start",
+      "2025-09-02T19:16:39.904161": "save",
+      "2025-09-02T19:16:48.843612": "mark",
+      "2025-09-02T19:16:50.682482": "end",
+      "2025-09-23T15:08:43.162667": "start",
+      "2025-09-23T15:10:32.016454": "save",
+      "2025-09-23T15:10:32.633027": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Overall good - Do you think patient is having an MI right now, or more likely angina?\n\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "I don't think he has a \"cardiac history\".  Story not consistent with pancreatitis.",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Always look for a more serious diagnosis, even if it seems less likely - this person has cardiac risk factors and might have cardiac ischemia\n",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": false,
+            "E": false
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 5.523018850000001
+  },
+  {
+    "_id": "68b7216de18dee8528383c0b",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d4f",
+      "netid": "cep128",
+      "patient": "Jeffrey Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T16:55:09.308030": "start",
+      "2025-09-02T16:57:44.508981": "save",
+      "2025-09-02T16:57:45.490081": "end",
+      "2025-09-02T17:45:59.224357": "start",
+      "2025-09-02T17:46:00.716229": "mark",
+      "2025-09-02T17:46:02.270506": "end",
+      "2025-09-02T19:16:50.991235": "start",
+      "2025-09-02T19:21:16.175499": "save",
+      "2025-09-02T19:21:17.049114": "mark",
+      "2025-09-02T19:21:18.062459": "end",
+      "2025-09-23T15:10:32.979332": "start",
+      "2025-09-23T15:12:33.675557": "save",
+      "2025-09-23T15:12:34.777091": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Be more concise in the summary.  Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": true
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Nice listing and rationale of your differential\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "The physical exam findings you list are mostly associated with CHF, not with CAD in the absence of CHF.",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": " EKG and troponin don't really assess \"cardiac function\" (an echo would be better for that) - EKG and troponin are looking for an acute MI, which might or might not be the type of cardiac ischemia this patient has\n.",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 7.104990399999999
+  },
+  {
+    "_id": "68b72209e18dee8528383c12",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d51",
+      "netid": "sb1709",
+      "patient": "Jeffrey Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T16:57:45.804115": "start",
+      "2025-09-02T16:59:48.268534": "save",
+      "2025-09-02T16:59:49.629773": "end",
+      "2025-09-02T17:46:02.585688": "start",
+      "2025-09-02T17:46:03.920385": "mark",
+      "2025-09-02T17:46:05.591346": "end",
+      "2025-09-02T19:21:18.375399": "start",
+      "2025-09-02T19:25:42.925032": "save",
+      "2025-09-02T19:25:43.750208": "mark",
+      "2025-09-02T19:25:44.581304": "end",
+      "2025-09-23T15:12:35.093409": "start",
+      "2025-09-23T15:14:37.577547": "save",
+      "2025-09-23T15:14:38.259731": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Summary should be more concise.  Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Either PUD or GERD could respond or not respond to appropriate meds, so not really a differentiating factor.  You are correct that S4 is thought to be due to ventricular stiffness, often due to hypertension.  The things that make coronary disease more likely are the patient's risk factors.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "S4 is thought to be due to a stiff heart from any cause (likely hypertension in his case)",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Always look into a more serious diagnosis, even if it seems less likely - this person has cardiac risk factors and might have cardiac ischemia.\n",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": false,
+            "E": true
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 6.550620349999999
+  },
+  {
+    "_id": "68b72285e18dee8528383c19",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d52",
+      "netid": "cw1028",
+      "patient": "Jeffrey Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T16:59:49.948823": "start",
+      "2025-09-02T17:00:39.582260": "save",
+      "2025-09-02T17:00:41.575256": "end",
+      "2025-09-02T17:46:05.909314": "start",
+      "2025-09-02T17:46:07.540808": "mark",
+      "2025-09-02T17:46:09.186289": "end",
+      "2025-09-02T19:25:44.897074": "start",
+      "2025-09-02T19:27:23.934504": "save",
+      "2025-09-02T19:27:24.667816": "mark",
+      "2025-09-02T19:27:25.438033": "end",
+      "2025-09-23T15:14:38.593905": "start",
+      "2025-09-23T15:15:27.853444": "save",
+      "2025-09-23T15:15:28.894211": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Not sure you got the same case as everyone else.",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false,
+            "D": false,
+            "E": false,
+            "F": false,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Sounds like you failed to elicit the history of chest pain.",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false,
+            "D": false,
+            "E": false,
+            "F": false
+          },
+          "score": 0
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "as above\n",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false,
+            "D": true,
+            "E": false
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 2.59073945
+  },
+  {
+    "_id": "68b722b9e18dee8528383c1d",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d56",
+      "netid": "jag638",
+      "patient": "Jenny Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:00:41.873900": "start",
+      "2025-09-02T17:02:17.289599": "save",
+      "2025-09-02T17:02:18.604003": "end",
+      "2025-09-02T17:46:09.514729": "start",
+      "2025-09-02T17:46:10.832614": "mark",
+      "2025-09-02T17:46:12.593873": "end",
+      "2025-09-02T19:27:25.769122": "start",
+      "2025-09-02T19:30:43.723014": "save",
+      "2025-09-02T19:30:44.498208": "mark",
+      "2025-09-02T19:30:45.244838": "end",
+      "2025-09-23T15:15:29.220807": "start",
+      "2025-09-23T15:16:08.147616": "save",
+      "2025-09-23T15:16:09.095019": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Mention both cardiac and GI risk factors.  Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": false,
+            "E": false,
+            "F": false,
+            "G": false
+          },
+          "score": 1
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "H pylori doesn't lead to GERD (it can lead to peptic ulcer disease).  \nAlways consider a more serious diagnosis, even if it seems less likely - this person has cardiac risk factors and might have cardiac ischemia.",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Tell the reader what you are doing and why, and as above always consider the most severe thing on a reasonable differential.\n",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false,
+            "D": false,
+            "E": true
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 4.988082716666667
+  },
+  {
+    "_id": "68b7231ae18dee8528383c30",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d58",
+      "netid": "kag365",
+      "patient": "Jenny Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:02:18.917048": "start",
+      "2025-09-02T17:03:25.538082": "save",
+      "2025-09-02T17:03:26.596290": "end",
+      "2025-09-02T17:46:12.910849": "start",
+      "2025-09-02T17:46:14.201099": "mark",
+      "2025-09-02T17:46:15.745749": "end",
+      "2025-09-02T19:30:45.563546": "start",
+      "2025-09-02T19:34:54.000439": "save",
+      "2025-09-02T19:34:54.864685": "mark",
+      "2025-09-02T19:34:55.767832": "end",
+      "2025-09-23T15:16:09.395525": "start",
+      "2025-09-23T15:17:36.455316": "save",
+      "2025-09-23T15:17:37.334930": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Nice discussion of symptoms.  Let the reader know explicitly what you think is most likely.\n",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": false,
+            "E": true,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "The endoscopy could look for the other GI things on your list, too.\nAlways look into a more serious diagnosis, even if it seems less likely - this person has cardiac risk factors and might have cardiac ischemia.\n",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false,
+            "D": false,
+            "E": true
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 5.345307133333333
+  },
+  {
+    "_id": "68b7235ee18dee8528383c34",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d59",
+      "netid": "bs1111",
+      "patient": "Jenny Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:03:26.940909": "start",
+      "2025-09-02T17:05:04.683727": "save",
+      "2025-09-02T17:05:08.614778": "end",
+      "2025-09-02T17:46:16.092524": "start",
+      "2025-09-02T17:46:17.219322": "mark",
+      "2025-09-02T17:46:18.831340": "end",
+      "2025-09-02T19:34:56.090912": "start",
+      "2025-09-02T19:41:27.249899": "save",
+      "2025-09-02T19:41:27.926230": "mark",
+      "2025-09-02T19:41:28.480272": "end",
+      "2025-09-23T15:17:37.657170": "start",
+      "2025-09-23T15:19:04.594557": "save",
+      "2025-09-23T15:19:05.566037": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Mention risk factors for cardiac and GI disease.  Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "NIce discussion of symptoms and thought process.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Always look into a more serious diagnosis, even if it seems less likely - this person has cardiac risk factors and might have cardiac ischemia.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 8.280034083333334
+  },
+  {
+    "_id": "68b723c5e18dee8528383c3b",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d5a",
+      "netid": "dt724",
+      "patient": "Jenny Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:05:09.001304": "start",
+      "2025-09-02T17:07:35.549369": "save",
+      "2025-09-02T17:07:38.520262": "end",
+      "2025-09-02T17:46:19.216956": "start",
+      "2025-09-02T17:46:20.480720": "mark",
+      "2025-09-02T17:46:22.315991": "end",
+      "2025-09-02T19:41:28.874924": "start",
+      "2025-09-02T19:47:20.011162": "save",
+      "2025-09-02T19:47:20.661444": "mark",
+      "2025-09-02T19:47:21.333258": "end",
+      "2025-09-23T15:19:05.927510": "start",
+      "2025-09-23T15:19:42.923181": "save",
+      "2025-09-23T15:19:43.926940": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Minor omission - would mention that frequency/severity is increasing over the past month or so.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": false,
+            "G": true
+          },
+          "score": 3
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Very nice discussion or symptoms and your thought process.",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Minor criticism - a chest Xray can't \"rule out\" aortic dissection.  It can make it less likely, but a more sensitive test is needed if you really think a person might (>5% chance or so) have aortic dissection.\nOverall, nicely thought out plan to treat for and look into the GI illnesses you think are most likely, and look for the more dangerous and possible diagnosis of cardiac ischemic.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 8.417938783333334
+  },
+  {
+    "_id": "68b7245ae18dee8528383c40",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d5c",
+      "netid": "ef208",
+      "patient": "Jenny Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:07:38.864209": "start",
+      "2025-09-02T17:09:29.885467": "save",
+      "2025-09-02T17:09:30.699381": "end",
+      "2025-09-02T17:46:22.640480": "start",
+      "2025-09-02T17:46:23.905346": "mark",
+      "2025-09-02T17:46:25.606581": "end",
+      "2025-09-02T19:47:21.689075": "start",
+      "2025-09-02T19:53:21.326322": "save",
+      "2025-09-02T19:53:22.004104": "mark",
+      "2025-09-02T19:53:22.594966": "end",
+      "2025-09-02T19:55:38.564121": "start",
+      "2025-09-02T19:55:58.716549": "save",
+      "2025-09-02T19:56:00.255433": "mark",
+      "2025-09-02T19:56:01.889847": "end",
+      "2025-09-23T15:19:44.220037": "start",
+      "2025-09-23T15:20:54.049507": "save",
+      "2025-09-23T15:20:54.846511": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Summary should be more concise.  Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Concise discussion of your thought process.  Could the patient have other GI illnesses?  What type of angina do you think they might have (ACS or stable)?\n\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Your leading diagnosis is GERD - what will you do if the treatment continues to fail?\nGood idea to do a stress test to look for the more serious diagnosis, even if it seems less likely.\n",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": true,
+            "E": false
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 8.317214833333333
+  },
+  {
+    "_id": "68b724cbe18dee8528383c49",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d5d",
+      "netid": "hs1154",
+      "patient": "Jenny Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:09:31.016051": "start",
+      "2025-09-02T17:10:59.271785": "save",
+      "2025-09-02T17:11:08.991958": "save",
+      "2025-09-02T17:11:10.060745": "end",
+      "2025-09-02T17:46:25.919449": "start",
+      "2025-09-02T17:46:27.318753": "mark",
+      "2025-09-02T17:46:29.069514": "end",
+      "2025-09-02T19:53:22.914952": "start",
+      "2025-09-02T19:55:38.221318": "end",
+      "2025-09-02T19:56:02.270825": "start",
+      "2025-09-02T19:56:43.985443": "save",
+      "2025-09-02T19:56:44.957014": "mark",
+      "2025-09-02T19:56:45.860561": "end",
+      "2025-09-23T15:20:55.168472": "start",
+      "2025-09-23T15:21:28.232075": "save",
+      "2025-09-23T15:21:29.080132": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Summary should be more concise.  Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "NIce discussion of your thought process\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Always address a more serious diagnosis, even if it seems less likely - this person has cardiac risk factors and might have cardiac ischemia.\n",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": false,
+            "E": true
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 4.6848476833333335
+  },
+  {
+    "_id": "68b7252ee18dee8528383c52",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d5e",
+      "netid": "jb1792",
+      "patient": "Jenny Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:11:10.377543": "start",
+      "2025-09-02T17:13:46.935093": "save",
+      "2025-09-02T17:13:49.611660": "end",
+      "2025-09-02T17:46:29.386975": "start",
+      "2025-09-02T17:46:30.888620": "mark",
+      "2025-09-02T17:46:32.791749": "end",
+      "2025-09-02T19:56:46.195435": "start",
+      "2025-09-02T20:03:45.230262": "save",
+      "2025-09-02T20:03:46.284160": "mark",
+      "2025-09-02T20:03:46.852912": "end",
+      "2025-09-23T15:21:29.381480": "start",
+      "2025-09-23T15:25:00.174799": "save",
+      "2025-09-23T15:25:01.278398": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Summary should be more concise.  Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Agree that it is very important to look for possibility of myocardial ischemia.\nOf the GI diagnoses, pancreatitis should NOT be you number one choice - it usually causes prolonged/persistent rather than episodic pain.  The pain pattern described is much more typical of GERD, which does not always respond to appropriate medication.  Abdominal bruits are a very insensitive indicator of vascular disease, so their absence is not very useful.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": "S4 is thought to be related to cardiac stiffness of any cause, not just MI.",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "Story not very consistent with pancreatitis, much more likely GI diagnosis is GERD resistant to meds.",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true
+          },
+          "score": 0
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "As above, the mostly likely cardiac diagnosis is not a current acute MI, and the mostly likely GI diagnosis is not pancreatitis.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 9.721606133333333
+  },
+  {
+    "_id": "68b725cde18dee8528383c57",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d5f",
+      "netid": "sb2408",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:13:49.933588": "start",
+      "2025-09-02T17:15:09.720801": "save",
+      "2025-09-02T17:15:28.244152": "save",
+      "2025-09-02T17:15:29.203012": "end",
+      "2025-09-02T17:46:33.102289": "start",
+      "2025-09-02T17:46:34.900806": "mark",
+      "2025-09-02T17:46:36.694014": "end",
+      "2025-09-02T20:03:47.202387": "start",
+      "2025-09-02T20:05:33.006698": "save",
+      "2025-09-02T20:05:33.742548": "mark",
+      "2025-09-02T20:05:34.422559": "end",
+      "2025-09-02T21:05:23.751873": "start",
+      "2025-09-02T21:05:34.543291": "mark",
+      "2025-09-23T15:25:01.583461": "start",
+      "2025-09-23T15:25:44.757891": "save",
+      "2025-09-23T15:25:45.621949": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Good description of the items making these diagnoses more or less likely.",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Succinct, appropriate plan.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 3.681212316666667
+  },
+  {
+    "_id": "68b72631e18dee8528383c5f",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d61",
+      "netid": "ah1208",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:15:29.537172": "start",
+      "2025-09-02T17:18:16.545718": "save",
+      "2025-09-02T17:18:20.366967": "end",
+      "2025-09-02T17:46:37.058939": "start",
+      "2025-09-02T17:46:38.317008": "mark",
+      "2025-09-02T17:46:40.366141": "end",
+      "2025-09-02T20:05:34.760683": "start",
+      "2025-09-02T20:09:10.586990": "save",
+      "2025-09-02T20:09:11.167513": "mark",
+      "2025-09-02T20:09:11.749035": "end",
+      "2025-09-23T15:25:45.934931": "start",
+      "2025-09-23T15:28:09.629920": "save",
+      "2025-09-23T15:28:10.438767": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Minor criticism - Refine description of time course - do episodes last seconds, minutes, hours?\n\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Clear statement of your thgouth process",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": "Good thought process but be more explicit.  What about the history and physical make you think GERD (I agree with you)?",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Labs and EKG might or might not show angina, especially if done while the patient is pain-free.  Be more clear about how one would \"confirm\" GERD.\n",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 6.518755816666667
+  },
+  {
+    "_id": "68b726dce18dee8528383c68",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d62",
+      "netid": "mv654",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:18:20.687357": "start",
+      "2025-09-02T17:20:43.537584": "save",
+      "2025-09-02T17:20:44.897956": "end",
+      "2025-09-02T17:46:40.693236": "start",
+      "2025-09-02T17:46:42.071393": "mark",
+      "2025-09-02T17:46:44.350346": "end",
+      "2025-09-02T20:09:12.115341": "start",
+      "2025-09-02T20:12:26.331971": "save",
+      "2025-09-02T20:12:27.009190": "mark",
+      "2025-09-02T20:12:27.825032": "end",
+      "2025-09-23T15:28:10.749409": "start",
+      "2025-09-23T15:29:17.507607": "save",
+      "2025-09-23T15:29:18.401979": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Refine description of time course -  do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Clear explanation of your thought process\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": false,
+            "C": true
+          },
+          "score": 0
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Correct that if EKG is OK while pain-free that will not \"rule out\" coronary disease, and stress test might be helpful.  Endoscopy could look for signs of both PUD and GERD.",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 5.7262900000000005
+  },
+  {
+    "_id": "68b7276de18dee8528383c7e",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d63",
+      "netid": "wc614",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:20:45.222250": "start",
+      "2025-09-02T17:21:40.957393": "save",
+      "2025-09-02T17:21:42.694595": "end",
+      "2025-09-02T17:46:44.680979": "start",
+      "2025-09-02T17:46:46.106688": "mark",
+      "2025-09-02T17:46:47.811984": "end",
+      "2025-09-02T20:12:28.286435": "start",
+      "2025-09-02T20:14:31.075181": "save",
+      "2025-09-02T20:14:31.773028": "mark",
+      "2025-09-02T20:14:32.485500": "end",
+      "2025-09-23T15:29:18.747243": "start",
+      "2025-09-23T15:29:49.935748": "save",
+      "2025-09-23T15:29:50.860319": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Mention GI and cardiac risk factors.  Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false,
+            "F": false,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Would describe your thought process a bit most fully - e.g. what goes for and against angina?",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Always address a more serious diagnosis, even if it seems less likely - this person has cardiac risk factors and might have cardiac ischemia.\n",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": false,
+            "E": true
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 3.08004025
+  },
+  {
+    "_id": "68b727a7e18dee8528383c83",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d64",
+      "netid": "ait18",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:21:42.997134": "start",
+      "2025-09-02T17:23:00.437087": "save",
+      "2025-09-02T17:23:08.020214": "end",
+      "2025-09-02T17:46:48.141828": "start",
+      "2025-09-02T17:46:49.944958": "mark",
+      "2025-09-02T17:46:51.856401": "end",
+      "2025-09-02T20:14:32.836369": "start",
+      "2025-09-02T20:18:27.514284": "save",
+      "2025-09-02T20:18:28.136871": "mark",
+      "2025-09-02T20:18:28.829587": "end",
+      "2025-09-23T15:29:51.175950": "start",
+      "2025-09-23T15:30:47.834812": "save",
+      "2025-09-23T15:30:48.673959": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Clear delineation of your thought process.\nDo you think the patient has acute ischemia at this very moment or a more intermittent, stable type of cardiac ischemia?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "What will you do if the symptoms continue to fail therapy?\n\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 5.412181183333334
+  },
+  {
+    "_id": "68b727fce18dee8528383c8b",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d66",
+      "netid": "ac2676",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:23:08.337180": "start",
+      "2025-09-02T17:24:46.414524": "save",
+      "2025-09-02T17:24:47.690442": "end",
+      "2025-09-02T17:46:52.213079": "start",
+      "2025-09-02T17:46:53.955901": "mark",
+      "2025-09-02T17:46:56.001837": "end",
+      "2025-09-02T20:18:29.156764": "start",
+      "2025-09-02T20:21:41.625719": "save",
+      "2025-09-02T20:21:42.302077": "mark",
+      "2025-09-02T20:21:42.823462": "end",
+      "2025-09-23T15:30:49.006494": "start",
+      "2025-09-23T15:31:15.367494": "save",
+      "2025-09-23T15:31:16.183343": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Mention cardiac and GI risk factors.  Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false,
+            "F": false,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Would also mention presence (or absence) of risk factors.\nDO you think the patient more likely has acute current ischemia or a more intermittent chronic manifestation of coronary disease?",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "How good is an EKG at looking of coronary disease in general?\nWhat will you do if medical management continues to fail?\n",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 4.946811966666667
+  },
+  {
+    "_id": "68b72860e18dee8528383c91",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d67",
+      "netid": "bh558",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:24:47.992434": "start",
+      "2025-09-02T17:26:30.133047": "save",
+      "2025-09-02T17:26:31.758005": "end",
+      "2025-09-02T17:46:56.324512": "start",
+      "2025-09-02T17:46:58.257277": "mark",
+      "2025-09-02T17:47:00.673141": "end",
+      "2025-09-02T20:21:43.138207": "start",
+      "2025-09-02T20:25:08.729545": "save",
+      "2025-09-02T20:25:09.278278": "mark",
+      "2025-09-02T20:25:09.814066": "end",
+      "2025-09-23T15:31:16.491458": "start",
+      "2025-09-23T15:32:56.570488": "save",
+      "2025-09-23T15:32:57.618136": "end",
+      "2025-09-23T15:34:05.683742": "start",
+      "2025-09-23T15:34:12.587962": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Very nice thought process.  Summary should be more succinct..\n",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": true
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Really excellent discussion clarifying your thought process about the probability of these various diagnoses.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "Overall this is a bit too lengthy - could get the important points across more succinctly.",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Very complete plan including preliminary and follow-up steps.  Quite nice\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 5.246500983333333
+  },
+  {
+    "_id": "68b728c8e18dee8528383c97",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d68",
+      "netid": "et519",
+      "patient": "Samuel Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:26:32.109906": "start",
+      "2025-09-02T17:26:34.196398": "save",
+      "2025-09-02T17:26:35.422469": "end",
+      "2025-09-02T17:47:01.000881": "start",
+      "2025-09-02T17:47:02.449339": "mark",
+      "2025-09-02T17:47:04.260166": "end",
+      "2025-09-02T20:25:10.132814": "start",
+      "2025-09-02T20:28:40.014406": "save",
+      "2025-09-02T20:28:40.908800": "mark",
+      "2025-09-02T20:28:42.683881": "end",
+      "2025-09-23T15:32:57.962829": "start",
+      "2025-09-23T15:34:02.362189": "save",
+      "2025-09-23T15:34:05.332816": "end",
+      "2025-09-23T15:34:12.960948": "start",
+      "2025-09-23T15:34:13.883553": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Nice but too long for a summary\n",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Very nice and clear description of your thought process\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Good to address most serious diagnosis even if not the most likely.\nWhat will you do if PPI doesn't lead to resolution?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 3.652048583333333
+  },
+  {
+    "_id": "68b728cbe18dee8528383c98",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d69",
+      "netid": "pm787",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:26:35.729363": "start",
+      "2025-09-02T17:27:47.031719": "save",
+      "2025-09-02T17:27:48.438311": "end",
+      "2025-09-02T17:47:04.591998": "start",
+      "2025-09-02T17:47:06.134486": "mark",
+      "2025-09-02T17:47:08.258494": "end",
+      "2025-09-02T20:28:42.999652": "start",
+      "2025-09-02T20:36:49.668141": "save",
+      "2025-09-02T20:36:50.454821": "mark",
+      "2025-09-02T20:36:51.279147": "end",
+      "2025-09-23T15:34:14.340897": "start",
+      "2025-09-23T15:35:37.373584": "save",
+      "2025-09-23T15:35:38.245279": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Minor criticisms - H pylori can occur in the absence of PUD, and vice versa.  I think the patient does have chest pain (burning would be a subcategory of pain) - so I didn't understand your final comment.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "Mention risk factors and features making GERD more likely than CAD.",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "An EKG is often normal in patient with coronary disease, especially if the EKG is done while the patient is pain-free - so an EKG cannot be said to \"rule out\" cardiac issues.  As above,  H pylori can occur in the absence of PUD, and vice versa.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 9.41091565
+  },
+  {
+    "_id": "68b72914e18dee8528383c99",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d6a",
+      "netid": "de252",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:27:48.761575": "start",
+      "2025-09-02T17:30:46.566541": "save",
+      "2025-09-02T17:30:47.792751": "end",
+      "2025-09-02T17:47:08.578854": "start",
+      "2025-09-02T17:47:10.134429": "mark",
+      "2025-09-02T17:47:12.115931": "end",
+      "2025-09-02T20:36:51.610268": "start",
+      "2025-09-02T20:40:07.341288": "save",
+      "2025-09-02T20:40:07.994711": "mark",
+      "2025-09-02T20:40:08.706872": "end",
+      "2025-09-23T15:35:38.566000": "start",
+      "2025-09-23T15:36:30.569723": "save",
+      "2025-09-23T15:36:31.333588": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Would explain your thought process - what goes for, what goes against",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Needs to be fleshed out.  How good is an EKG for looking for the type of cardiac ischemia you think the patient has? (not very, unless currently having an acute MI) What other cardiac work-up, therapy might one do?  What would you do about a possible GI illness?\n",
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false,
+            "D": true,
+            "E": false
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 6.327747616666667
+  },
+  {
+    "_id": "68b729c8e18dee8528383cc1",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d6b",
+      "netid": "lk508",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:30:48.110302": "start",
+      "2025-09-02T17:32:13.937816": "save",
+      "2025-09-02T17:32:14.826743": "end",
+      "2025-09-02T17:47:12.449761": "start",
+      "2025-09-02T17:47:13.846848": "mark",
+      "2025-09-02T17:47:15.786368": "end",
+      "2025-09-02T20:40:09.049116": "start",
+      "2025-09-02T20:43:18.676376": "save",
+      "2025-09-02T20:43:19.746182": "save",
+      "2025-09-02T20:43:20.897317": "mark",
+      "2025-09-02T20:43:21.858564": "end",
+      "2025-09-23T15:36:31.621218": "start",
+      "2025-09-23T15:38:08.937072": "save",
+      "2025-09-23T15:38:10.002287": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Mention more cardiac and/or GI risk factors.  Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Always consider a more serious disease, even if it's not the most likely one.  This person has cardiac risk factors and might have cardiac ischemia.\nMinor criticism - eosiniphilic esophagitis is usually a chronic illness also.\n",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "Would also consider possible cardiac causes given the risk factors for same.",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": null,
+          "features": {
+            "A": false,
+            "B": false,
+            "C": false,
+            "D": false,
+            "E": false
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 4.714374933333334
+  },
+  {
+    "_id": "68b72a1fe18dee8528383cc3",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d6c",
+      "netid": "psr53",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:32:15.159017": "start",
+      "2025-09-02T17:34:19.934223": "save",
+      "2025-09-02T17:34:22.046397": "end",
+      "2025-09-02T17:47:16.113025": "start",
+      "2025-09-02T17:47:17.636777": "mark",
+      "2025-09-02T17:47:19.527892": "end",
+      "2025-09-02T20:43:22.217942": "start",
+      "2025-09-02T20:48:29.289108": "save",
+      "2025-09-02T20:48:29.986098": "mark",
+      "2025-09-02T20:48:30.678324": "end",
+      "2025-09-23T15:38:10.330727": "start",
+      "2025-09-23T15:38:14.872315": "end",
+      "2025-09-23T15:38:20.303975": "start",
+      "2025-09-23T15:38:48.456578": "save",
+      "2025-09-23T15:38:49.469024": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Minor criticism - Refine description of time course - do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Overall good but could flesh out pro-cons a bit more.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Overall good plan.  EKG and troponins sensitive for MI/ACS, but not if the symptoms are not currently present when the test is done, or no prior transmural MI.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 7.312710483333333
+  },
+  {
+    "_id": "68b72a9ee18dee8528383ccc",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d6e",
+      "netid": "jz1092",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:34:22.369016": "start",
+      "2025-09-02T17:36:18.722833": "save",
+      "2025-09-02T17:36:19.969948": "end",
+      "2025-09-02T17:47:19.885877": "start",
+      "2025-09-02T17:47:21.350845": "mark",
+      "2025-09-02T17:47:23.395657": "end",
+      "2025-09-02T20:48:30.985384": "start",
+      "2025-09-02T20:50:59.949303": "save",
+      "2025-09-02T20:51:00.524408": "mark",
+      "2025-09-02T20:51:01.098462": "end",
+      "2025-09-23T15:38:15.166664": "start",
+      "2025-09-23T15:38:20.009369": "end",
+      "2025-09-23T15:38:49.795289": "start",
+      "2025-09-23T15:39:26.662239": "save",
+      "2025-09-23T15:39:27.680019": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Good content, but summary should be more succinct.\n",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Esophagitis often accompanies GERD, so your last sentence isn't useful.",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "EKG is unlikely to find cardiac ischemia unless the patient is having pain while the test is being done.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 4.5203965
+  },
+  {
+    "_id": "68b72b14e18dee8528383cd2",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d70",
+      "netid": "ms3648",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:36:20.281291": "start",
+      "2025-09-02T17:37:58.117922": "save",
+      "2025-09-02T17:37:59.646460": "end",
+      "2025-09-02T17:47:23.730750": "start",
+      "2025-09-02T17:47:25.987271": "mark",
+      "2025-09-02T17:47:28.034289": "end",
+      "2025-09-02T20:51:01.420308": "start",
+      "2025-09-02T20:56:07.731496": "save",
+      "2025-09-02T20:56:08.381977": "mark",
+      "2025-09-02T20:56:08.966964": "end",
+      "2025-09-23T15:39:27.981359": "start",
+      "2025-09-23T15:40:46.901075": "save",
+      "2025-09-23T15:40:47.867023": "end",
+      "2025-09-23T15:43:44.465958": "start",
+      "2025-09-23T15:43:52.705661": "mark"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "She might also have a GI illness such as GERD, with a high enough likelihood to deserve a place on the list.\nPericarditis tends to be a more persistent pain and pleuritic in nature, so not too likely.",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "Need to consider GI disease as an alternative",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "How good is an EKG done while pain-free to look for stable angina?  (not very sensitive)  Try to be more specific about what you are looking for in the different conditions - e.g. ST changes in the infarct area for MI, global ST elevation for pericarditis, and probably normal in stable angina.  THen would need further testing.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 6.853589400000001
+  },
+  {
+    "_id": "68b72b78e18dee8528383cd7",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d71",
+      "netid": "ih217",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:37:59.969467": "start",
+      "2025-09-02T17:40:28.806760": "save",
+      "2025-09-02T17:40:29.603136": "end",
+      "2025-09-02T17:47:28.358443": "start",
+      "2025-09-02T17:47:30.040547": "mark",
+      "2025-09-02T17:47:31.968210": "end",
+      "2025-09-02T20:56:09.288744": "start",
+      "2025-09-02T20:59:07.355176": "save",
+      "2025-09-02T20:59:08.084406": "mark",
+      "2025-09-02T20:59:08.799073": "end",
+      "2025-09-23T15:40:48.173509": "start",
+      "2025-09-23T15:41:39.706253": "save",
+      "2025-09-23T15:41:40.598494": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Very good content, but summary should be more concise.  Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 0
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Clear description of your thought process.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 2
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Agree that trop/EKG would be useful and important to ensure no ACS, but not so great to look for stable angina (which I agree with you is most likely cardiac diagnosis). \n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": true
+          },
+          "score": 3
+        }
+      }
+    },
+    "time_spent": 5.545896083333334
+  },
+  {
+    "_id": "68b72c0de18dee8528383ce5",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d72",
+      "netid": "as3257",
+      "patient": "Sarah Thompson"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:40:29.924020": "start",
+      "2025-09-02T17:42:00.814911": "save",
+      "2025-09-02T17:42:01.860712": "end",
+      "2025-09-02T17:47:32.341950": "start",
+      "2025-09-02T17:47:34.124872": "mark",
+      "2025-09-02T17:47:36.322432": "end",
+      "2025-09-02T20:59:09.131392": "start",
+      "2025-09-02T21:01:44.838847": "save",
+      "2025-09-02T21:01:45.396992": "mark",
+      "2025-09-02T21:01:45.990053": "end",
+      "2025-09-23T15:41:40.906172": "start",
+      "2025-09-23T15:42:43.254628": "save",
+      "2025-09-23T15:42:44.068412": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Refine description of time course - is it continuous or episodic, and do episodes last seconds, minutes, hours, days?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false,
+            "F": true,
+            "G": false
+          },
+          "score": 2
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": "Some of the complaints suggest a GI, likely esophageal disorder, so would include this on your differential\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false,
+            "F": false
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true
+          },
+          "score": 2
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": "Also consider GI disease",
+          "features": {
+            "A": true,
+            "B": false,
+            "C": false
+          },
+          "score": 0
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "For suspected ACS, EKG and troponin would be analyzed first, and cath lab eval only if they are suggestive of acute injury.\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": false
+          },
+          "score": 2
+        }
+      }
+    },
+    "time_spent": 4.212930583333334
+  },
+  {
+    "_id": "68b72c6ae18dee8528383ce6",
+    "username": "Fac1",
+    "sim_info": {
+      "_id": "68465ed820fd80066ac57d7f",
+      "netid": "jg1512",
+      "patient": "Jeffrey Smith"
+    },
+    "mark": ":white_check_mark:",
+    "times": {
+      "2025-09-02T17:42:02.215871": "start",
+      "2025-09-02T17:43:47.492537": "save",
+      "2025-09-02T17:43:48.923089": "end",
+      "2025-09-02T17:43:49.241200": "start",
+      "2025-09-02T17:43:58.112452": "save",
+      "2025-09-02T17:43:59.520528": "end",
+      "2025-09-02T17:43:59.839456": "start",
+      "2025-09-02T17:44:03.654415": "mark",
+      "2025-09-02T17:44:16.453525": "mark",
+      "2025-09-02T17:45:43.423011": "end",
+      "2025-09-02T17:47:36.710155": "start",
+      "2025-09-02T17:47:38.452453": "mark",
+      "2025-09-02T17:47:40.534216": "end",
+      "2025-09-02T17:47:40.881253": "start",
+      "2025-09-02T17:47:43.640620": "mark",
+      "2025-09-02T17:47:45.012017": "end",
+      "2025-09-02T17:47:45.324527": "start",
+      "2025-09-02T21:01:46.315408": "start",
+      "2025-09-02T21:04:54.869776": "save",
+      "2025-09-02T21:04:55.630881": "mark",
+      "2025-09-02T21:04:56.486509": "end",
+      "2025-09-02T21:04:56.819052": "start",
+      "2025-09-02T21:05:07.141729": "end",
+      "2025-09-02T21:05:07.461293": "start",
+      "2025-09-02T21:05:23.551344": "end",
+      "2025-09-23T15:42:44.361196": "start",
+      "2025-09-23T15:43:19.886906": "save",
+      "2025-09-23T15:43:20.742473": "end",
+      "2025-09-23T15:43:21.083346": "start",
+      "2025-09-23T15:43:29.753550": "end",
+      "2025-09-23T15:43:30.084493": "start",
+      "2025-09-23T15:43:31.261815": "end",
+      "2025-09-23T15:43:31.594674": "start",
+      "2025-09-23T15:43:33.217418": "save",
+      "2025-09-23T15:43:44.269594": "end"
+    },
+    "evaluation": {
+      "Summary Statement": {
+        "Summary Statement": {
+          "comment": "Mention cardiac and GI risk factors.  Refine description of time course -do episodes last seconds, minutes, hours?\n",
+          "features": {
+            "A": true,
+            "B": true,
+            "C": false,
+            "D": true,
+            "E": true,
+            "F": true,
+            "G": true
+          },
+          "score": 3
+        }
+      },
+      "Assessment": {
+        "Differential Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": true,
+            "C": true,
+            "D": false,
+            "E": false,
+            "F": true
+          },
+          "score": 1
+        },
+        "Explanation of Lead Diagnosis": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        },
+        "Explanation of Alternative Diagnoses": {
+          "comment": null,
+          "features": {
+            "A": true,
+            "B": false,
+            "C": true
+          },
+          "score": 1
+        }
+      },
+      "Plan": {
+        "Plan": {
+          "comment": "Good eval for stable coronary disease.  Would also address possibility of GI disease.\n",
+          "features": {
+            "A": false,
+            "B": true,
+            "C": true,
+            "D": true,
+            "E": false
+          },
+          "score": 1
+        }
+      }
+    },
+    "time_spent": 7.41847925
+  }
+]
