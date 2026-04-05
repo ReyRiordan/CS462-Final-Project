@@ -7,15 +7,6 @@
       "netid": "mi360",
       "patient": "Jeffrey Smith"
     },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-08T19:05:54.288578": "start",
-      "2025-08-08T19:31:05.849142": "mark",
-      "2025-08-08T19:31:08.685239": "end",
-      "2025-08-16T18:18:39.163430": "start",
-      "2025-08-16T18:22:30.063806": "mark",
-      "2025-08-16T18:22:32.689778": "end"
-    },
     "evaluation": {
       "Summary Statement": {
         "Summary Statement": {
@@ -77,8 +68,7 @@
           "score": 3
         }
       }
-    },
-    "time_spent": 29.132050149999998
+    }
   },
   {
     "_id": "6896507d1f753a01024bb639",
@@ -87,15 +77,6 @@
       "_id": "68465ed820fd80066ac57d4d",
       "netid": "njs172",
       "patient": "Jeffrey Smith"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-08T19:31:09.018493": "start",
-      "2025-08-08T19:42:04.253935": "mark",
-      "2025-08-08T19:42:06.524663": "end",
-      "2025-08-16T19:03:37.534194": "start",
-      "2025-08-16T19:07:09.153681": "mark",
-      "2025-08-16T19:07:12.314786": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -158,8 +139,7 @@
           "score": 2
         }
       }
-    },
-    "time_spent": 14.538112700000001
+    }
   },
   {
     "_id": "6896530e1f753a01024bb650",
@@ -168,23 +148,6 @@
       "_id": "68465ed820fd80066ac57d4e",
       "netid": "nrp147",
       "patient": "Jeffrey Smith"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-08T19:42:06.840356": "start",
-      "2025-08-08T19:50:19.032870": "mark",
-      "2025-08-08T19:50:20.399287": "end",
-      "2025-08-16T17:23:24.830874": "start",
-      "2025-08-16T17:23:27.086885": "end",
-      "2025-08-16T17:23:41.014706": "start",
-      "2025-08-16T17:28:02.611610": "mark",
-      "2025-08-16T17:28:04.947427": "end",
-      "2025-08-16T17:34:25.868589": "start",
-      "2025-08-16T17:34:48.431544": "end",
-      "2025-08-16T18:01:42.902163": "start",
-      "2025-08-16T18:01:57.605310": "end",
-      "2025-08-16T18:15:02.988495": "start",
-      "2025-08-16T18:15:07.502258": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -247,8 +210,7 @@
           "score": 2
         }
       }
-    },
-    "time_spent": 13.358792133333333
+    }
   },
   {
     "_id": "689654fc1f753a01024bb664",
@@ -257,21 +219,6 @@
       "_id": "68465ed820fd80066ac57d4f",
       "netid": "cep128",
       "patient": "Jeffrey Smith"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-08T19:50:20.730096": "start",
-      "2025-08-08T20:06:19.789553": "mark",
-      "2025-08-08T20:06:23.181754": "end",
-      "2025-08-16T17:23:27.285434": "start",
-      "2025-08-16T17:23:40.815003": "end",
-      "2025-08-16T17:28:05.144173": "start",
-      "2025-08-16T17:34:23.469126": "mark",
-      "2025-08-16T17:34:25.671411": "end",
-      "2025-08-16T18:01:57.804915": "start",
-      "2025-08-16T18:02:09.910539": "end",
-      "2025-08-16T18:15:07.700634": "start",
-      "2025-08-16T18:15:11.909030": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -334,8 +281,7 @@
           "score": 3
         }
       }
-    },
-    "time_spent": 22.88037475
+    }
   },
   {
     "_id": "689658bf1f753a01024bb685",
@@ -344,19 +290,6 @@
       "_id": "68465ed820fd80066ac57d51",
       "netid": "sb1709",
       "patient": "Jeffrey Smith"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-08T20:06:23.493898": "start",
-      "2025-08-08T20:20:15.548272": "mark",
-      "2025-08-16T17:34:48.630457": "start",
-      "2025-08-16T17:44:48.787729": "mark",
-      "2025-08-16T17:44:51.558830": "end",
-      "2025-08-16T18:02:10.109054": "start",
-      "2025-08-16T18:02:26.135563": "mark",
-      "2025-08-16T18:02:28.597982": "end",
-      "2025-08-16T18:15:12.107046": "start",
-      "2025-08-16T18:15:16.310310": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -419,8 +352,7 @@
           "score": 2
         }
       }
-    },
-    "time_spent": 24.29458231666667
+    }
   },
   {
     "_id": "68a0bc0b277d50edca5a10c2",
@@ -429,19 +361,6 @@
       "_id": "68465ed820fd80066ac57d5c",
       "netid": "ef208",
       "patient": "Jenny Smith"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-16T17:12:43.502490": "start",
-      "2025-08-16T17:23:24.614327": "end",
-      "2025-08-16T17:44:51.817085": "start",
-      "2025-08-16T18:01:40.438548": "save",
-      "2025-08-16T18:01:42.703810": "end",
-      "2025-08-16T18:02:28.858319": "start",
-      "2025-08-16T18:07:00.685817": "mark",
-      "2025-08-16T18:07:02.708596": "end",
-      "2025-08-16T18:15:16.568952": "start",
-      "2025-08-16T18:15:23.404651": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -504,8 +423,7 @@
           "score": 2
         }
       }
-    },
-    "time_spent": 32.21140896666667
+    }
   },
   {
     "_id": "68a0c8c6277d50edca5a1148",
@@ -514,15 +432,6 @@
       "_id": "68465ed820fd80066ac57d59",
       "netid": "bs1111",
       "patient": "Jenny Smith"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-16T18:07:02.906472": "start",
-      "2025-08-16T18:15:01.412301": "save",
-      "2025-08-16T18:15:02.791411": "end",
-      "2025-08-16T18:15:23.602317": "start",
-      "2025-08-16T18:18:36.572255": "mark",
-      "2025-08-16T18:18:38.900785": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -585,8 +494,7 @@
           "score": 2
         }
       }
-    },
-    "time_spent": 11.253056783333333
+    }
   },
   {
     "_id": "68a0cc68277d50edca5a116b",
@@ -595,12 +503,6 @@
       "_id": "68465ed820fd80066ac57d56",
       "netid": "jag638",
       "patient": "Jenny Smith"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-16T18:22:32.893476": "start",
-      "2025-08-16T18:30:11.846136": "mark",
-      "2025-08-16T18:30:14.573694": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -663,8 +565,7 @@
           "score": 1
         }
       }
-    },
-    "time_spent": 7.6946703
+    }
   },
   {
     "_id": "68a0ce36277d50edca5a117f",
@@ -673,15 +574,6 @@
       "_id": "68465ed820fd80066ac57d5a",
       "netid": "dt724",
       "patient": "Jenny Smith"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-16T18:30:14.835948": "start",
-      "2025-08-16T18:31:44.003529": "mark",
-      "2025-08-16T18:31:45.140630": "mark",
-      "2025-08-16T18:31:46.438631": "mark",
-      "2025-08-16T18:38:34.211261": "mark",
-      "2025-08-16T18:38:39.865025": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -744,8 +636,7 @@
           "score": 3
         }
       }
-    },
-    "time_spent": 8.417151283333332
+    }
   },
   {
     "_id": "68a0d030277d50edca5a1191",
@@ -754,12 +645,6 @@
       "_id": "68465ed820fd80066ac57d5e",
       "netid": "jb1792",
       "patient": "Jenny Smith"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-16T18:38:40.063129": "start",
-      "2025-08-16T18:43:57.324555": "mark",
-      "2025-08-16T18:44:06.167394": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -822,8 +707,7 @@
           "score": 3
         }
       }
-    },
-    "time_spent": 5.435071083333333
+    }
   },
   {
     "_id": "68a0d176277d50edca5a11a1",
@@ -832,12 +716,6 @@
       "_id": "68465ed820fd80066ac57d5f",
       "netid": "sb2408",
       "patient": "Samuel Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-16T18:44:06.364671": "start",
-      "2025-08-16T18:50:37.499444": "mark",
-      "2025-08-16T18:50:40.512165": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -900,8 +778,7 @@
           "score": 3
         }
       }
-    },
-    "time_spent": 6.5691249
+    }
   },
   {
     "_id": "68a0d300277d50edca5a11b1",
@@ -910,12 +787,6 @@
       "_id": "68465ed820fd80066ac57d52",
       "netid": "cw1028",
       "patient": "Jeffrey Smith"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-16T18:50:40.710133": "start",
-      "2025-08-16T18:58:09.958117": "mark",
-      "2025-08-16T18:58:12.701768": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -978,8 +849,7 @@
           "score": 1
         }
       }
-    },
-    "time_spent": 7.533193916666666
+    }
   },
   {
     "_id": "68a0d4c4277d50edca5a11cd",
@@ -988,12 +858,6 @@
       "_id": "68465ed820fd80066ac57d58",
       "netid": "kag365",
       "patient": "Jenny Smith"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-16T18:58:12.960962": "start",
-      "2025-08-16T19:03:34.713591": "mark",
-      "2025-08-16T19:03:37.336784": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -1056,8 +920,7 @@
           "score": 1
         }
       }
-    },
-    "time_spent": 5.4062637
+    }
   },
   {
     "_id": "68a0d6e0277d50edca5a11dc",
@@ -1066,14 +929,6 @@
       "_id": "68465ed820fd80066ac57d5d",
       "netid": "hs1154",
       "patient": "Jenny Smith"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-16T19:07:12.513900": "start",
-      "2025-08-16T19:12:25.612651": "mark",
-      "2025-08-16T19:12:29.718567": "end",
-      "2025-08-16T19:15:59.888823": "start",
-      "2025-08-16T19:16:19.247611": "mark"
     },
     "evaluation": {
       "Summary Statement": {
@@ -1136,8 +991,7 @@
           "score": 1
         }
       }
-    },
-    "time_spent": 5.6093909166666664
+    }
   },
   {
     "_id": "68a0d81e277d50edca5a11e9",
@@ -1146,15 +1000,6 @@
       "_id": "68465ed820fd80066ac57d6e",
       "netid": "jz1092",
       "patient": "Sarah Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-16T19:12:29.977894": "start",
-      "2025-08-16T19:15:56.328701": "mark",
-      "2025-08-16T19:15:59.689672": "end",
-      "2025-08-17T19:38:44.230315": "start",
-      "2025-08-17T19:39:48.093060": "mark",
-      "2025-08-17T19:39:58.081166": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -1217,8 +1062,7 @@
           "score": 3
         }
       }
-    },
-    "time_spent": 4.726043816666667
+    }
   },
   {
     "_id": "68a22bbc0ebdf335a0219eb8",
@@ -1227,12 +1071,6 @@
       "_id": "68465ed820fd80066ac57d61",
       "netid": "ah1208",
       "patient": "Samuel Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-17T19:21:32.101123": "start",
-      "2025-08-17T19:27:45.034511": "mark",
-      "2025-08-17T19:27:51.045443": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -1295,8 +1133,7 @@
           "score": 3
         }
       }
-    },
-    "time_spent": 6.315738666666666
+    }
   },
   {
     "_id": "68a22d370ebdf335a0219ec4",
@@ -1305,12 +1142,6 @@
       "_id": "68465ed820fd80066ac57d7f",
       "netid": "jg1512",
       "patient": "Jeffrey Smith"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-17T19:27:51.321139": "start",
-      "2025-08-17T19:38:40.220813": "mark",
-      "2025-08-17T19:38:43.960369": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -1373,8 +1204,7 @@
           "score": 2
         }
       }
-    },
-    "time_spent": 10.8773205
+    }
   },
   {
     "_id": "68a2300e0ebdf335a0219ee0",
@@ -1383,12 +1213,6 @@
       "_id": "68465ed820fd80066ac57d62",
       "netid": "mv654",
       "patient": "Samuel Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-17T19:39:58.352164": "start",
-      "2025-08-17T19:49:01.417396": "mark",
-      "2025-08-17T19:49:05.968005": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -1451,8 +1275,7 @@
           "score": 3
         }
       }
-    },
-    "time_spent": 9.126930683333335
+    }
   },
   {
     "_id": "68a232320ebdf335a0219ef6",
@@ -1461,12 +1284,6 @@
       "_id": "68465ed820fd80066ac57d63",
       "netid": "wc614",
       "patient": "Samuel Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-17T19:49:06.174471": "start",
-      "2025-08-17T19:54:15.742461": "mark",
-      "2025-08-17T19:54:28.803030": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -1529,8 +1346,7 @@
           "score": 2
         }
       }
-    },
-    "time_spent": 5.37714265
+    }
   },
   {
     "_id": "68a233750ebdf335a0219f01",
@@ -1539,13 +1355,6 @@
       "_id": "68465ed820fd80066ac57d64",
       "netid": "ait18",
       "patient": "Samuel Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-17T19:54:29.009440": "start",
-      "2025-08-17T20:19:54.538657": "start",
-      "2025-08-17T20:22:54.274742": "mark",
-      "2025-08-17T20:22:57.770973": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -1608,8 +1417,7 @@
           "score": 2
         }
       }
-    },
-    "time_spent": 3.0538719333333333
+    }
   },
   {
     "_id": "68a23a220ebdf335a0219f40",
@@ -1618,12 +1426,6 @@
       "_id": "68465ed820fd80066ac57d66",
       "netid": "ac2676",
       "patient": "Samuel Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-17T20:22:57.977234": "start",
-      "2025-08-17T20:26:31.347625": "mark",
-      "2025-08-17T20:26:34.322417": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -1686,8 +1488,7 @@
           "score": 1
         }
       }
-    },
-    "time_spent": 3.6057530499999997
+    }
   },
   {
     "_id": "68a23afa0ebdf335a0219f46",
@@ -1696,12 +1497,6 @@
       "_id": "68465ed820fd80066ac57d67",
       "netid": "bh558",
       "patient": "Samuel Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-17T20:26:34.528393": "start",
-      "2025-08-17T20:35:10.351786": "mark",
-      "2025-08-17T20:35:25.575314": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -1764,8 +1559,7 @@
           "score": 3
         }
       }
-    },
-    "time_spent": 8.850782016666667
+    }
   },
   {
     "_id": "68a23d0d0ebdf335a0219f5c",
@@ -1774,12 +1568,6 @@
       "_id": "68465ed820fd80066ac57d72",
       "netid": "as3257",
       "patient": "Sarah Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-17T20:35:25.786147": "start",
-      "2025-08-17T20:39:41.272147": "mark",
-      "2025-08-17T20:39:45.361424": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -1842,8 +1630,7 @@
           "score": 2
         }
       }
-    },
-    "time_spent": 4.3262546166666676
+    }
   },
   {
     "_id": "68a23e110ebdf335a0219f69",
@@ -1852,12 +1639,6 @@
       "_id": "68465ed820fd80066ac57d70",
       "netid": "ms3648",
       "patient": "Sarah Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-17T20:39:45.591088": "start",
-      "2025-08-17T20:43:51.118548": "mark",
-      "2025-08-17T20:43:54.864164": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -1920,8 +1701,7 @@
           "score": 2
         }
       }
-    },
-    "time_spent": 4.154551266666667
+    }
   },
   {
     "_id": "68a23f0b0ebdf335a0219f74",
@@ -1930,12 +1710,6 @@
       "_id": "68465ed820fd80066ac57d71",
       "netid": "ih217",
       "patient": "Sarah Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-17T20:43:55.070629": "start",
-      "2025-08-17T20:47:02.474891": "mark",
-      "2025-08-17T20:47:06.351234": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -1998,8 +1772,7 @@
           "score": 3
         }
       }
-    },
-    "time_spent": 3.1880100833333334
+    }
   },
   {
     "_id": "68a23fca0ebdf335a0219f78",
@@ -2008,12 +1781,6 @@
       "_id": "68465ed820fd80066ac57d68",
       "netid": "et519",
       "patient": "Samuel Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-17T20:47:06.558941": "start",
-      "2025-08-17T20:52:44.878233": "mark",
-      "2025-08-17T20:52:48.654561": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -2076,8 +1843,7 @@
           "score": 1
         }
       }
-    },
-    "time_spent": 5.701593666666667
+    }
   },
   {
     "_id": "68a241200ebdf335a0219f82",
@@ -2086,12 +1852,6 @@
       "_id": "68465ed820fd80066ac57d69",
       "netid": "pm787",
       "patient": "Sarah Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-17T20:52:48.860411": "start",
-      "2025-08-17T20:56:17.934156": "mark",
-      "2025-08-17T20:56:21.465793": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -2154,8 +1914,7 @@
           "score": 3
         }
       }
-    },
-    "time_spent": 3.543423033333333
+    }
   },
   {
     "_id": "68a241f50ebdf335a0219f88",
@@ -2164,13 +1923,6 @@
       "_id": "68465ed820fd80066ac57d6a",
       "netid": "de252",
       "patient": "Sarah Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-17T20:56:21.737203": "start",
-      "2025-08-17T21:41:25.711121": "start",
-      "2025-08-17T21:44:18.885522": "mark",
-      "2025-08-17T21:44:23.650602": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -2233,8 +1985,7 @@
           "score": 1
         }
       }
-    },
-    "time_spent": 2.9656580166666666
+    }
   },
   {
     "_id": "68a24d370ebdf335a021a037",
@@ -2243,12 +1994,6 @@
       "_id": "68465ed820fd80066ac57d6b",
       "netid": "lk508",
       "patient": "Sarah Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-17T21:44:23.856135": "start",
-      "2025-08-17T21:47:39.017488": "mark",
-      "2025-08-17T21:47:42.265781": "end"
     },
     "evaluation": {
       "Summary Statement": {
@@ -2311,8 +2056,7 @@
           "score": 2
         }
       }
-    },
-    "time_spent": 3.3068274333333334
+    }
   },
   {
     "_id": "68a24dfe0ebdf335a021a03b",
@@ -2321,11 +2065,6 @@
       "_id": "68465ed820fd80066ac57d6c",
       "netid": "psr53",
       "patient": "Sarah Thompson"
-    },
-    "mark": ":white_check_mark:",
-    "times": {
-      "2025-08-17T21:47:42.482168": "start",
-      "2025-08-17T21:49:50.104648": "mark"
     },
     "evaluation": {
       "Summary Statement": {
@@ -2388,7 +2127,6 @@
           "score": 3
         }
       }
-    },
-    "time_spent": 2.127041333333333
+    }
   }
 ]
