@@ -1,0 +1,88 @@
+{
+    "Summary Statement": {
+        "title": "Summary Statement",
+        "desc": "Provides a concise summary statement that uses semantic vocabulary to highlight the most important elements from history, exam, and testing to interpret and represent the patient's main problem(s). The presence or absence of the following features is assessed: key risk factors, chief complaint, illness time course, and use of semantic qualifiers (e.g., monoarticular vs polyarticular) or unified medical concepts (e.g., volume overload, cardiovascular risk factors).",
+        "features": {
+            "A": "Must be a summary, NOT a recap of history and exam. Should highlight only key features, excluding irrelevant details.",
+            "B": "Mentions age",
+            "C": "Mentions risk factors for cardiac or GI diseases (such as diabetes/DM, hypertension/HTN, smoking, cardiac risk factors, overweight/obesity, use of NSAIDS) explicitly or stated as “cardiac risk factors” or “risk factors for X” or “risk factors of”",
+            "D": "Mentions location of pain/pressure (chest pain/pressure/discomfort, angina, substernal/epigastric pain/pressure, upper abdominal pain/burning, dyspepsia, reflux, heartburn)",
+            "E": "Time course - Mentions episodic nature of pain (intermittent, episodic, recurrent, on-and-off, exertional, brought on by, made worse with, post-prandial, relieved by rest)",
+            "F": "Time course - Mentions progression of pain (worsening, more frequent, more severe, progressive)",
+            "G": "Semantic qualifiers - at least 2 of: “intermittent”, “recurrent”, “episodic”, “chronic”, “acutely worse”, “progressive”, “risk factors for cardiac/GI disease”, “atypical”, “unstable”/“stable”, “exertional”, “post-prandial”"
+        },
+        "scoring": {
+            "4": "All features are present",
+            "3": "5 features present, must include A AND G",
+            "2": "3 features present, must include A",
+            "1": "2 features present, must include A",
+            "0": "1 or 0 features present, OR does not include A"
+        },
+        "sections": ["Summary Statement"]
+    },
+    "Differential Diagnosis": {
+        "title": "Differential Diagnosis",
+        "desc": "Offers more than one relevant diagnostic possibility, committing to what is most likely and considering what is less likely or unlikely yet important to consider for the main chief complaint. If the chief complaint is a diagnosis or syndrome (e.g., acute on chronic systolic heart failure) then differential to rate may be around the differential for that exacerbation (e.g., medical non-compliance vs arrhythmia).",
+        "features": {
+            "A": "2 or more diagnoses listed",
+            "B": "Mentions specific diagnosis related to cardiac ischemia (angina, stable/unstable angina, cardiac ischemia, coronary artery disease/CAD, MI, STEMI, NSTEMI, acute coronary syndrome)",
+            "C": "Mentions specific GI diagnosis (GERD, esophageal, reflux, acid, esophageal spasm, esophageal motility, peptic ulcer disease/PUD, biliary disease, gallstones, cholecystitis, cholelithiasis, pancreatitis)",
+            "D": "Statement of probability is explicitly stated (most likely diagnosis is, lead(ing) diagnosis is, likely, probable, worrisome, concerning for)",
+            "E": "Differential diagnosis is implicitly stated (e.g., “cardiac disease”, “esophageal/GI disease”)",
+            "F": "Statement of probability is implied but not explicitly stated (“should consider”, “X is possible”, or ddx list is numbered e.g. #1, X diagnosis, #2, Y diagnosis)"
+        },
+        "scoring": {
+            "2": "A, B, C, and D are present",
+            "1": "A AND [B, C, D, E, OR F]",
+            "0": "0 or 1 features"
+        },
+        "sections": ["Assessment"]
+    },
+    "Explanation of Lead Diagnosis": {
+        "title": "Explanation of Lead Diagnosis",
+        "desc": "Explains the reasoning behind the lead diagnosis, including the epidemiology and key features and how these compare with the patient's presentation. If objective data points are not clearly linked to the lead diagnosis or alternative diagnosis, then only designate points to lead OR alternative diagnosis and NOT both.",
+        "features": {
+            "A": "Leading diagnosis is explicitly linked to supporting data points",
+            "B": "Mentions specific risk factors for cardiac or GI diseases (diabetes/DM, hypertension/HTN, smoking, cardiac risk factors, overweight/obesity, age, no NSAID use, no steroid use) OR explicitly states “cardiac risk factors” (just saying “based on risk factors” does not count)",
+            "C": "Mentions any key features from history in support of cardiac or GI disease: \n\ta. Quality of pain: pressure/burning, not pleuritic, not muscular, intermittent, recurring, recurrent, episodic, atypical, exertional, chronic \n\tb. Precipitating/alleviating factors: worse with food/post prandial, worse when lying down, worse with exertion/walking, occurs at rest, \n\tc. Associated symptoms/history: lack of response to PPI/pantoprazole, incomplete response to TUMS/antacids, no blood in stool, no melena, no NSAID use, no steroid use"
+        },
+        "scoring": {
+            "2": "A, B, AND C are all present",
+            "1": "A AND [B OR C]",
+            "0": "No explanation of lead diagnosis"
+        },
+        "sections": ["Assessment"]
+    },
+    "Explanation of Alternative Diagnoses": {
+        "title": "Explanation of Alternative Diagnoses",
+        "desc": "Explains the reasoning behind alternative diagnoses, including the epidemiology and key features and how these compare with the patient's presentation and alternative diagnosis. If objective data points are not clearly linked to the lead diagnosis or alternative diagnosis, then only designate points to lead OR alternative diagnosis and NOT both.",
+        "features": {
+            "A": "Alternative diagnosis is explicitly linked to supporting data points",
+            "B": "Mentions specific risk factors for cardiac or GI diseases (diabetes/DM, hypertension/HTN, smoking, cardiac risk factors, overweight/obesity, age, no NSAID use, no steroid use) OR explicitly states “cardiac risk factors” (just saying “based on risk factors” does not count)",
+            "C": "Mentions any key features from history in support of cardiac or GI disease: \n\ta. Quality of pain: pressure/burning, not pleuritic, not muscular, intermittent, recurring, recurrent, episodic, atypical, exertional, chronic \n\tb. Precipitating/alleviating factors: worse with food/post prandial, worse when lying down, worse with exertion/walking, occurs at rest, \n\tc. Associated symptoms/history: lack of response to PPI/pantoprazole, incomplete response to TUMS/antacids, no blood in stool, no melena, no NSAID use, no steroid use"
+        },
+        "scoring": {
+            "2": "A, B, AND C are all present",
+            "1": "A AND [B OR C]",
+            "0": "No explanation of alternative diagnosis"
+        },
+        "sections": ["Assessment"]
+    },
+    "Plan": {
+        "title": "Plan",
+        "desc": "Defined as including reasons for diagnostic testing and treatments and summarizing the evidence used to support decisions.",
+        "features": {
+            "A": "Plan is explicitly linked to a diagnosis (Do X test to evaluate for/rule in/rule out Y diagnosis, do X test given concern for Y diagnosis)",
+            "B": "Mentions a specific diagnosis related to cardiac ischemia in this section or in assessment (angina, stable/unstable angina, cardiac ischemia, coronary artery disease/CAD, MI, STEMI, NSTEMI, acute coronary syndrome)",
+            "C": "Mentions a specific GI diagnosis in this section or in assessment (GERD, esophageal, reflux, acid, esophageal spasm, esophageal motility, peptic ulcer disease/PUD, biliary disease, gallstones, cholecystitis, cholelithiasis, pancreatitis)",
+            "D": "Mentions a cardiac test: EKG/ECG/electrocardiogram, stress test, coronary CT angiogram/CTA, cardiac catheterization",
+            "E": "Mentions a GI test: endoscopy/EGD, manometry, barium swallow, ultrasound, CT abdomen, H. pylori"
+        },
+        "scoring": {
+            "3": "All 5 features are present",
+            "2": "A AND either [B and D] OR [C and E] (aka, feature A is present AND either a cardiac or GI diagnosis with matching test)",
+            "1": "Not meeting above criteria"
+        },
+        "sections": ["Assessment", "Plan"]
+    }
+}
