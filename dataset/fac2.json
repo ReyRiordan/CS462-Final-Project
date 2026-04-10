@@ -2,2130 +2,1830 @@
   {
     "_id": "68964a921f753a01024bb5f7",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d4c",
-      "netid": "mi360",
-      "patient": "Jeffrey Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d4c",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "Age of patient should be included.  It would be helpful to include additional details of the chest pain and time course - increasingly frequent episodes, triggered by food or exertion.  What's the medication that was tried?  \nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0\nFor instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "Age of patient should be included.  It would be helpful to include additional details of the chest pain and time course - increasingly frequent episodes, triggered by food or exertion.  What's the medication that was tried?  \nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0\nFor instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "Can include more detail about why you think GERD is the most likely diagnosis (often triggered by eating, sometimes relieved with antacids, worse with laying down, etc).  Smoking is a risk factor for GERD.",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false
-          },
-          "score": 0
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "Can include more detail about why you think GERD is the most likely diagnosis (often triggered by eating, sometimes relieved with antacids, worse with laying down, etc).  Smoking is a risk factor for GERD.",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "Be more explicit when you say \"risk factors\" - what factors put the patient at increased risk for unstable angina?",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 0
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "Be more explicit when you say \"risk factors\" - what factors put the patient at increased risk for unstable angina?",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": "EKG won't capture all \"cardiac origins\" and endoscopy won't capture all \"GI etiologies\". ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": "EKG won't capture all \"cardiac origins\" and endoscopy won't capture all \"GI etiologies\". ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "6896507d1f753a01024bb639",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d4d",
-      "netid": "njs172",
-      "patient": "Jeffrey Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d4d",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "You summary statement makes it appear that the burning pain has been present constantly over the past month.  \n\nYou summary statement should include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "You summary statement makes it appear that the burning pain has been present constantly over the past month.  \n\nYou summary statement should include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "Missing some parts of history to support your lead diagnosis - post prandial, sometimes occurs at rest.  However, lack of response to PPI. ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "Missing some parts of history to support your lead diagnosis - post prandial, sometimes occurs at rest.  However, lack of response to PPI. ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "Also less of a concern because no risk factors - no NSAID or steroid use.  Don't always have to see blood in stool. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "Also less of a concern because no risk factors - no NSAID or steroid use.  Don't always have to see blood in stool. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": "This may be a presentation of atypical angina. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 2
-        }
+        "comment": "This may be a presentation of atypical angina. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "6896530e1f753a01024bb650",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d4e",
-      "netid": "nrp147",
-      "patient": "Jeffrey Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d4e",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "Summary statement should also include key parts of the physical exam.  Also missing key parts of the history - episodes of chest pain brought on by what? Precipitating, aggravating, relieving factors?  Not responsive to treatment.",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "Summary statement should also include key parts of the physical exam.  Also missing key parts of the history - episodes of chest pain brought on by what? Precipitating, aggravating, relieving factors?  Not responsive to treatment.",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false
-          },
-          "score": 1
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": "If pancreatitis and cholecystitis is also on the differential, you should have a plan to rule these things out. ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false
-          },
-          "score": 2
-        }
+        "comment": "If pancreatitis and cholecystitis is also on the differential, you should have a plan to rule these things out. ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "689654fc1f753a01024bb664",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d4f",
-      "netid": "cep128",
-      "patient": "Jeffrey Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d4f",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "This is just a recap of the history and exam.  You included all relevant information, but not in a hypothesis-directed way.  The summary statement should be no more than 2 sentences and include just the key parts of the history and exam to frame your lead diagnosis. ",
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": "This is just a recap of the history and exam.  You included all relevant information, but not in a hypothesis-directed way.  The summary statement should be no more than 2 sentences and include just the key parts of the history and exam to frame your lead diagnosis. ",
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "Be explicit - what parts of the history and description of the pain make you think that GERD is the most likely diagnosis?",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false
-          },
-          "score": 1
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "Be explicit - what parts of the history and description of the pain make you think that GERD is the most likely diagnosis?",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "Patient has risk factors of DM, HTN that make ACS a possibility.  Elevated JVP and LE edema are not necessarily seen in ACS unless causing heart failure.",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "Patient has risk factors of DM, HTN that make ACS a possibility.  Elevated JVP and LE edema are not necessarily seen in ACS unless causing heart failure.",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": "EKG and troponin to rule in/out ACS, not necessarily cardiac function.",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": "EKG and troponin to rule in/out ACS, not necessarily cardiac function.",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "689658bf1f753a01024bb685",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d51",
-      "netid": "sb1709",
-      "patient": "Jeffrey Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d51",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "A summary statement should be no more than a few sentences combining the key parts of the history and physical to frame your lead diagnosis.  This is just a recap of the history and exam. ",
-          "features": {
-            "A": false,
-            "B": false,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": "A summary statement should be no more than a few sentences combining the key parts of the history and physical to frame your lead diagnosis.  This is just a recap of the history and exam. ",
+        "features": {
+          "A": false,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "CAD is possible because it sometimes happens with exertion and patient has cardiac risk factors, not so much because there's an S4 on exam.  ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "CAD is possible because it sometimes happens with exertion and patient has cardiac risk factors, not so much because there's an S4 on exam.  ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": "If you think CAD is possible, what test would you order to rule it in/out?",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 2
-        }
+        "comment": "If you think CAD is possible, what test would you order to rule it in/out?",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68a0bc0b277d50edca5a10c2",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d5c",
-      "netid": "ef208",
-      "patient": "Jenny Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d5c",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "A summary statement should be no more than a few sentences combining the key parts of the history and physical to frame your lead diagnosis. \u00a0This is just a recap of the history and exam.\u00a0\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation.  They help categorize the illness more accurately.  \nFor instance,  \"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".\n",
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": "A summary statement should be no more than a few sentences combining the key parts of the history and physical to frame your lead diagnosis. \u00a0This is just a recap of the history and exam.\u00a0\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation.  They help categorize the illness more accurately.  \nFor instance,  \"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".\n",
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "You should include specific supporting details - \"burning nature of the pain\", \"post-prandial\".",
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false
-          },
-          "score": 0
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "You should include specific supporting details - \"burning nature of the pain\", \"post-prandial\".",
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "Could be angina because patient has cardiac risk factors, because sometimes associated with exertion.  Has some mild dyspnea on exertion.  Be more detailed.",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false
-          },
-          "score": 0
-        }
+        "score": 0
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "Could be angina because patient has cardiac risk factors, because sometimes associated with exertion.  Has some mild dyspnea on exertion.  Be more detailed.",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
+        },
+        "score": 0
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68a0c8c6277d50edca5a1148",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d59",
-      "netid": "bs1111",
-      "patient": "Jenny Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d59",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "Missing key parts of the history of the chief complaint.  Episodes of chest pain that are increasing in frequency, exacerbated or brought on by..., relieved by...You are also missing relevant physical exam findings. \nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0\nFor instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "Missing key parts of the history of the chief complaint.  Episodes of chest pain that are increasing in frequency, exacerbated or brought on by..., relieved by...You are also missing relevant physical exam findings. \nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0\nFor instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "What risk factors make GERD likely - smoking\nWhat risk factors make ACS possible - HTN, DM, smoking",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "What risk factors make GERD likely - smoking\nWhat risk factors make ACS possible - HTN, DM, smoking",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": "If ACS is on the differential, you should get a test to rule it out.",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 2
-        }
+        "comment": "If ACS is on the differential, you should get a test to rule it out.",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68a0cc68277d50edca5a116b",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d56",
-      "netid": "jag638",
-      "patient": "Jenny Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d56",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "Your summary statement is missing key parts of the history and physical exam to frame the lead diagnosis and differential.  There should be more details - what is \"indigestion\" - pain, bloating, burning? Time course (how long has it been happening), what other aggravating or alleviating factors are there, patient risk factors?",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": false,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "Your summary statement is missing key parts of the history and physical exam to frame the lead diagnosis and differential.  There should be more details - what is \"indigestion\" - pain, bloating, burning? Time course (how long has it been happening), what other aggravating or alleviating factors are there, patient risk factors?",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": "Are these multiple diagnoses?  Or things that might cause GERD?  Sliding hiatal hernia could exacerbate GERD, but GERD is separate from H. pylori.  H. pylori doesn't necessarily cause GERD, more likely PUD.  Biliary disease and GERD aren't related and there are many biliary conditions. ",
-          "features": {
-            "A": false,
-            "B": false,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": false
-          },
-          "score": 0
+      "Differential Diagnosis": {
+        "comment": "Are these multiple diagnoses?  Or things that might cause GERD?  Sliding hiatal hernia could exacerbate GERD, but GERD is separate from H. pylori.  H. pylori doesn't necessarily cause GERD, more likely PUD.  Biliary disease and GERD aren't related and there are many biliary conditions. ",
+        "features": {
+          "A": false,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "Why is this person likely to have GERD?  What details from the history support this?\n",
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false
-          },
-          "score": 0
+        "score": 0
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "Why is this person likely to have GERD?  What details from the history support this?\n",
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "ACS can present atypically in some patients, so cardiac disease should always be considered, particularly in this patient with cardiac risk factors.",
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false
-          },
-          "score": 0
-        }
+        "score": 0
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "ACS can present atypically in some patients, so cardiac disease should always be considered, particularly in this patient with cardiac risk factors.",
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "score": 0
       },
       "Plan": {
-        "Plan": {
-          "comment": "This test is just to test for H. Pylori.  What about your other diagnoses?",
-          "features": {
-            "A": false,
-            "B": false,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 1
-        }
+        "comment": "This test is just to test for H. Pylori.  What about your other diagnoses?",
+        "features": {
+          "A": false,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 1
       }
     }
   },
   {
     "_id": "68a0ce36277d50edca5a117f",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d5a",
-      "netid": "dt724",
-      "patient": "Jenny Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d5a",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "Failed to mention progressively worsening pain, more frequent episodes.  Would be helpful to know that medications have not relieved the pain. \nA summary statement should include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": false,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "Failed to mention progressively worsening pain, more frequent episodes.  Would be helpful to know that medications have not relieved the pain. \nA summary statement should include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": false,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "More detailed from the history in support of and against ACS may have been helpful.  Occasionally occurs with exertion, sometimes associated with nausea.  Does not exercise regularly, has some dyspnea with exertion at times.",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false
-          },
-          "score": 1
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "More detailed from the history in support of and against ACS may have been helpful.  Occasionally occurs with exertion, sometimes associated with nausea.  Does not exercise regularly, has some dyspnea with exertion at times.",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68a0d030277d50edca5a1191",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d5e",
-      "netid": "jb1792",
-      "patient": "Jenny Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d5e",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "This is just a recap of the history and exam. \u00a0You included all relevant information, but not in a hypothesis-directed way. \u00a0The summary statement should be no more than 2 sentences and include just the key parts of the history and exam to frame your lead diagnosis.\u00a0 \nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": "This is just a recap of the history and exam. \u00a0You included all relevant information, but not in a hypothesis-directed way. \u00a0The summary statement should be no more than 2 sentences and include just the key parts of the history and exam to frame your lead diagnosis.\u00a0 \nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "What other details from the history support an ACS diagnosis?  Cardiac risk factors, smoking history, sometimes happening with exertion, occasionally associated with nausea and diaphoresis.\n",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false
-          },
-          "score": 0
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "What other details from the history support an ACS diagnosis?  Cardiac risk factors, smoking history, sometimes happening with exertion, occasionally associated with nausea and diaphoresis.\n",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 0
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68a0d176277d50edca5a11a1",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d5f",
-      "netid": "sb2408",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d5f",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "You are missing relevant parts of the physical exam.  May have been helpful to describe the chest pain more clearly - worsening non-radiating substernal BURNING chest discomfort.  ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": true
-          },
-          "score": 4
-        }
+        "comment": "You are missing relevant parts of the physical exam.  May have been helpful to describe the chest pain more clearly - worsening non-radiating substernal BURNING chest discomfort.  ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "score": 4
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68a0d300277d50edca5a11b1",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d52",
-      "netid": "cw1028",
-      "patient": "Jeffrey Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d52",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "A good summary statement uses semantic vocabulary to highlight the most important elements from history, exam, and testing (no testing in this case) to interpret and represent the patient\u2019s main problem(s). \u00a0It should frame the differential, making it clear what you feel the most likely diagnosis is.\u00a0\nIncludes:\n1. Key risk factors\n2. Chief complaint\n3. illness time course; and\n4. Use of semantic qualifiers (e.g., monoarticular vs polyarticular) or unified medical concepts (e.g., volume overload,\ncardiovascular risk factors)\nYour statement includes none of these features, which is likely why your differential was not reasonable for the presentation. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false,
-            "D": false,
-            "E": false,
-            "F": false,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": "A good summary statement uses semantic vocabulary to highlight the most important elements from history, exam, and testing (no testing in this case) to interpret and represent the patient\u2019s main problem(s). \u00a0It should frame the differential, making it clear what you feel the most likely diagnosis is.\u00a0\nIncludes:\n1. Key risk factors\n2. Chief complaint\n3. illness time course; and\n4. Use of semantic qualifiers (e.g., monoarticular vs polyarticular) or unified medical concepts (e.g., volume overload,\ncardiovascular risk factors)\nYour statement includes none of these features, which is likely why your differential was not reasonable for the presentation. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false,
+          "E": false,
+          "F": false,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": "The chief complaint was episodes of chest/epigastric discomfort, burning in nature, worsening over the last few months, becoming more frequent.  None of these would cause this presentation. \nYou should be thinking GERD/PUD/gastritis versus atypical angina.",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false,
-            "D": false,
-            "E": false,
-            "F": false
-          },
-          "score": 0
+      "Differential Diagnosis": {
+        "comment": "The chief complaint was episodes of chest/epigastric discomfort, burning in nature, worsening over the last few months, becoming more frequent.  None of these would cause this presentation. \nYou should be thinking GERD/PUD/gastritis versus atypical angina.",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "You are just focused on the physical exam finding, but the history was key to developing your lead diagnosis and differential. ",
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false
-          },
-          "score": 0
+        "score": 0
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "You are just focused on the physical exam finding, but the history was key to developing your lead diagnosis and differential. ",
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "You are just focused on the physical exam finding, but the history was key to developing your lead diagnosis and differential. ",
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false
-          },
-          "score": 0
-        }
+        "score": 0
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "You are just focused on the physical exam finding, but the history was key to developing your lead diagnosis and differential. ",
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "score": 0
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false,
-            "D": true,
-            "E": false
-          },
-          "score": 1
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "score": 1
       }
     }
   },
   {
     "_id": "68a0d4c4277d50edca5a11cd",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d58",
-      "netid": "kag365",
-      "patient": "Jenny Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d58",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "Your summary statement should include more details of the history to support your lead diagnosis and differential.  What makes it worse, better? Also unclear that patient is having episodes of discomfort.  Your statement makes it seem like patient has had 6 months of continuous bloating.\n\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".\n\n",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "Your summary statement should include more details of the history to support your lead diagnosis and differential.  What makes it worse, better? Also unclear that patient is having episodes of discomfort.  Your statement makes it seem like patient has had 6 months of continuous bloating.\n\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".\n\n",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "What are her risk factors for GERD? Obesity and smoking.",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "What are her risk factors for GERD? Obesity and smoking.",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "What are her risk factors for CAD? Obesity, smoking, HTN, HLD, DM.",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "What are her risk factors for CAD? Obesity, smoking, HTN, HLD, DM.",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": "If CAD is on the differential, you should include testing that can exclude this.",
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 1
-        }
+        "comment": "If CAD is on the differential, you should include testing that can exclude this.",
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 1
       }
     }
   },
   {
     "_id": "68a0d6e0277d50edca5a11dc",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d5d",
-      "netid": "hs1154",
-      "patient": "Jenny Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d5d",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "Should mention risk factors that make GERD most likely - obesity and smoking.",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "Should mention risk factors that make GERD most likely - obesity and smoking.",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "Should mention risk factors that make ACS possible - HTN, obesity, diabetes, smoker",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "Should mention risk factors that make ACS possible - HTN, obesity, diabetes, smoker",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": "If ACS is on the differential, your work-up should include testing to rule it out. ",
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 1
-        }
+        "comment": "If ACS is on the differential, your work-up should include testing to rule it out. ",
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 1
       }
     }
   },
   {
     "_id": "68a0d81e277d50edca5a11e9",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d6e",
-      "netid": "jz1092",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d6e",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "This is just a recap of the history and exam. \u00a0You included all relevant information, but not in a hypothesis-directed way. \u00a0The summary statement should be no more than 2 sentences and include just the key parts of the history and exam to frame your lead diagnosis.\u00a0\n\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".\n\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": "This is just a recap of the history and exam. \u00a0You included all relevant information, but not in a hypothesis-directed way. \u00a0The summary statement should be no more than 2 sentences and include just the key parts of the history and exam to frame your lead diagnosis.\u00a0\n\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".\n\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "What risk factors does the patient have for GERD?  Smoking and obesity.",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "What risk factors does the patient have for GERD?  Smoking and obesity.",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "What features make ACS a possibility but less likely?  It's a cause of chest pain that can present atypically.  Sometimes associated with exertion and nausea, diaphoresis.  Less likely because it's usually post-prandial. ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "What features make ACS a possibility but less likely?  It's a cause of chest pain that can present atypically.  Sometimes associated with exertion and nausea, diaphoresis.  Less likely because it's usually post-prandial. ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68a22bbc0ebdf335a0219eb8",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d61",
-      "netid": "ah1208",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d61",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "Great!  I may have just mentioned a few additional words about the quality of chest discomfort. ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": true
-          },
-          "score": 4
-        }
+        "comment": "Great!  I may have just mentioned a few additional words about the quality of chest discomfort. ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "score": 4
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "You should be more explicit in the parts of the history and physical exam that lead you to think about GERD.  Explain your clinical reasoning more thoroughly. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false
-          },
-          "score": 0
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "You should be more explicit in the parts of the history and physical exam that lead you to think about GERD.  Explain your clinical reasoning more thoroughly. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 0
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": "EKG is important, but this will help you differentiate between NSTEMI and STEMI.  Troponin will help distinguish between UA and NSTEMI/STEMI.",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": "EKG is important, but this will help you differentiate between NSTEMI and STEMI.  Troponin will help distinguish between UA and NSTEMI/STEMI.",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68a22d370ebdf335a0219ec4",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d7f",
-      "netid": "jg1512",
-      "patient": "Jeffrey Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d7f",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "Would by important to mention other relevant risk factors (HTN, DM, smoking, obesity) and that episodes are also triggered by PO intake.  ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "Would by important to mention other relevant risk factors (HTN, DM, smoking, obesity) and that episodes are also triggered by PO intake.  ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "Stable angina also possible because of cardiac risk factors - HTN, DM, smoking",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "Stable angina also possible because of cardiac risk factors - HTN, DM, smoking",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "Obesity and smoking are risk factors for GERD. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "Obesity and smoking are risk factors for GERD. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": "CMP does not include a lipid panel.  Since GERD (refractory to medication) is on your differential, what else would you want to do?",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false
-          },
-          "score": 2
-        }
+        "comment": "CMP does not include a lipid panel.  Since GERD (refractory to medication) is on your differential, what else would you want to do?",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68a2300e0ebdf335a0219ee0",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d62",
-      "netid": "mv654",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d62",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": true
-          },
-          "score": 4
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "score": 4
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "Try to be specific in your clinical reasoning - patient risk factors of HTN, HLD.",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "Try to be specific in your clinical reasoning - patient risk factors of HTN, HLD.",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "Again, try to be detailed in your clinical reasoning - burning nature worse after eating, but no hx of NSAID use.  PUD does not necessarily lead to weight loss.",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "Again, try to be detailed in your clinical reasoning - burning nature worse after eating, but no hx of NSAID use.  PUD does not necessarily lead to weight loss.",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": "Just a learning point, if you think the patient has unstable angina because of progressive symptoms at rest, a stress test is contraindicated and should go directly to cardiac catheterization. ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": "Just a learning point, if you think the patient has unstable angina because of progressive symptoms at rest, a stress test is contraindicated and should go directly to cardiac catheterization. ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68a232320ebdf335a0219ef6",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d63",
-      "netid": "wc614",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d63",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "A good summary statement uses semantic vocabulary to highlight the most important elements from history, exam, and testing (no testing in this case) to interpret and represent the patient\u2019s main problem(s). \u00a0It should frame the differential, making it clear what you feel the most likely diagnosis is.\u00a0\nIncludes:\n1. Key risk factors - missing (HTN, HLD, obesity, smoking)\n2. Chief complaint \n3. illness time course; and - partial (Is it worsening?  Becoming more frequent?)\n4. Use of semantic qualifiers (e.g., monoarticular vs polyarticular) or unified medical concepts (e.g., volume overload,\ncardiovascular risk factors)",
-          "features": {
-            "A": false,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": false,
-            "F": false,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": "A good summary statement uses semantic vocabulary to highlight the most important elements from history, exam, and testing (no testing in this case) to interpret and represent the patient\u2019s main problem(s). \u00a0It should frame the differential, making it clear what you feel the most likely diagnosis is.\u00a0\nIncludes:\n1. Key risk factors - missing (HTN, HLD, obesity, smoking)\n2. Chief complaint \n3. illness time course; and - partial (Is it worsening?  Becoming more frequent?)\n4. Use of semantic qualifiers (e.g., monoarticular vs polyarticular) or unified medical concepts (e.g., volume overload,\ncardiovascular risk factors)",
+        "features": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": false,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "What risk factors does the patient have for GERD? Smoking and obesity. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "What risk factors does the patient have for GERD? Smoking and obesity. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "What risk factors and part of the history make angina possible but less likely?  HTN and HLD, smoker.  Sometimes comes on with exertion and associated with nausea and diaphoresis.  Less likely, because discomfort is described as burning, which is atypical. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false
-          },
-          "score": 0
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "What risk factors and part of the history make angina possible but less likely?  HTN and HLD, smoker.  Sometimes comes on with exertion and associated with nausea and diaphoresis.  Less likely, because discomfort is described as burning, which is atypical. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
+        },
+        "score": 0
       },
       "Plan": {
-        "Plan": {
-          "comment": "If angina is on the differential, you should include a test to rule this in/out.",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 2
-        }
+        "comment": "If angina is on the differential, you should include a test to rule this in/out.",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68a233750ebdf335a0219f01",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d64",
-      "netid": "ait18",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d64",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "Be careful attributing symptoms to a diagnosis in your summary statement - \"consistent with heartburn\".  That's what the assessment is for. \n\nThe summary statement should include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "Be careful attributing symptoms to a diagnosis in your summary statement - \"consistent with heartburn\".  That's what the assessment is for. \n\nThe summary statement should include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": "You should also get a troponin to rule out ACS.",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 2
-        }
+        "comment": "You should also get a troponin to rule out ACS.",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68a23a220ebdf335a0219f40",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d66",
-      "netid": "ac2676",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d66",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "Your summary statement is missing key parts of the history to frame the lead diagnosis and differentials.  He has HTN and HLD, obesity, smoking history.  Time course is also important - Is it episodic?  Is it getting worse or more frequent?  \n\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": false,
-            "F": false,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "Your summary statement is missing key parts of the history to frame the lead diagnosis and differentials.  He has HTN and HLD, obesity, smoking history.  Time course is also important - Is it episodic?  Is it getting worse or more frequent?  \n\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": false,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "Patient has risk factors for ACS (HTN, HLD, smoking), which makes this diagnosis possible. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "Patient has risk factors for ACS (HTN, HLD, smoking), which makes this diagnosis possible. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "He has obesity and smoking, which makes GERD likely.  Also the burning nature of the pain.  Be detailed in your clinical reasoning. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "He has obesity and smoking, which makes GERD likely.  Also the burning nature of the pain.  Be detailed in your clinical reasoning. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": "If you think this might be ACS, a troponin should also be checked. If this GERD, unresponsive to therapy, what else could be done?",
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false
-          },
-          "score": 1
-        }
+        "comment": "If you think this might be ACS, a troponin should also be checked. If this GERD, unresponsive to therapy, what else could be done?",
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "score": 1
       }
     }
   },
   {
     "_id": "68a23afa0ebdf335a0219f46",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d67",
-      "netid": "bh558",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d67",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "Your summary statement should include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".\n\nTry not to attribute the patient's symptoms/history to a specific diagnosis in your summary statement.  That should be reserved for the assessment.  ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "Your summary statement should include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".\n\nTry not to attribute the patient's symptoms/history to a specific diagnosis in your summary statement.  That should be reserved for the assessment.  ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "Correct, but seems AI generated. ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "Correct, but seems AI generated. ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": "Correct, but seems AI generated. ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": "Correct, but seems AI generated. ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68a23d0d0ebdf335a0219f5c",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d72",
-      "netid": "as3257",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d72",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "You summary statement should include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".   In this case, patient with cardiac risk factors is presenting with episodic chest pain that is worsening in severity and becoming more frequent. ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "You summary statement should include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".   In this case, patient with cardiac risk factors is presenting with episodic chest pain that is worsening in severity and becoming more frequent. ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "The burning and post-prandial nature of the patient should prompt you to consider GERD or other similar GI illnesses. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false
-          },
-          "score": 0
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "The burning and post-prandial nature of the patient should prompt you to consider GERD or other similar GI illnesses. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
+        },
+        "score": 0
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68a23e110ebdf335a0219f69",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d70",
-      "netid": "ms3648",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d70",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "Your summary statement is missing details of the time course.  Episodes of chest pain that is progressively getting worse and more frequent. \n\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "Your summary statement is missing details of the time course.  Episodes of chest pain that is progressively getting worse and more frequent. \n\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "Be more detailed and specific in your clinical reasoning. Stable angina is possible because of risk factors of HTN, HLD and smoking.  However, it would not occur when laying down, just with exertion.  If it has progressed to at rest, then this would be unstable angina. \n\nThe burning nature of the pain and onset after meals makes GERD or other similar GI illnesses a possibility. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false
-          },
-          "score": 0
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "Be more detailed and specific in your clinical reasoning. Stable angina is possible because of risk factors of HTN, HLD and smoking.  However, it would not occur when laying down, just with exertion.  If it has progressed to at rest, then this would be unstable angina. \n\nThe burning nature of the pain and onset after meals makes GERD or other similar GI illnesses a possibility. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 0
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": "If you're worried about an MI, you should also get troponin. ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": false
-          },
-          "score": 2
-        }
+        "comment": "If you're worried about an MI, you should also get troponin. ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68a23f0b0ebdf335a0219f74",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d71",
-      "netid": "ih217",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d71",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "This is just a recap of the history and exam. \u00a0You included all relevant information, but not in a hypothesis-directed way. \u00a0The summary statement should be no more than 2 sentences and include just the key parts of the history and exam to frame your lead diagnosis.\u00a0\n\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": "This is just a recap of the history and exam. \u00a0You included all relevant information, but not in a hypothesis-directed way. \u00a0The summary statement should be no more than 2 sentences and include just the key parts of the history and exam to frame your lead diagnosis.\u00a0\n\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "Obesity and smoking are risk factors that make GERD possible. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "Obesity and smoking are risk factors that make GERD possible. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68a23fca0ebdf335a0219f78",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d68",
-      "netid": "et519",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d68",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "Important to note episodic nature of chest discomfort.  Summary statement makes it sound like this has been constant for a month. ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "Important to note episodic nature of chest discomfort.  Summary statement makes it sound like this has been constant for a month. ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "GERD likely because of risk factors of obesity and smoking. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "GERD likely because of risk factors of obesity and smoking. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": "How should GERD refractory to standard medical therapy be worked up?",
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false
-          },
-          "score": 1
-        }
+        "comment": "How should GERD refractory to standard medical therapy be worked up?",
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "score": 1
       }
     }
   },
   {
     "_id": "68a241200ebdf335a0219f82",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d69",
-      "netid": "pm787",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d69",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "Be more detailed about why you think GERD is most likely - burning nature worse by eating. ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false
-          },
-          "score": 1
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "Be more detailed about why you think GERD is most likely - burning nature worse by eating. ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "PUD is a possible because patient has symptoms despite therapy for GERD.  ACS is possible because patient has risk factors of HTN, HLD, smoking, but less likely because of atypical nature of chest discomfort. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false
-          },
-          "score": 0
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "PUD is a possible because patient has symptoms despite therapy for GERD.  ACS is possible because patient has risk factors of HTN, HLD, smoking, but less likely because of atypical nature of chest discomfort. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
+        },
+        "score": 0
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68a241f50ebdf335a0219f88",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d6a",
-      "netid": "de252",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d6a",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": true
+        },
+        "score": 3
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": false
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "Assessment should include your clinical reasoning.  Why is ACS likely? What are the risk factors and parts of the history that make it likely?  What might make it less likely?  Same with GERD. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false
-          },
-          "score": 0
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "Assessment should include your clinical reasoning.  Why is ACS likely? What are the risk factors and parts of the history that make it likely?  What might make it less likely?  Same with GERD. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false
-          },
-          "score": 0
-        }
+        "score": 0
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "score": 0
       },
       "Plan": {
-        "Plan": {
-          "comment": "Why are you doing an EKG? What other tests do you want to order to confirm you lead diagnosis and rule out other possibilities?",
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false,
-            "D": true,
-            "E": false
-          },
-          "score": 1
-        }
+        "comment": "Why are you doing an EKG? What other tests do you want to order to confirm you lead diagnosis and rule out other possibilities?",
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "score": 1
       }
     }
   },
   {
     "_id": "68a24d370ebdf335a021a037",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d6b",
-      "netid": "lk508",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d6b",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "Avoid attributing symptoms to a diagnosis (indigestion or heartburn) in your summary statement.  You are missing relevant parts of the history (medical conditions and description of the discomfort) to frame your lead diagnosis and differentials. \n\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "Avoid attributing symptoms to a diagnosis (indigestion or heartburn) in your summary statement.  You are missing relevant parts of the history (medical conditions and description of the discomfort) to frame your lead diagnosis and differentials. \n\nIt should also include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "Try to keep your differentials broad.  Angina can present atypically and mimic GERD and dyspepsia. ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "Try to keep your differentials broad.  Angina can present atypically and mimic GERD and dyspepsia. ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68a24dfe0ebdf335a021a03b",
     "username": "Fac2",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d6c",
-      "netid": "psr53",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d6c",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "You summary statement should include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "You summary statement should include semantic qualifiers, which are crucial for creating a clear and concise problem representation. \u00a0They help categorize the illness more accurately. \u00a0For instance, \u00a0\"acute vs subacute vs chronic\", \"cardiac risk factors\", \"post-prandial\", \"constant vs episodic vs intermittent\", \"localized vs diffuse\".",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": "What risk factors make GERD a possibility? - obesity and smoking.  Be more detailed in your assessment.  ",
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": "What risk factors make GERD a possibility? - obesity and smoking.  Be more detailed in your assessment.  ",
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": "What parts of the history make CAD a possibility? Onset with exertion at time, location of pain, etc. ",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": "What parts of the history make CAD a possibility? Onset with exertion at time, location of pain, etc. ",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   }

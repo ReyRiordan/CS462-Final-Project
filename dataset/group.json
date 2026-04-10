@@ -2,2130 +2,1830 @@
   {
     "_id": "68c80ead16a35fee5f0a8ce0",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d4e",
-      "netid": "nrp147",
-      "patient": "Jeffrey Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d4e",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": "SINCE D WAS rated as present, F should not be checked off.\n",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": "SINCE D WAS rated as present, F should not be checked off.\n",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68c9bd9f16a35fee5f0ab35c",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d4f",
-      "netid": "cep128",
-      "patient": "Jeffrey Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d4f",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68c9bdb016a35fee5f0ab35e",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d59",
-      "netid": "bs1111",
-      "patient": "Jenny Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d59",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "should al.low 3 sentences for A",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": "should al.low 3 sentences for A",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": "mention DOING a cardiac test",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 2
-        }
+        "comment": "mention DOING a cardiac test",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68c9bea816a35fee5f0ab370",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d51",
-      "netid": "sb1709",
-      "patient": "Jeffrey Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d51",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": false,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68c9beeb16a35fee5f0ab379",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d5c",
-      "netid": "ef208",
-      "patient": "Jenny Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d5c",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "need to be more specific about episodic- pain not continuous",
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": "need to be more specific about episodic- pain not continuous",
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false
-          },
-          "score": 0
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false
-          },
-          "score": 1
-        }
+        "score": 0
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68c9c08216a35fee5f0ab39b",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d4c",
-      "netid": "mi360",
-      "patient": "Jeffrey Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d4c",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68c9c0cf16a35fee5f0ab3a2",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d56",
-      "netid": "jag638",
-      "patient": "Jenny Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d56",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": false,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": false
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false
-          },
-          "score": 0
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false
-          },
-          "score": 0
-        }
+        "score": 0
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "score": 0
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": false,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 1
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 1
       }
     }
   },
   {
     "_id": "68c9c19c16a35fee5f0ab3b1",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d5a",
-      "netid": "dt724",
-      "patient": "Jenny Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d5a",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": false,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": false,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68c9c1cc16a35fee5f0ab3b6",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d5e",
-      "netid": "jb1792",
-      "patient": "Jenny Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d5e",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false
-          },
-          "score": 0
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 0
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68c9c22316a35fee5f0ab3bb",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d5f",
-      "netid": "sb2408",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d5f",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": "G- not limited to examples listed",
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": true
-          },
-          "score": 4
-        }
+        "comment": "G- not limited to examples listed",
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "score": 4
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68c9c26716a35fee5f0ab3c7",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d52",
-      "netid": "cw1028",
-      "patient": "Jeffrey Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d52",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false,
-            "D": false,
-            "E": false,
-            "F": false,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false,
+          "E": false,
+          "F": false,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false,
-            "D": false,
-            "E": false,
-            "F": false
-          },
-          "score": 0
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false
-          },
-          "score": 0
+        "score": 0
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false
-          },
-          "score": 0
-        }
+        "score": 0
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "score": 0
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false,
-            "D": true,
-            "E": false
-          },
-          "score": 1
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "score": 1
       }
     }
   },
   {
     "_id": "68c9c2b416a35fee5f0ab3ce",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d58",
-      "netid": "kag365",
-      "patient": "Jenny Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d58",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 1
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 1
       }
     }
   },
   {
     "_id": "68c9c33c16a35fee5f0ab3d8",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d4d",
-      "netid": "njs172",
-      "patient": "Jeffrey Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d4d",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68c9c36516a35fee5f0ab3db",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d5d",
-      "netid": "hs1154",
-      "patient": "Jenny Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d5d",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68c9c3e116a35fee5f0ab3e4",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d6e",
-      "netid": "jz1092",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d6e",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68c9c3f616a35fee5f0ab3e7",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d71",
-      "netid": "ih217",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d71",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68c9c50a16a35fee5f0ab3fc",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d6a",
-      "netid": "de252",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d6a",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false
-          },
-          "score": 0
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false
-          },
-          "score": 0
-        }
+        "score": 0
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "score": 0
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": false,
-            "C": false,
-            "D": true,
-            "E": false
-          },
-          "score": 1
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "score": 1
       }
     }
   },
   {
     "_id": "68c9c57016a35fee5f0ab404",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d62",
-      "netid": "mv654",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d62",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68c9c5ca16a35fee5f0ab40b",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d63",
-      "netid": "wc614",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d63",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": false,
-            "F": false,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": false,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false
-          },
-          "score": 0
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
+        },
+        "score": 0
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68c9c5f416a35fee5f0ab40e",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d70",
-      "netid": "ms3648",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d70",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": false,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": false,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68c9c61b16a35fee5f0ab413",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d66",
-      "netid": "ac2676",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d66",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": true,
-            "F": false,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": true,
+          "F": false,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false
-          },
-          "score": 1
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "score": 1
       }
     }
   },
   {
     "_id": "68c9c66c16a35fee5f0ab419",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d68",
-      "netid": "et519",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d68",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68c9c6d016a35fee5f0ab41e",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d67",
-      "netid": "bh558",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d67",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": true
-          },
-          "score": 0
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68c9c71416a35fee5f0ab426",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d72",
-      "netid": "as3257",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d72",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 0
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 0
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68c9c73616a35fee5f0ab42c",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d61",
-      "netid": "ah1208",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d61",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false
-          },
-          "score": 0
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false
-          },
-          "score": 1
-        }
+        "score": 0
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68c9c78516a35fee5f0ab431",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d6b",
-      "netid": "lk508",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d6b",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true,
-            "D": false,
-            "E": true
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68c9cbd416a35fee5f0ab480",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d64",
-      "netid": "ait18",
-      "patient": "Samuel Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d64",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true
-          },
-          "score": 2
-        }
+        "score": 2
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "score": 2
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "score": 2
       }
     }
   },
   {
     "_id": "68c9cc4016a35fee5f0ab487",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d69",
-      "netid": "pm787",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d69",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": false,
-            "F": false
-          },
-          "score": 2
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false
-          },
-          "score": 1
+        "score": 2
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": false
-          },
-          "score": 0
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
+        },
+        "score": 0
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68c9cc9e16a35fee5f0ab48e",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d6c",
-      "netid": "psr53",
-      "patient": "Sarah Thompson"
-    },
+    "sim_id": "68465ed820fd80066ac57d6c",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": true,
-            "E": true
-          },
-          "score": 3
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "score": 3
       }
     }
   },
   {
     "_id": "68c9ccc816a35fee5f0ab491",
     "username": "Group",
-    "sim_info": {
-      "_id": "68465ed820fd80066ac57d7f",
-      "netid": "jg1512",
-      "patient": "Jeffrey Smith"
-    },
+    "sim_id": "68465ed820fd80066ac57d7f",
     "evaluation": {
       "Summary Statement": {
-        "Summary Statement": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": true,
-            "F": true,
-            "G": false
-          },
-          "score": 2
-        }
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "score": 2
       },
-      "Assessment": {
-        "Differential Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": true,
-            "C": true,
-            "D": false,
-            "E": false,
-            "F": true
-          },
-          "score": 1
+      "Differential Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
         },
-        "Explanation of Lead Diagnosis": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
+        "score": 1
+      },
+      "Explanation of Lead Diagnosis": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
         },
-        "Explanation of Alternative Diagnoses": {
-          "comment": null,
-          "features": {
-            "A": true,
-            "B": false,
-            "C": true
-          },
-          "score": 1
-        }
+        "score": 1
+      },
+      "Explanation of Alternative Diagnoses": {
+        "comment": null,
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "score": 1
       },
       "Plan": {
-        "Plan": {
-          "comment": null,
-          "features": {
-            "A": false,
-            "B": true,
-            "C": false,
-            "D": true,
-            "E": false
-          },
-          "score": 1
-        }
+        "comment": null,
+        "features": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "score": 1
       }
     }
   }
