@@ -1,9 +1,7 @@
 [
   {
     "_id": "68465ed820fd80066ac57d4d",
-    "netid": "njs172",
     "patient": "Jeffrey Smith",
-    "sex": "M",
     "post_note_inputs": {
       "Summary Statement": "The patient is a 64 year old, overweight male presenting for burning pain in his chest that has worsened over the last month. The pain is localized to his chest and is not made better or worse with anything and is associated with nausea and bloating. Physical exam was not notable for any abnormalities. ",
       "Assessment": "1. GERD: Gastric reflux is most likely due to the burning positioning of the pain and the patient's body habitus. The pain is mild enough and sporadic that this is the most likely diagnosis.\n\n2. Peptic Ulcer disease: This is consistent with his stomach discomfort and possible chest pain but less of a concern due to the lack of reporting of blood in the stool, however an Upper endoscopy could be used to fully rule this out. ",
@@ -12,9 +10,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d62",
-    "netid": "mv654",
     "patient": "Samuel Thompson",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "Patient is a 58 year old male with a past medical history of high cholesterol and hypertension presenting with 6 months of progressively worsening substernal burning chest pain that typical occurs after eating, stress, and walking that is not responsive to heartburn medication any longer. On physical exam,Temp is 37.2 o C; BP is 130/90 mm Hg; HR is 72 per minute. RR is 12/minute. O2 saturation is 99% on room air. Patient is significant for obesity, with normal heart, lung and abdoment exam",
       "Assessment": "1 ACS: Leading diagnosis because of severity and may be an atypical presentation and given patient risk factors. also pain now associated with walking can be do to angina.\n2. Peptic ulcer disease: given nature and history of pain. however, patient said no changes in wieght or bowels, but abdomen is showing distention\n3. GERD: nature and history of pain. however, patient is no longer reponding to antiacids.",
@@ -23,9 +19,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d59",
-    "netid": "bs1111",
     "patient": "Jenny Smith",
-    "sex": "M",
     "post_note_inputs": {
       "Summary Statement": "Jenny Smith is a 65 year old woman presenting with worsening chest pain that worsens with laying down; she has been taking an unknown heartburn medication for the past month to no success. The pain is localized to the chest only, and occasionally endorses nausea but no vomiting. Pertinent negatives include no palpitations, shortness of breath, weight fluctuations, nor changes in bowel movements. ",
       "Assessment": "1. GERD- heartburn symptoms in chest worsening while lying down supports this diagnosis, but heartburn medication not helping make it less likely.\n2. Stomach Ulcer- heartburn symptoms not responding to heartburn medication makes this plausible\n3. Choledocholithiasis- Chest pain associated with eating but not responding to GERD medications support this diagnosis, but less likely since not explicitly tied to digestive processes.\n4. ACS- lack of exertion eliciting the pain makes this less likely but still possible",
@@ -34,9 +28,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d56",
-    "netid": "jag638",
     "patient": "Jenny Smith",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "Jenny, is a 64yoF, that has been dealing with worsening indigestion despite heart burn medication. ",
       "Assessment": "GERD- H pylori: Most likely\nSliding hiatal hernia \nBillary disease \n\n",
@@ -45,9 +37,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d5f",
-    "netid": "sb2408",
     "patient": "Samuel Thompson",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "Samuel Thompson is a 58 year old male with a past medical history of hypertension, hyperlipidema and a 19 pack year smoking history presenting with worsening non-radiating substernal chest discomfort for the past 6 months elicited by eating, stress, and laying down accompanied by fatigue and refractory to antacid medication.",
       "Assessment": "The most likely on my differential is GERD due to the post prandial chest discomfort that he describes as indigestion. He also states that he has a burning sensation in his stomach as well that is commonly experienced in patients with this condition. The patient is overweight/obese as well which is a risk factor for GERD. Next likely on my differential is stable angina given that the pressure does sometimes come on with exertion and the patient's cardiovascular risk factors of hypertension, hyperlipidemia and smoking history. However this is less likely because the pain comes on most commonly with eating. ",
@@ -56,20 +46,16 @@
   },
   {
     "_id": "68465ed820fd80066ac57d67",
-    "netid": "bh558",
     "patient": "Samuel Thompson",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "58-year-old overweight male with a history of hypertension and hyperlipidemia, currently taking amlodipine, simvastatin, and prescribed antacids, presents with a five-week history of progressively worsening, intermittent, non-radiating, pressure-like burning chest discomfort. Symptoms are worse when lying down and improve when sitting up, and are partially refractory to antacid therapy. He denies shortness of breath, squeezing chest pain, leg swelling, palpitations, or syncope but reports occasional mild nausea associated with symptoms. Physical examination shows an overweight patient in no acute distress with normal cardiopulmonary findings and no S3 or S4 gallop, and stable vital signs. The presentation is most consistent with gastroesophageal reflux disease (GERD), although given his cardiovascular risk factors and chest discomfort, stable coronary artery disease remains an important consideration.\n",
-      "Assessment": "This is a 58-year-old overweight male with a history of hypertension and hyperlipidemia who presents with a five-week history of progressively worsening, intermittent, non-radiating, pressure-like burning chest discomfort. The pain is worse when lying down, improves when sitting up, and has been only partially responsive to antacid therapy. He denies associated shortness of breath, palpitations, dizziness, leg swelling, or vision changes. On exam, he appears well, is hemodynamically stable, and has normal cardiopulmonary findings without murmurs, gallops, or abnormal lung sounds.\n\nThe most likely diagnosis is gastroesophageal reflux disease (GERD), given the positional nature of the discomfort (worse when lying down), the burning quality of the pain, its partial response to antacids, and the absence of features more typical of cardiac ischemia. GERD is common in individuals with elevated body mass index and can be exacerbated by factors such as smoking, alcohol intake, and dietary habits.\n\nAn important alternative diagnosis is stable coronary artery disease (CAD). Although his pain lacks classic ischemic features such as exertional onset, radiation, or squeezing quality, the patient has significant cardiovascular risk factors including hypertension, hyperlipidemia, obesity, and smoking history. The concern for CAD remains given his age and risk profile, and further evaluation with an electrocardiogram (ECG) and possibly stress testing would be appropriate to exclude myocardial ischemia.\n\nAnother possible, though less likely, diagnosis is peptic ulcer disease (PUD). Peptic ulcers can cause burning epigastric or chest discomfort, especially if complicated by gastroesophageal reflux. However, the absence of severe epigastric pain, melena, hematemesis, or significant gastrointestinal symptoms makes PUD less likely in this case.\n\nOverall, GERD remains the most probable diagnosis, but due to the patient\u2019s risk factors, cardiac ischemia must be ruled out before proceeding with symptomatic treatment alone.",
-      "Plan": "The initial plan is to prioritize ruling out cardiac ischemia given the patient\u2019s cardiovascular risk factors, despite a clinical presentation most suggestive of gastroesophageal reflux disease (GERD). An electrocardiogram (ECG) will be obtained to assess for any ischemic changes, and cardiac biomarkers (troponins) will be drawn to evaluate for evidence of myocardial injury. If the ECG and troponins are reassuring, an outpatient stress test will be arranged to further evaluate for underlying coronary artery disease, given his smoking history, hypertension, and hyperlipidemia.\n\nFor symptomatic management of suspected GERD, the patient will be started on a proton pump inhibitor (PPI) such as omeprazole, to be taken daily 30 to 60 minutes before the first meal, as this is more effective than antacids or H2 blockers for controlling acid reflux. He will also be counseled on lifestyle modifications, including smoking cessation, dietary adjustments to avoid trigger foods (e.g., caffeine, alcohol, chocolate, spicy foods), weight loss strategies, and elevating the head of the bed at night.\n\nIf symptoms persist despite PPI therapy, or if concerning features develop (such as dysphagia, odynophagia, GI bleeding, or significant weight loss), an upper endoscopy (EGD) will be considered to evaluate for complications such as esophagitis, Barrett\u2019s esophagus, or peptic ulcer disease.\nThe patient will be educated on warning signs that require urgent evaluation, including worsening chest pain, onset of shortness of breath, syncope, or new palpitations. Close follow-up will be arranged within two to four weeks to reassess his symptoms and review any cardiac testing results."
+      "Assessment": "This is a 58-year-old overweight male with a history of hypertension and hyperlipidemia who presents with a five-week history of progressively worsening, intermittent, non-radiating, pressure-like burning chest discomfort. The pain is worse when lying down, improves when sitting up, and has been only partially responsive to antacid therapy. He denies associated shortness of breath, palpitations, dizziness, leg swelling, or vision changes. On exam, he appears well, is hemodynamically stable, and has normal cardiopulmonary findings without murmurs, gallops, or abnormal lung sounds.\n\nThe most likely diagnosis is gastroesophageal reflux disease (GERD), given the positional nature of the discomfort (worse when lying down), the burning quality of the pain, its partial response to antacids, and the absence of features more typical of cardiac ischemia. GERD is common in individuals with elevated body mass index and can be exacerbated by factors such as smoking, alcohol intake, and dietary habits.\n\nAn important alternative diagnosis is stable coronary artery disease (CAD). Although his pain lacks classic ischemic features such as exertional onset, radiation, or squeezing quality, the patient has significant cardiovascular risk factors including hypertension, hyperlipidemia, obesity, and smoking history. The concern for CAD remains given his age and risk profile, and further evaluation with an electrocardiogram (ECG) and possibly stress testing would be appropriate to exclude myocardial ischemia.\n\nAnother possible, though less likely, diagnosis is peptic ulcer disease (PUD). Peptic ulcers can cause burning epigastric or chest discomfort, especially if complicated by gastroesophageal reflux. However, the absence of severe epigastric pain, melena, hematemesis, or significant gastrointestinal symptoms makes PUD less likely in this case.\n\nOverall, GERD remains the most probable diagnosis, but due to the patient’s risk factors, cardiac ischemia must be ruled out before proceeding with symptomatic treatment alone.",
+      "Plan": "The initial plan is to prioritize ruling out cardiac ischemia given the patient’s cardiovascular risk factors, despite a clinical presentation most suggestive of gastroesophageal reflux disease (GERD). An electrocardiogram (ECG) will be obtained to assess for any ischemic changes, and cardiac biomarkers (troponins) will be drawn to evaluate for evidence of myocardial injury. If the ECG and troponins are reassuring, an outpatient stress test will be arranged to further evaluate for underlying coronary artery disease, given his smoking history, hypertension, and hyperlipidemia.\n\nFor symptomatic management of suspected GERD, the patient will be started on a proton pump inhibitor (PPI) such as omeprazole, to be taken daily 30 to 60 minutes before the first meal, as this is more effective than antacids or H2 blockers for controlling acid reflux. He will also be counseled on lifestyle modifications, including smoking cessation, dietary adjustments to avoid trigger foods (e.g., caffeine, alcohol, chocolate, spicy foods), weight loss strategies, and elevating the head of the bed at night.\n\nIf symptoms persist despite PPI therapy, or if concerning features develop (such as dysphagia, odynophagia, GI bleeding, or significant weight loss), an upper endoscopy (EGD) will be considered to evaluate for complications such as esophagitis, Barrett’s esophagus, or peptic ulcer disease.\nThe patient will be educated on warning signs that require urgent evaluation, including worsening chest pain, onset of shortness of breath, syncope, or new palpitations. Close follow-up will be arranged within two to four weeks to reassess his symptoms and review any cardiac testing results."
     }
   },
   {
     "_id": "68465ed820fd80066ac57d6a",
-    "netid": "de252",
     "patient": "Sarah Thompson",
-    "sex": "M",
     "post_note_inputs": {
       "Summary Statement": "Patient is a 59 year old female with a past medical history of hypertension treated with amlodipine presenting with a 5 week history of substernal central chest discomfort occasionally accompanied by sweating and nausea; discomfort is associated with eating and exertion but has progressed to sometimes occuring at rest; antacids do not provide relief. Physical exam is significant for temp is 37.2 o C; BP is 130/90 mm Hg; HR is 72 per minute. RR is 12/minute. O2 saturation is 99% on room air. BMI is 32 kg/m 2 and normal cardiac exam",
       "Assessment": "ACS: leading diagnosis, progressive nature, substernal\nGerd\n",
@@ -78,9 +64,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d66",
-    "netid": "ac2676",
     "patient": "Samuel Thompson",
-    "sex": "M",
     "post_note_inputs": {
       "Summary Statement": "I just saw a 58 year old man with no previous medical history presenting with a 6/10 pain in his chest. He states that it burns like heartburn, and does not get worse. He also states that he was given an antacid that hasn't worked and that it gets worse when he eats, gets stressed or walks. He has no family history and physical examination was clear of any symptoms.",
       "Assessment": "1. ACS -- He has no history, however it does get worse with walking and exercise.\n2. GERD -- He states that it gets worse after eating.",
@@ -89,9 +73,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d70",
-    "netid": "ms3648",
     "patient": "Sarah Thompson",
-    "sex": "M",
     "post_note_inputs": {
       "Summary Statement": "Patient is a 60-year-old female with her several week history of chest discomfort. The discomfort is worse when laying down and seems to come on when she is walking or particularly stressed out  cardiac risk factors include a diet with spicy and fatty foods and a 20 year half pack smoking history. ",
       "Assessment": "1. Stable angina. This is most likely because the pain is brought on when she is laying down or when walking. She also denies other symptoms  \n2. Pericarditis. this is less likely due to the lack of friction rub on physical exam But still possible due to the nature and location of the discomfort. \n3. Myocardial infarction this is something that we would certainly want to rule out but less likely due to the waxing and waning of the symptoms",
@@ -100,9 +82,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d4f",
-    "netid": "cep128",
     "patient": "Jeffrey Smith",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "Jeffrey Smith is a 65 year old male with a past medical history of heartburn presenting with a burning sensation in his chest for the past month. The chest pain started as a 4 out of 10 that has since progressed to a 7 out of 10, burning sensation that worsens after meals and lying flat. The pain is mildly relieved by sitting up and occasionally antacids. The patient states that the pain can come on at rest. The patient denies chest palpitations, radiation of the pain, shortness of breath, new rashes, or feelings of anxiety. Vital signs are significant for a blood pressure of 140/90 and a BMI of 31.5 kg/m2. On physical exam, lungs are clear bilaterally, there is an S4 heard on auscultation but no peripheral edema and abdomen is non-tender. In summary, Jeffrey Smith is a 65 year old male with a past medical history of hearburn and obesity presents with worsening  post-prandial burning chest pain and on physcial exam is hypertensive with no other significant findings.",
       "Assessment": "The leading diagnosis is Gastroesophageal reflux disease (GERD), due to the history, description and onset of the pain along with the risk factors such as obesity that Mr. Smith endorses. Second on the differential is acute coronary syndrome (ACS) due to the description that the pain arises at rest and due to the hypertension seen on physical exam. However, this is less likely because the patient denies palpitations, other risk factors such as smoking, the lack of physical exam findings such as elevated JVP and peripheral edema and the shorter duration of symptoms. Lowest on the differential is anxiety exacerbation due to the onset of symptoms. However, the patient denies any recent triggers or other symptoms that may indicate an anxiety attack.",
@@ -111,9 +91,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d51",
-    "netid": "sb1709",
     "patient": "Jeffrey Smith",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "Patient is a male presenting with worsening upper epigastric pain that began a month ago. Pain is described as a bloating, burning sensation in the center of the chest, that worsens following meals, non-radiating, and has increased in intensity from a 4 to a 6 or 7 over the past month. Patient was prescribed heartburn medication a month ago, but the pain has gotten worse despite the medication. Patient is a non-smoker and drinks an occasional glass of wine in a week. Past medical history is significant for diabetes and hypertension for which the patient takes medication. The patient had surgery to repair a groin hernia at age 26. He has no known allergies. Patient denies diarrhea, constipation, or vomiting but does experience burning sensation in his stomach after meals with diaphoresis and mild nausea. He denies palpitations or shortness of breath. On physical exam, the patient is afebrile, with BP 140/90, HR 75 and RR 16. On abdominal exam, distension is observed but no tenderness to palpation. On cardiac exam he has normal S1/S2 with S4 heard in left lateral decubitus. Lungs are clear with bilateral vesicular breath sounds. ",
       "Assessment": "1) peptic ulcer disease due to the association of upper epigastric pain with eating and lack of response to medication. \n2) GERD due to the association of upper epigastric pain with eating, but less likely because of lack of response to medication. However, we do not know what medication was prescribed and could be recalcitrant to this treatment or patient may not be taking it correctly. \n3) coronary artery disease due to the S4 heard in left lateral decubitus. This cardiac finding could also be related to his hypertension. Less likely due to the association of chest pain with eating.  ",
@@ -122,9 +100,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d5a",
-    "netid": "dt724",
     "patient": "Jenny Smith",
-    "sex": "M",
     "post_note_inputs": {
       "Summary Statement": "This is a 64 year old female with PMH of HTN, T2DM, and HLD who presents with several months' history of paroxysmal chest burning following eating, exertion, and stress. Physical exam is significant for BMI 31.5 and S4, as well as mild abdominal distention without fluid wave.",
       "Assessment": "1. GERD - The patient has episodic chest burning particularly after eating and lying down, which is consistent with the presentation of GERD. The patient is also obese which increases the risk of GERD. \n2. Acute coronary syndrome - Although the patient describes the sensation as burning, the patient does have risk factors for ACS including hypertension, hyperlipidemia, and diabetes. She is also obese and had an S4 on physical exam.\n3. Peptic ulcer disease - This can also cause a burning sensation and may be resistant to antacids. \n4. Esophagitis - the patient is on multiple medications, and improper pill swallowing can cause esophagitis.\n5. Aortic dissection - unlikely due to multiple episodes over several months, but this cannot be missed as a source of chest pain.\n",
@@ -133,9 +109,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d5e",
-    "netid": "jb1792",
     "patient": "Jenny Smith",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "Patient is a 64 yo female with a past medical history of obesity, hypertension and diabetes presenting with daily burning chest pain (6/10) that occurs after eating. The pain has been occurring for the past 6 months and has progressively gotten worse. The patient was prescribed a daily heartburn medication one month ago, but the pain has gotten worse despite reported daily use. The pain is also occasionally accompanied by nausea and sweating, and is slightly responsive to TUMs. Patient reports no diarrhea, vomiting, trouble swallowing, or shortness of breath. Patient reports a balanced diet, no smoking history, and moderate alcohol use. The physical exam was remarkable for an S4 sound, heard with the bell while patient is in the left lateral decubitus. The patient had a mildly distended abdomen, but the abdomen was not tender to palpation and no abdominal bruits were heard. Lung sounds were equal and clear to auscultation. ",
       "Assessment": "Overall, while this is not a typical presentation, acute coronary syndrome needs to be ruled out. With chest pain and an S4, making sure that the patient is not having a myocardial infarction would be proper. Other diagnoses include pancreatitis, gall stones, as well as vascular disease affecting the abdomen. With the presentation of pain post eating and not responsive to heart burn medication as well as her history of obesity and diabetes, pancreatitis is more likely. Gall stones are also possible for most of the same reasons, but the patient has not noticed any particular foods such as fattier foods that increase the pain. There was no tenderness to palpitation though making these slightly less likely. Vascular disease in her abdomen is possible, but no bruits were heard by auscultation.",
@@ -144,9 +118,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d52",
-    "netid": "cw1028",
     "patient": "Jeffrey Smith",
-    "sex": "M",
     "post_note_inputs": {
       "Summary Statement": "This is a patient who presents for a well visit. His physical exam is within normal limits aside from an S4 sound in the cardiologic exam.",
       "Assessment": "The patient may be suffering from diastolic heart failure, hypertrophic cardiomyopathy, or severe aortic stenosis. Each of these can affect the filling of the heart, leading to thickening of the left ventricular wall, decreased functional diastole and an S4 sound towards the end of diastole.",
@@ -155,9 +127,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d5c",
-    "netid": "ef208",
     "patient": "Jenny Smith",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "Jenny Smith is a 65 YOF with a history of hypertension and diabetes presenting with chest pain. It has been ongoing for some time now but has worsened over the last month and has stopped responding to heartburn medication. She describes it as a nonradiating pressure-like burning in the center of her chest beneath the breast bone that started as a 4/10 but has recently increased to a 6-7/10 that worsens on activity, eating, lying down, and with stress. It is accompanied by bloating and mild nausea but no vomiting, changes in bowel or urinary habits, headache, palpitations, SOB, diaphoresis or cough. She is very anxious about the worsening of her condition. Physical exam is remarkable for an S4 and hypertension but the remainder was noncontributory.",
       "Assessment": "My leading diagnosis is GERD due to the location quality and onset of the symptoms.\nA second diagnosis could be angina given that the patient has mild HTN as well as an S4. But the pattern of her symptoms are less consistent with this possibility.",
@@ -166,9 +136,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d5d",
-    "netid": "hs1154",
     "patient": "Jenny Smith",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "The patient is a 64 year old female with a past medical history of HTN, obesity, and diabetes who presents to the office with a 6 month history of a burning sensation in her chest. The burning sensation has gotten progressively worse with it first occuring once or twice a week to now every day. She notices that the sensation gets worse after eating, when she is feeling stressed, and when she lies down. Physical exam is pertinent for high BMI, a diastolic heart murmur found at the PMI when the patient is lying in the left lateral decubitus position. ",
       "Assessment": "1. GERD - GERD is the most common cause of burning chest pain. Additionally it typically gets worse after eating and when lying down as we see in this patient. \n2. ACS- a classic cause of chest pain that can present as a burning sensation. However less likely as the sensation is positional and also gets worse with eating.\n3. Shingles- this can be described as a burning sensation in the chest. However, the patient does not have a rash on the chest upon physical exam so that makes this less likely.",
@@ -177,9 +145,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d4c",
-    "netid": "mi360",
     "patient": "Jeffrey Smith",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "The pt. is a male with a pertinent PMHx of HTN and DM presenting for chest pain for 6 months that is a worsening pressure-like burning sensation that has been refectory to medication prescribed at the last visit. Physical exam is significant for a late diastolic extra heart sound in lateral decubitus position. ",
       "Assessment": "1. chest pain: most likely the pain is from GERD due to the pt. describing it as a burning sensation he can also feel in his stomach. the pain could be from unstable angina as it occurs at rest as well and the pt. has risk factors, however, this is less likely due to the quality of the pain. the chest pain could also be from costochondritis, however, there was no associated movement or chest wall tenderness",
@@ -188,9 +154,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d71",
-    "netid": "ih217",
     "patient": "Sarah Thompson",
-    "sex": "M",
     "post_note_inputs": {
       "Summary Statement": "Patient is a 58-year-old female with a history of hypertension and hyperlipidemia, presenting with progressively worsening chest discomfort over the past month, described as indigestion-like and rated 6/10 at present. The discomfort is non-radiating, worsens when lying down, improves when sitting up, and is often triggered by meals, physical activity, or stress, though it occasionally occurs at rest. She reports associated mild nausea but denies shortness of breath, fever, dizziness, vomiting, or gastrointestinal changes. She is currently on antihypertensive and lipid-lowering therapy, with intermittent use of TUMS. Her social history is notable for living with her partner and employment as a high school teacher. She is concerned that her symptoms may represent something more serious given lack of improvement with prior treatment. PE is remarkable for slightly elevated BP 130/90. ",
       "Assessment": "1. Gastroesophageal Reflux Disease (GERD)\nMost likely, given indigestion-like pain, worsening with lying down, partial relief sitting up, and postprandial onset\n\nPrior treatment with antacids (TUMS) suggests known or suspected GERD\n\nWorsening symptoms may indicate inadequate acid suppression or progression to esophagitis\n\n2. Atypical Angina / Stable Ischemic Heart Disease\nHigh-risk patient: female, 58 years old, hypertensive, hyperlipidemic\n\nPain with exertion and stress suggests possible angina, even in the absence of radiation or dyspnea\n\nAtypical presentations of angina are common in women\n\n3. Esophageal Spasm or Esophagitis\nCan mimic cardiac pain\n\nMay worsen postprandially and with reflux\n\nWould not improve with cardiac meds and may worsen if acid-related",
@@ -199,9 +163,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d4e",
-    "netid": "nrp147",
     "patient": "Jeffrey Smith",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "Jeffrey Smith is a 64 year old Male with a PMHx of HTN and diabetes and a surgical history for a hernia who presents with six months of burning pressure in his chest that has worsened in frequency and intensity over the past month. ",
       "Assessment": "The leading diagnosis is GERD given that he has a burning sensation that has been partially relieved by TUMS before. \nGiven his cardiac history, it is important to rule out an MI so getting an EKG and trops is needed. Other differentials to consider are pancreatitis and cholecystitis as they can also present like this and are important to rule out. ",
@@ -210,9 +172,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d63",
-    "netid": "wc614",
     "patient": "Samuel Thompson",
-    "sex": "M",
     "post_note_inputs": {
       "Summary Statement": "59 year old male with a 5 week history of chest discomfort unresponsive to antacids ",
       "Assessment": "1.) GERD - given the history, physical and symptom presentation the most likely diagnosis is GERD. The tingling and indigestion in the front of the chest that hasn't been responsive to antacid. \n2.) angina but less likely",
@@ -221,9 +181,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d68",
-    "netid": "et519",
     "patient": "Samuel Thompson",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "The patient is a 58-year-old male with past medical history of hypertension and hyperlipidemia presenting for follow-up of persistent midline chest discomfort described as a heartburn-like sensation. His symptoms have worsened over the past month despite empiric antacid treatment. The discomfort is worsened by lying down, improved by sitting up, occurs predominantly after meals, and is now accompanied by mild diaphoresis and nausea. No palpitations, SOB, DOE, or abdominal pain. He has significant cardiovascular risk factors, including lifelong smoker, HTN, and HLD. Physical exam and vital signs are within normal limits.",
       "Assessment": "1. GERD\n2. Typical Angina\n3. Esophageal spasm\n4. Peptic ulcer disease\n\nThe patient is a 58-year-old man with hypertension, hyperlipidemia, and significant smoking history presenting with persistent midline chest discomfort described as heartburn-like, worsened after meals and when lying down, and now associated with mild diaphoresis and nausea. His symptoms have not improved with antacid therapy. The leading diagnosis is gastroesophageal reflux disease (GERD), given the postprandial and positional nature of symptoms, though incomplete response to therapy and new symptoms of nausea and sweating could suggest other etiology. Next on the differential is stable angina given his cardiovascular risk factors, with nausea and diaphoresis suggesting possible ischemia despite the absence of exertional pain. Esophageal spasm is less likely but possible given stress-related triggers, although the quality of discomfort is less typical. Peptic ulcer disease remains last on the differential due to smoking and meal-associated symptoms, though the absence of nocturnal pain, hematemesis, or melena makes it less likely. Cardiac causes must be ruled out urgently given his risk profile.",
@@ -232,9 +190,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d58",
-    "netid": "kag365",
     "patient": "Jenny Smith",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "Jenny Smith is a 65 year old female with a past medical history of hypertension, hypercholesterolemia, and diabetes presenting with a six month history of worsening bloating and a burning sensation in her chest.",
       "Assessment": "It is possible that she has refractory GERD or peptic ulcer disease. The patient reports taking a medication for heartburn though she is not sure what the medication is called as well as taking TUMS which temporarily relieves her symptoms. She notices that the sensation is worse with fried meals which is consistent with GERD. She also reports that she feels pain in her stomach sometimes which could be indicative of a peptic ulcer. Esophageal adenocarcinoma is also a possibility but she does not have any dysphagia and her history of heartburn is brief. Her chest pain could also be the result of a coronary artery disease but this is less likely as her pain occurs after meals and with laying down before bed which is more likely to be heartburn.",
@@ -243,9 +199,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d6e",
-    "netid": "jz1092",
     "patient": "Sarah Thompson",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "Sarah Thompson is a 58 year old female with a past medical history of hypertension and hyperlipidemia who presents with episodic, burning in the front of her chest that occurs after eating and doing household chores that began six months ago and worsened in severity and frequency in the past month. The burning worsens when lying down and is occasionally relieved by TUMS and prescription antacids. The patient reports mild nausea with the episodes of chest burning and denies fever, chills, heart palpitations, vomiting, and changes in stool. Past medical history is significant for hypertension for the past 12 years managed by amlodipine and hyperlipidemia managed by cholesterol. The patient smokes half a pack a day since the age of 20 and has thought about cutting down, though she admits taking action on this is difficult. Physical exam is significant for obesity and non-tender abdomen.",
       "Assessment": "The leading diagnosis is GERD, given that the patient's pain worsens when lying down and can be relieves by antacids. Alternatively, ACS is possible, especially because the patient has hypertension and hyperlipidemia. A third item on the differential is esophagitis, which could be contributing to the burning sensation, but is not likely because the discomfort would not be episodic as the patient reports.",
@@ -254,20 +208,16 @@
   },
   {
     "_id": "68465ed820fd80066ac57d6b",
-    "netid": "lk508",
     "patient": "Sarah Thompson",
-    "sex": "F",
     "post_note_inputs": {
-      "Summary Statement": "Sarah Thompson is a 58-year-old woman with a BMI of 32 kg/m\u00b2 presenting with persistent upper abdominal discomfort resembling indigestion or heartburn. Despite a month of antacid therapy, her symptoms have not improved and may have worsened. The discomfort is characterized by increased burping and a sensation of fullness. Physical examination reveals no acute distress, with normal findings across all systems.",
-      "Assessment": "Primary Diagnosis: Gastroesophageal Reflux Disease (GERD)\n\nThe patient's symptoms, including persistent upper abdominal discomfort and increased burping, are suggestive of GERD. Obesity is a significant risk factor for GERD, as excess body weight, particularly abdominal fat, increases intra-abdominal pressure and can lead to transient lower esophageal sphincter relaxations, promoting reflux.\u200b\n\nDifferential Diagnosis:\n\nFunctional Dyspepsia: Characterized by upper abdominal discomfort without an identifiable organic cause. However, the patient's response to antacid therapy and the association with obesity make GERD more likely.\u200b\n\nGastroparesis: Delayed gastric emptying can cause symptoms similar to GERD. However, the absence of early satiety, nausea, or vomiting makes this less likely.\u200b\n\nEosinophilic Esophagitis: An allergic inflammatory condition of the esophagus that can mimic GERD symptoms. However, the patient's lack of known allergies and the chronicity of symptoms make this less likely.",
-      "Plan": "Diagnostic Workup:\n\nUpper Endoscopy (EGD): To assess for esophageal mucosal damage, such as erosive esophagitis or Barrett's esophagus.\u200b\n\n24-hour pH Monitoring: To measure acid exposure in the esophagus and confirm the diagnosis of GERD.\u200b\n\nEsophageal Manometry: To evaluate esophageal motility and lower esophageal sphincter function."
+      "Summary Statement": "Sarah Thompson is a 58-year-old woman with a BMI of 32 kg/m² presenting with persistent upper abdominal discomfort resembling indigestion or heartburn. Despite a month of antacid therapy, her symptoms have not improved and may have worsened. The discomfort is characterized by increased burping and a sensation of fullness. Physical examination reveals no acute distress, with normal findings across all systems.",
+      "Assessment": "Primary Diagnosis: Gastroesophageal Reflux Disease (GERD)\n\nThe patient's symptoms, including persistent upper abdominal discomfort and increased burping, are suggestive of GERD. Obesity is a significant risk factor for GERD, as excess body weight, particularly abdominal fat, increases intra-abdominal pressure and can lead to transient lower esophageal sphincter relaxations, promoting reflux.​\n\nDifferential Diagnosis:\n\nFunctional Dyspepsia: Characterized by upper abdominal discomfort without an identifiable organic cause. However, the patient's response to antacid therapy and the association with obesity make GERD more likely.​\n\nGastroparesis: Delayed gastric emptying can cause symptoms similar to GERD. However, the absence of early satiety, nausea, or vomiting makes this less likely.​\n\nEosinophilic Esophagitis: An allergic inflammatory condition of the esophagus that can mimic GERD symptoms. However, the patient's lack of known allergies and the chronicity of symptoms make this less likely.",
+      "Plan": "Diagnostic Workup:\n\nUpper Endoscopy (EGD): To assess for esophageal mucosal damage, such as erosive esophagitis or Barrett's esophagus.​\n\n24-hour pH Monitoring: To measure acid exposure in the esophagus and confirm the diagnosis of GERD.​\n\nEsophageal Manometry: To evaluate esophageal motility and lower esophageal sphincter function."
     }
   },
   {
     "_id": "68465ed820fd80066ac57d69",
-    "netid": "pm787",
     "patient": "Sarah Thompson",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "Patient is a 58 y/o female with PMHx of HTN and hyperlipidemia and 20 year smoking history presenting with burning chest sensation that has been getting progressively worse for the past 5 week despite taking antacids. Patient describe burning sensation as non-radiating that gets worse with walking and is associated with sweating. Vital and physical exam are unremarkable. ",
       "Assessment": "The. differential diagnosis include GER< PUD, and Stable angina. The most likely diagnosis is GERD that can be getting worse due to smoking history as well as unbalanced diet. Also, PUD is another posible option, but needs to be confirme with H.. pylori stool. Stable angina is still a possibility but lower in the differential since patient does not have chest pain. ",
@@ -276,9 +226,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d64",
-    "netid": "ait18",
     "patient": "Samuel Thompson",
-    "sex": "M",
     "post_note_inputs": {
       "Summary Statement": "SS is a 58 year old male patient with a past medical history of hypertension and hyperlipidemia who presents with a 5 week history of chest discomfort consistent with heartburn that has been getting worse and is now exacerbated by meals, lying down, stress, but relieved by sitting up. Social history is remarkable for smoking 1/2 pack of cigarettes daily. Physical exam was remarkable or a blood pressure of 130/90 and BMI of 32 kg/m 2. ",
       "Assessment": "1. Gastroesophageal Reflux Disease- Given the patients history of post-prandial pain and positional chest discomfort, as well as his risk factors of smoking and obesity, GERD is the leading diagnosis. \n2. Acute Coronary Syndrome- Given the patients chest discomfort, smoking, and obesity history, an ACS is porbable but less likely due to the positional nature of the patient's chest discomfort. However, this must be ruled out with an EKG before proceeding with treatment. ",
@@ -287,9 +235,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d7f",
-    "netid": "jg1512",
     "patient": "Jeffrey Smith",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "JS is a 65 y/o M with PMHx of a hernia at age 26 presenting to follow up on a burning and pressure-like sensation in the chest that is worsening since starting heartburn Rx one month ago. Episodes triggered by exertion with diaphoresis and mild nausea, but relieved by rest. On PE, BP is 140/90, BMI is 31.5 kg/m2, in LLD a possible S4 heart sound, with a normal abdominal exam. ",
       "Assessment": "1. Stable angina - patient experiences exertional chest pain that is relieved by rest. During these episodes he is diaphoretic and mildly nauseous. On PE, there is elevated BP and a potential S4 heart sound indicating a stiff heart. \n2. GERD - Must be considered because the patient describes the pain as burning and episodes sometimes occur after eating. However, patient was on a heartburn medication and OTC TUMS for a month with no relief and reports the pain is worsening. Also, on PE the abdominal exam is normal with no epigastric tenderness on palpation. ",
@@ -298,9 +244,7 @@
   },
   {
     "_id": "68465ed820fd80066ac57d61",
-    "netid": "ah1208",
     "patient": "Samuel Thompson",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "Samuel is a 58 YO male with a 20 pack year smoking history and  PMHx of HTN and HLD, presenting to the office with complaints of episodic chest discomfort for the past 6 months. He states that these episodes have worsened in the past month and have become more frequent without any relief with TUMS. They are associated with meals, stress, and mild exertion. On physical examination, his blood pressure is slightly elevated at 130/90 but otherwise everything is normal. ",
       "Assessment": "Given the patients history and physical exam, most likely diagnosis is uncontrolled GERD. Another likely cause of his symptoms could be unstable angina given his history of HTN, HLD, and smoking, but I am less convinced given his normal cardiac exam. Duodenal ulcer is also possible, should be ruled out with endoscopy.",
@@ -309,20 +253,16 @@
   },
   {
     "_id": "68465ed820fd80066ac57d6c",
-    "netid": "psr53",
     "patient": "Sarah Thompson",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "the patient is a 58 year old female with past medical history of high blood pressure and cholestrol  and smoking history coming in with an indegestion feeling in her chest that was intermittent 6 months ago but has now been more frequent over the past week. the pain has not been releived bt antacid emdication and does not radiate. it happens after food and feels better when laying down. Phsycial exam is normal",
       "Assessment": "GERD - pain after eating, better when lying down\n\nCoronary disease/angina - risk factor of high BP, smokign hisotry, cholestrol",
-      "Plan": "Clinical Diagnosis (first-line):\n\nBased on symptoms: heartburn, regurgitation, worse after meals or lying down.\n\nTrial of PPI  since antacids ar enot working\n\nUpper endoscopy (EGD): Evaluate for esophagitis, Barrett\u2019s esophagus, strictures.\n\n12-lead ECG: Look for signs of ischemia (ST depression, T-wave inversions) or prior infarct.\n\nTroponins: Rule out acute coronary syndrome \n\n\nLab work-\n\nCBC, BMP, lipids, A1c\u2014evaluate for anemia, metabolic contributors, and cardiac risk profiling."
+      "Plan": "Clinical Diagnosis (first-line):\n\nBased on symptoms: heartburn, regurgitation, worse after meals or lying down.\n\nTrial of PPI  since antacids ar enot working\n\nUpper endoscopy (EGD): Evaluate for esophagitis, Barrett’s esophagus, strictures.\n\n12-lead ECG: Look for signs of ischemia (ST depression, T-wave inversions) or prior infarct.\n\nTroponins: Rule out acute coronary syndrome \n\n\nLab work-\n\nCBC, BMP, lipids, A1c—evaluate for anemia, metabolic contributors, and cardiac risk profiling."
     }
   },
   {
     "_id": "68465ed820fd80066ac57d72",
-    "netid": "as3257",
     "patient": "Sarah Thompson",
-    "sex": "F",
     "post_note_inputs": {
       "Summary Statement": "ST is a 58YO F with PMHx of indigestion, hypertension, hyperlipidemia, and a 10 pack-year smoking history presenting with worsening chest discomfort that typically begins after eating, but has also started without exertion. The patient was diagnosed with indigestion a month ago but an antacid has not be helpful. Vitals and PE are significant for a BP of 130/90, BMI of 32 kg/m2, and normal-appearing tonsils despite the patient's record of tonsillectomy, and no abnormal cardiac, pulmonary, or gastrointestinal findings.",
       "Assessment": "1. The leading diagnosis is ACS. The patient has risk factors for the condition, such as hypertension, hyperlipidemia, and a smoking history. Furthermore, the progression of her symptoms, both in terms of severity and developing without exertion, suggests that the condition is evolving from stable to unstable angina. The pain also does not appear to be positional or pleuritic, ruling out other causes of chest pain like pericarditis.\n2. Another diagnosis to consider is anxiety. This can present with chest pain both with and without exertion, matching the patient's case. I should have asked more about recent stressors, but this diagnosis is less likely as the patient would likely have tachycardia, which she does not have.",

@@ -1,0 +1,2522 @@
+[
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d4d",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.3748283348504059,
+          "B": 0.3748283348504059,
+          "C": 0.3748283348504059,
+          "D": 0.3748283348504059,
+          "E": 0.3748283348504059,
+          "F": 0.3748283348504059,
+          "G": 0.3748283348504059
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.6134381344349582,
+          "B": 0.6134381344349582,
+          "C": 0.6134381344349582,
+          "D": 0.6134381344349582,
+          "E": 0.6134381344349582,
+          "F": 0.6134381344349582
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6262381799998052,
+          "B": 0.6262381799998052,
+          "C": 0.6262381799998052
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.8421306623699601,
+          "B": 0.8421306623699601,
+          "C": 0.8421306623699601
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.8115491759827114,
+          "B": 0.8115491759827114,
+          "C": 0.8115491759827114,
+          "D": 0.8115491759827114,
+          "E": 0.8115491759827114
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d62",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.5138052003704783,
+          "B": 0.5138052003704783,
+          "C": 0.5138052003704783,
+          "D": 0.5138052003704783,
+          "E": 0.5138052003704783,
+          "F": 0.5138052003704783,
+          "G": 0.5138052003704783
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.511224119251032,
+          "B": 0.511224119251032,
+          "C": 0.511224119251032,
+          "D": 0.511224119251032,
+          "E": 0.511224119251032,
+          "F": 0.511224119251032
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7204188365982631,
+          "B": 0.7204188365982631,
+          "C": 0.7204188365982631
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.4659286017734142,
+          "B": 0.4659286017734142,
+          "C": 0.4659286017734142
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.72492552675347,
+          "B": 0.72492552675347,
+          "C": 0.72492552675347,
+          "D": 0.72492552675347,
+          "E": 0.72492552675347
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d59",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.05494195663778734,
+          "B": 0.05494195663778734,
+          "C": 0.05494195663778734,
+          "D": 0.05494195663778734,
+          "E": 0.05494195663778734,
+          "F": 0.05494195663778734,
+          "G": 0.05494195663778734
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.18811653899052283,
+          "B": 0.18811653899052283,
+          "C": 0.18811653899052283,
+          "D": 0.18811653899052283,
+          "E": 0.18811653899052283,
+          "F": 0.18811653899052283
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6624875499360622,
+          "B": 0.6624875499360622,
+          "C": 0.6624875499360622
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.5491398160058709,
+          "B": 0.5491398160058709,
+          "C": 0.5491398160058709
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.8548133280536954,
+          "B": 0.8548133280536954,
+          "C": 0.8548133280536954,
+          "D": 0.8548133280536954,
+          "E": 0.8548133280536954
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d56",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.5375716982996434,
+          "B": 0.5375716982996434,
+          "C": 0.5375716982996434,
+          "D": 0.5375716982996434,
+          "E": 0.5375716982996434,
+          "F": 0.5375716982996434,
+          "G": 0.5375716982996434
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.3768349907138826,
+          "B": 0.3768349907138826,
+          "C": 0.3768349907138826,
+          "D": 0.3768349907138826,
+          "E": 0.3768349907138826,
+          "F": 0.3768349907138826
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.8993948037374687,
+          "B": 0.8993948037374687,
+          "C": 0.8993948037374687
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.8906193955111924,
+          "B": 0.8906193955111924,
+          "C": 0.8906193955111924
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.450023399115012,
+          "B": 0.450023399115012,
+          "C": 0.450023399115012,
+          "D": 0.450023399115012,
+          "E": 0.450023399115012
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d5f",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 0.0,
+          "D": 0.0,
+          "E": 0.0,
+          "F": 0.0,
+          "G": 0.0
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.7347537823610027,
+          "B": 0.7347537823610027,
+          "C": 0.7347537823610027,
+          "D": 0.7347537823610027,
+          "E": 0.7347537823610027,
+          "F": 0.7347537823610027
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.8553906512534615,
+          "B": 0.8553906512534615,
+          "C": 0.8553906512534615
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.9234754842610389,
+          "B": 0.9234754842610389,
+          "C": 0.9234754842610389
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.9359157850908473,
+          "B": 0.9359157850908473,
+          "C": 0.9359157850908473,
+          "D": 0.9359157850908473,
+          "E": 0.9359157850908473
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d67",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.28748198203697306,
+          "B": 0.28748198203697306,
+          "C": 0.28748198203697306,
+          "D": 0.28748198203697306,
+          "E": 0.28748198203697306,
+          "F": 0.28748198203697306,
+          "G": 0.28748198203697306
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.10462508512156377,
+          "B": 0.10462508512156377,
+          "C": 0.10462508512156377,
+          "D": 0.10462508512156377,
+          "E": 0.10462508512156377,
+          "F": 0.10462508512156377
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.8183245302422997,
+          "B": 0.8183245302422997,
+          "C": 0.8183245302422997
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.8842039768778063,
+          "B": 0.8842039768778063,
+          "C": 0.8842039768778063
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.931707307191536,
+          "B": 0.931707307191536,
+          "C": 0.931707307191536,
+          "D": 0.931707307191536,
+          "E": 0.931707307191536
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d6a",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.4592763707404691,
+          "B": 0.4592763707404691,
+          "C": 0.4592763707404691,
+          "D": 0.4592763707404691,
+          "E": 0.4592763707404691,
+          "F": 0.4592763707404691,
+          "G": 0.4592763707404691
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.6748550719253232,
+          "B": 0.6748550719253232,
+          "C": 0.6748550719253232,
+          "D": 0.6748550719253232,
+          "E": 0.6748550719253232,
+          "F": 0.6748550719253232
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.47206874726266845,
+          "B": 0.47206874726266845,
+          "C": 0.47206874726266845
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.8854617415297124,
+          "B": 0.8854617415297124,
+          "C": 0.8854617415297124
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.8985572763865827,
+          "B": 0.8985572763865827,
+          "C": 0.8985572763865827,
+          "D": 0.8985572763865827,
+          "E": 0.8985572763865827
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d66",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": true,
+          "F": false,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.33977734020849415,
+          "B": 0.33977734020849415,
+          "C": 0.33977734020849415,
+          "D": 0.33977734020849415,
+          "E": 0.33977734020849415,
+          "F": 0.33977734020849415,
+          "G": 0.33977734020849415
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.7414565633585042,
+          "B": 0.7414565633585042,
+          "C": 0.7414565633585042,
+          "D": 0.7414565633585042,
+          "E": 0.7414565633585042,
+          "F": 0.7414565633585042
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6197308055043202,
+          "B": 0.6197308055043202,
+          "C": 0.6197308055043202
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7106735691645281,
+          "B": 0.7106735691645281,
+          "C": 0.7106735691645281
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.8175530070845718,
+          "B": 0.8175530070845718,
+          "C": 0.8175530070845718,
+          "D": 0.8175530070845718,
+          "E": 0.8175530070845718
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d70",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": false,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.11552989760587129,
+          "B": 0.11552989760587129,
+          "C": 0.11552989760587129,
+          "D": 0.11552989760587129,
+          "E": 0.11552989760587129,
+          "F": 0.11552989760587129,
+          "G": 0.11552989760587129
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.10615278093746139,
+          "B": 0.10615278093746139,
+          "C": 0.10615278093746139,
+          "D": 0.10615278093746139,
+          "E": 0.10615278093746139,
+          "F": 0.10615278093746139
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7708769392739887,
+          "B": 0.7708769392739887,
+          "C": 0.7708769392739887
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7456615926714765,
+          "B": 0.7456615926714765,
+          "C": 0.7456615926714765
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.5802030427112618,
+          "B": 0.5802030427112618,
+          "C": 0.5802030427112618,
+          "D": 0.5802030427112618,
+          "E": 0.5802030427112618
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d4f",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.3639931596110654,
+          "B": 0.3639931596110654,
+          "C": 0.3639931596110654,
+          "D": 0.3639931596110654,
+          "E": 0.3639931596110654,
+          "F": 0.3639931596110654,
+          "G": 0.3639931596110654
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.27870316491503266,
+          "B": 0.27870316491503266,
+          "C": 0.27870316491503266,
+          "D": 0.27870316491503266,
+          "E": 0.27870316491503266,
+          "F": 0.27870316491503266
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7234553341575556,
+          "B": 0.7234553341575556,
+          "C": 0.7234553341575556
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.4916826316548246,
+          "B": 0.4916826316548246,
+          "C": 0.4916826316548246
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.7930960123680858,
+          "B": 0.7930960123680858,
+          "C": 0.7930960123680858,
+          "D": 0.7930960123680858,
+          "E": 0.7930960123680858
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d51",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.5676804083415136,
+          "B": 0.5676804083415136,
+          "C": 0.5676804083415136,
+          "D": 0.5676804083415136,
+          "E": 0.5676804083415136,
+          "F": 0.5676804083415136,
+          "G": 0.5676804083415136
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.29855363020695347,
+          "B": 0.29855363020695347,
+          "C": 0.29855363020695347,
+          "D": 0.29855363020695347,
+          "E": 0.29855363020695347,
+          "F": 0.29855363020695347
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7085885386873483,
+          "B": 0.7085885386873483,
+          "C": 0.7085885386873483
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6832477844150786,
+          "B": 0.6832477844150786,
+          "C": 0.6832477844150786
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.8804743586628707,
+          "B": 0.8804743586628707,
+          "C": 0.8804743586628707,
+          "D": 0.8804743586628707,
+          "E": 0.8804743586628707
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d5a",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": false,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.4425830373494266,
+          "B": 0.4425830373494266,
+          "C": 0.4425830373494266,
+          "D": 0.4425830373494266,
+          "E": 0.4425830373494266,
+          "F": 0.4425830373494266,
+          "G": 0.4425830373494266
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.2060242733540617,
+          "B": 0.2060242733540617,
+          "C": 0.2060242733540617,
+          "D": 0.2060242733540617,
+          "E": 0.2060242733540617,
+          "F": 0.2060242733540617
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6869773119709183,
+          "B": 0.6869773119709183,
+          "C": 0.6869773119709183
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.8150024673273002,
+          "B": 0.8150024673273002,
+          "C": 0.8150024673273002
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.8465530972659221,
+          "B": 0.8465530972659221,
+          "C": 0.8465530972659221,
+          "D": 0.8465530972659221,
+          "E": 0.8465530972659221
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d5e",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.4543587451522867,
+          "B": 0.4543587451522867,
+          "C": 0.4543587451522867,
+          "D": 0.4543587451522867,
+          "E": 0.4543587451522867,
+          "F": 0.4543587451522867,
+          "G": 0.4543587451522867
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.34030534162529713,
+          "B": 0.34030534162529713,
+          "C": 0.34030534162529713,
+          "D": 0.34030534162529713,
+          "E": 0.34030534162529713,
+          "F": 0.34030534162529713
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.5988820247582642,
+          "B": 0.5988820247582642,
+          "C": 0.5988820247582642
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.4433109246318959,
+          "B": 0.4433109246318959,
+          "C": 0.4433109246318959
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.8125954849810018,
+          "B": 0.8125954849810018,
+          "C": 0.8125954849810018,
+          "D": 0.8125954849810018,
+          "E": 0.8125954849810018
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d52",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false,
+          "E": false,
+          "F": false,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.7000007971503948,
+          "B": 0.7000007971503948,
+          "C": 0.7000007971503948,
+          "D": 0.7000007971503948,
+          "E": 0.7000007971503948,
+          "F": 0.7000007971503948,
+          "G": 0.7000007971503948
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.7569299242641645,
+          "B": 0.7569299242641645,
+          "C": 0.7569299242641645,
+          "D": 0.7569299242641645,
+          "E": 0.7569299242641645,
+          "F": 0.7569299242641645
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.6840999493195947,
+          "B": 0.6840999493195947,
+          "C": 0.6840999493195947
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.7889063984672842,
+          "B": 0.7889063984672842,
+          "C": 0.7889063984672842
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.7490418832049828,
+          "B": 0.7490418832049828,
+          "C": 0.7490418832049828,
+          "D": 0.7490418832049828,
+          "E": 0.7490418832049828
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d5c",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.4364965446038783,
+          "B": 0.4364965446038783,
+          "C": 0.4364965446038783,
+          "D": 0.4364965446038783,
+          "E": 0.4364965446038783,
+          "F": 0.4364965446038783,
+          "G": 0.4364965446038783
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.6753219389499578,
+          "B": 0.6753219389499578,
+          "C": 0.6753219389499578,
+          "D": 0.6753219389499578,
+          "E": 0.6753219389499578,
+          "F": 0.6753219389499578
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.7111419155410378,
+          "B": 0.7111419155410378,
+          "C": 0.7111419155410378
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.7221860362610967,
+          "B": 0.7221860362610967,
+          "C": 0.7221860362610967
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.8600280537283516,
+          "B": 0.8600280537283516,
+          "C": 0.8600280537283516,
+          "D": 0.8600280537283516,
+          "E": 0.8600280537283516
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d5d",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.657909648547107,
+          "B": 0.657909648547107,
+          "C": 0.657909648547107,
+          "D": 0.657909648547107,
+          "E": 0.657909648547107,
+          "F": 0.657909648547107,
+          "G": 0.657909648547107
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 0.0,
+          "D": 0.0,
+          "E": 0.0,
+          "F": 0.0
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7792884941247167,
+          "B": 0.7792884941247167,
+          "C": 0.7792884941247167
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6359523619419397,
+          "B": 0.6359523619419397,
+          "C": 0.6359523619419397
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.42806029555297476,
+          "B": 0.42806029555297476,
+          "C": 0.42806029555297476,
+          "D": 0.42806029555297476,
+          "E": 0.42806029555297476
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d4c",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.025633865815746337,
+          "B": 0.025633865815746337,
+          "C": 0.025633865815746337,
+          "D": 0.025633865815746337,
+          "E": 0.025633865815746337,
+          "F": 0.025633865815746337,
+          "G": 0.025633865815746337
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.5980062017200602,
+          "B": 0.5980062017200602,
+          "C": 0.5980062017200602,
+          "D": 0.5980062017200602,
+          "E": 0.5980062017200602,
+          "F": 0.5980062017200602
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.4721994491351369,
+          "B": 0.4721994491351369,
+          "C": 0.4721994491351369
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.5517188164247522,
+          "B": 0.5517188164247522,
+          "C": 0.5517188164247522
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.7561196913334789,
+          "B": 0.7561196913334789,
+          "C": 0.7561196913334789,
+          "D": 0.7561196913334789,
+          "E": 0.7561196913334789
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d71",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 0.0,
+          "D": 0.0,
+          "E": 0.0,
+          "F": 0.0,
+          "G": 0.0
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.4709218060994831,
+          "B": 0.4709218060994831,
+          "C": 0.4709218060994831,
+          "D": 0.4709218060994831,
+          "E": 0.4709218060994831,
+          "F": 0.4709218060994831
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6860944175232204,
+          "B": 0.6860944175232204,
+          "C": 0.6860944175232204
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.275715343859256,
+          "B": 0.275715343859256,
+          "C": 0.275715343859256
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.9911843336710443,
+          "B": 0.9911843336710443,
+          "C": 0.9911843336710443,
+          "D": 0.9911843336710443,
+          "E": 0.9911843336710443
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d4e",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.67666207608937,
+          "B": 0.67666207608937,
+          "C": 0.67666207608937,
+          "D": 0.67666207608937,
+          "E": 0.67666207608937,
+          "F": 0.67666207608937,
+          "G": 0.67666207608937
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.5869637133008523,
+          "B": 0.5869637133008523,
+          "C": 0.5869637133008523,
+          "D": 0.5869637133008523,
+          "E": 0.5869637133008523,
+          "F": 0.5869637133008523
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.4853089688351152,
+          "B": 0.4853089688351152,
+          "C": 0.4853089688351152
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.24822223948551136,
+          "B": 0.24822223948551136,
+          "C": 0.24822223948551136
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.7467612518376474,
+          "B": 0.7467612518376474,
+          "C": 0.7467612518376474,
+          "D": 0.7467612518376474,
+          "E": 0.7467612518376474
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d63",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": false,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.8816769915251805,
+          "B": 0.8816769915251805,
+          "C": 0.8816769915251805,
+          "D": 0.8816769915251805,
+          "E": 0.8816769915251805,
+          "F": 0.8816769915251805,
+          "G": 0.8816769915251805
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.5460868198898842,
+          "B": 0.5460868198898842,
+          "C": 0.5460868198898842,
+          "D": 0.5460868198898842,
+          "E": 0.5460868198898842,
+          "F": 0.5460868198898842
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6274028228979014,
+          "B": 0.6274028228979014,
+          "C": 0.6274028228979014
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.5643564864779236,
+          "B": 0.5643564864779236,
+          "C": 0.5643564864779236
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.8008268712742647,
+          "B": 0.8008268712742647,
+          "C": 0.8008268712742647,
+          "D": 0.8008268712742647,
+          "E": 0.8008268712742647
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d68",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.2649962243711621,
+          "B": 0.2649962243711621,
+          "C": 0.2649962243711621,
+          "D": 0.2649962243711621,
+          "E": 0.2649962243711621,
+          "F": 0.2649962243711621,
+          "G": 0.2649962243711621
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.7634374704174461,
+          "B": 0.7634374704174461,
+          "C": 0.7634374704174461,
+          "D": 0.7634374704174461,
+          "E": 0.7634374704174461,
+          "F": 0.7634374704174461
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.8632381684835201,
+          "B": 0.8632381684835201,
+          "C": 0.8632381684835201
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7994126230776835,
+          "B": 0.7994126230776835,
+          "C": 0.7994126230776835
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 1.0,
+          "B": 1.0,
+          "C": 1.0,
+          "D": 1.0,
+          "E": 1.0
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d58",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.4551069176916305,
+          "B": 0.4551069176916305,
+          "C": 0.4551069176916305,
+          "D": 0.4551069176916305,
+          "E": 0.4551069176916305,
+          "F": 0.4551069176916305,
+          "G": 0.4551069176916305
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.3057568985472665,
+          "B": 0.3057568985472665,
+          "C": 0.3057568985472665,
+          "D": 0.3057568985472665,
+          "E": 0.3057568985472665,
+          "F": 0.3057568985472665
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6659000178481314,
+          "B": 0.6659000178481314,
+          "C": 0.6659000178481314
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.767586825734734,
+          "B": 0.767586825734734,
+          "C": 0.767586825734734
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.6721106149405782,
+          "B": 0.6721106149405782,
+          "C": 0.6721106149405782,
+          "D": 0.6721106149405782,
+          "E": 0.6721106149405782
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d6e",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.701726135828006,
+          "B": 0.701726135828006,
+          "C": 0.701726135828006,
+          "D": 0.701726135828006,
+          "E": 0.701726135828006,
+          "F": 0.701726135828006,
+          "G": 0.701726135828006
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.5376289930998717,
+          "B": 0.5376289930998717,
+          "C": 0.5376289930998717,
+          "D": 0.5376289930998717,
+          "E": 0.5376289930998717,
+          "F": 0.5376289930998717
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7861637620518225,
+          "B": 0.7861637620518225,
+          "C": 0.7861637620518225
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.8310800594371079,
+          "B": 0.8310800594371079,
+          "C": 0.8310800594371079
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.9242997995130313,
+          "B": 0.9242997995130313,
+          "C": 0.9242997995130313,
+          "D": 0.9242997995130313,
+          "E": 0.9242997995130313
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d6b",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.044063254541405916,
+          "B": 0.044063254541405916,
+          "C": 0.044063254541405916,
+          "D": 0.044063254541405916,
+          "E": 0.044063254541405916,
+          "F": 0.044063254541405916,
+          "G": 0.044063254541405916
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.6148164904156475,
+          "B": 0.6148164904156475,
+          "C": 0.6148164904156475,
+          "D": 0.6148164904156475,
+          "E": 0.6148164904156475,
+          "F": 0.6148164904156475
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.0007761048717386254,
+          "B": 0.0007761048717386254,
+          "C": 0.0007761048717386254
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.02500400803026781,
+          "B": 0.02500400803026781,
+          "C": 0.02500400803026781
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.7476521602172252,
+          "B": 0.7476521602172252,
+          "C": 0.7476521602172252,
+          "D": 0.7476521602172252,
+          "E": 0.7476521602172252
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d69",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.21322677773631338,
+          "B": 0.21322677773631338,
+          "C": 0.21322677773631338,
+          "D": 0.21322677773631338,
+          "E": 0.21322677773631338,
+          "F": 0.21322677773631338,
+          "G": 0.21322677773631338
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.6090269624673239,
+          "B": 0.6090269624673239,
+          "C": 0.6090269624673239,
+          "D": 0.6090269624673239,
+          "E": 0.6090269624673239,
+          "F": 0.6090269624673239
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.5417773164596184,
+          "B": 0.5417773164596184,
+          "C": 0.5417773164596184
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.5725806534357201,
+          "B": 0.5725806534357201,
+          "C": 0.5725806534357201
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.7882851440289451,
+          "B": 0.7882851440289451,
+          "C": 0.7882851440289451,
+          "D": 0.7882851440289451,
+          "E": 0.7882851440289451
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d64",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.3514818565792325,
+          "B": 0.3514818565792325,
+          "C": 0.3514818565792325,
+          "D": 0.3514818565792325,
+          "E": 0.3514818565792325,
+          "F": 0.3514818565792325,
+          "G": 0.3514818565792325
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.7740932092747186,
+          "B": 0.7740932092747186,
+          "C": 0.7740932092747186,
+          "D": 0.7740932092747186,
+          "E": 0.7740932092747186,
+          "F": 0.7740932092747186
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.5260036992283175,
+          "B": 0.5260036992283175,
+          "C": 0.5260036992283175
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7284522590909634,
+          "B": 0.7284522590909634,
+          "C": 0.7284522590909634
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.8804423027605023,
+          "B": 0.8804423027605023,
+          "C": 0.8804423027605023,
+          "D": 0.8804423027605023,
+          "E": 0.8804423027605023
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d7f",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.5093840709829838,
+          "B": 0.5093840709829838,
+          "C": 0.5093840709829838,
+          "D": 0.5093840709829838,
+          "E": 0.5093840709829838,
+          "F": 0.5093840709829838,
+          "G": 0.5093840709829838
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.7316668922010616,
+          "B": 0.7316668922010616,
+          "C": 0.7316668922010616,
+          "D": 0.7316668922010616,
+          "E": 0.7316668922010616,
+          "F": 0.7316668922010616
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6557244452327945,
+          "B": 0.6557244452327945,
+          "C": 0.6557244452327945
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.649506403297557,
+          "B": 0.649506403297557,
+          "C": 0.649506403297557
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.7589462591445193,
+          "B": 0.7589462591445193,
+          "C": 0.7589462591445193,
+          "D": 0.7589462591445193,
+          "E": 0.7589462591445193
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d61",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.5575786500212428,
+          "B": 0.5575786500212428,
+          "C": 0.5575786500212428,
+          "D": 0.5575786500212428,
+          "E": 0.5575786500212428,
+          "F": 0.5575786500212428,
+          "G": 0.5575786500212428
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.32165089851274764,
+          "B": 0.32165089851274764,
+          "C": 0.32165089851274764,
+          "D": 0.32165089851274764,
+          "E": 0.32165089851274764,
+          "F": 0.32165089851274764
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.7246640850226356,
+          "B": 0.7246640850226356,
+          "C": 0.7246640850226356
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.6183902905603913,
+          "B": 0.6183902905603913,
+          "C": 0.6183902905603913
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.6917992127876859,
+          "B": 0.6917992127876859,
+          "C": 0.6917992127876859,
+          "D": 0.6917992127876859,
+          "E": 0.6917992127876859
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d6c",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.32112100955957745,
+          "B": 0.32112100955957745,
+          "C": 0.32112100955957745,
+          "D": 0.32112100955957745,
+          "E": 0.32112100955957745,
+          "F": 0.32112100955957745,
+          "G": 0.32112100955957745
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.27411601573001876,
+          "B": 0.27411601573001876,
+          "C": 0.27411601573001876,
+          "D": 0.27411601573001876,
+          "E": 0.27411601573001876,
+          "F": 0.27411601573001876
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7544462822647775,
+          "B": 0.7544462822647775,
+          "C": 0.7544462822647775
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7758303471418879,
+          "B": 0.7758303471418879,
+          "C": 0.7758303471418879
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.7907272540648151,
+          "B": 0.7907272540648151,
+          "C": 0.7907272540648151,
+          "D": 0.7907272540648151,
+          "E": 0.7907272540648151
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d72",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.3777367077209274,
+          "B": 0.3777367077209274,
+          "C": 0.3777367077209274,
+          "D": 0.3777367077209274,
+          "E": 0.3777367077209274,
+          "F": 0.3777367077209274,
+          "G": 0.3777367077209274
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.6346569031699671,
+          "B": 0.6346569031699671,
+          "C": 0.6346569031699671,
+          "D": 0.6346569031699671,
+          "E": 0.6346569031699671,
+          "F": 0.6346569031699671
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6263357731616459,
+          "B": 0.6263357731616459,
+          "C": 0.6263357731616459
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7160482598417699,
+          "B": 0.7160482598417699,
+          "C": 0.7160482598417699
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.8272588509688874,
+          "B": 0.8272588509688874,
+          "C": 0.8272588509688874,
+          "D": 0.8272588509688874,
+          "E": 0.8272588509688874
+        }
+      }
+    }
+  }
+]

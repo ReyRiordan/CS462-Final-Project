@@ -1,0 +1,2672 @@
+[
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d4d",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.9,
+          "B": 1.0,
+          "C": 0.95,
+          "D": 0.99,
+          "E": 0.9,
+          "F": 0.98,
+          "G": 0.7
+        },
+        "comment": "The summary is concise and highlights key features, includes age, mentions overweight as a risk factor, and specifies chest burning pain. It notes worsening over a month (progression) but does not describe an episodic pattern, and it provides only one clear semantic qualifier (worsening) without explicit use of the listed qualifier terms, so the requirement for at least two qualifiers is not met. Confidence is lower for feature G due to ambiguity about whether mentioning a risk factor counts as a qualifier."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.99,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.98,
+          "E": 0.95,
+          "F": 0.9
+        },
+        "comment": "The assessment lists two distinct diagnoses (GERD and Peptic Ulcer disease), satisfying feature A. No cardiac ischemia terms appear, so feature B is not met. Both listed diagnoses are specific GI conditions, meeting feature C. The phrase \"most likely diagnosis\" is an explicit statement of probability, fulfilling feature D. There is no generic implicit phrasing like \"cardiac disease\" or \"esophageal/GI disease,\" so feature E is not satisfied. The diagnoses are numbered (#1, #2), which the rubric counts as an implied probability statement, meeting feature F; however, because an explicit probability statement is also present, I assigned slightly lower confidence for this feature."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.8,
+          "C": 0.9
+        },
+        "comment": "Feature A is satisfied as the leading diagnosis (GERD) is directly linked to supporting data (burning pain, body habitus, mild and sporadic nature). Feature B is not met because the note does not cite any specific risk factors such as diabetes, hypertension, smoking, overweight/obesity, age, NSAID or steroid use; \"body habitus\" is too vague to count as a specific risk factor. Feature C is satisfied: the note mentions a burning quality of pain and the absence of blood in stool, both key historical features supporting GERD/peptic ulcer considerations."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.75,
+          "C": 0.9
+        },
+        "comment": "Feature A is satisfied because the student links each alternative diagnosis to specific data points (burning pain and body habitus for GERD; lack of blood in stool for PUD). Feature B is not met; the note does not explicitly list recognized risk factors such as diabetes, hypertension, smoking, overweight/obesity, etc., and \"body habitus\" is too vague to count. Feature C is met since the note mentions a key quality of pain (burning) and an associated history point (absence of blood in stool)."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.97,
+          "C": 0.99,
+          "D": 0.98,
+          "E": 0.98
+        },
+        "comment": "The plan explicitly links an upper endoscopy to ruling out ulcer disease, satisfying feature A. No cardiac diagnoses or tests are mentioned, so B and D are false. GERD and peptic ulcer disease are clearly listed, fulfilling C. An upper endoscopy (GI test) is mentioned, fulfilling E."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d59",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.98,
+          "C": 0.96,
+          "D": 0.97,
+          "E": 0.9,
+          "F": 0.96,
+          "G": 0.9
+        },
+        "comment": "The summary captures key information and includes age and chest pain location, and mentions progression (worsening). It lacks any explicit cardiac/GI risk factors and does not describe an episodic pattern. Semantic qualifiers from the required list are not present; the word 'worsening' is not an exact match for 'progressive' or 'acutely worse', so G is marked false. Confidence is high for most items, with slight uncertainty for E and G due to potential interpretation of wording."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.99,
+          "C": 0.98,
+          "D": 0.85,
+          "E": 0.97,
+          "F": 0.95
+        },
+        "comment": "The note lists four distinct diagnoses, satisfying the requirement for \u22652 diagnoses (A). It includes ACS, a specific cardiac ischemia term (B), and multiple GI diagnoses such as GERD and ulcer disease (C). The phrase \"less likely\" contains the word \"likely,\" meeting the rubric's explicit probability language, though the wording is less conventional, leading to slightly lower confidence for D. No implicit category statements are present (E). Probability statements are explicit rather than merely implied, so F is not met."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.97,
+          "C": 0.9
+        },
+        "comment": "Feature A is satisfied because the first listed diagnosis (GERD) is directly linked to specific supporting data (heartburn symptoms, worsening when lying down). Feature B is not met; the assessment does not mention any of the required risk factors nor the phrase \"cardiac risk factors.\" Feature C is met as the assessment references key historical features such as the quality of pain (heartburn/burning), precipitating/alleviating factors (worsening while lying down, associated with eating), and the lack of exertional trigger, all of which align with the rubric's expectations."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.97,
+          "B": 0.96,
+          "C": 0.9
+        },
+        "comment": "Feature A is clearly satisfied as each alternative diagnosis is directly linked to supporting data points. Feature B is not met because no specific risk factors (e.g., diabetes, hypertension, smoking, NSAID use, etc.) are mentioned, nor is there an explicit statement of \"cardiac risk factors.\" Feature C is satisfied: the note references key historical features such as pain worsening when lying down, association with eating, and lack of response to heartburn medication, which align with the rubric's required elements."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.98,
+          "C": 0.98,
+          "D": 0.99,
+          "E": 0.99
+        },
+        "comment": "All rubric criteria are met. The plan explicitly ties tests (endoscopy, EKG) to specific diagnoses (ulcer, ACS), cardiac and GI diagnoses are mentioned, and both cardiac and GI tests are referenced. Confidence is high for each feature."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d56",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.99,
+          "C": 0.98,
+          "D": 0.95,
+          "E": 0.95,
+          "F": 0.96,
+          "G": 0.9
+        },
+        "comment": "The summary is concise and highlights the key issue, includes age, and notes worsening symptoms, satisfying A, B, and F. It lacks any mention of cardiac/GI risk factors, specific pain location, episodic descriptors, or at least two semantic qualifiers, leading to false for C, D, E, and G."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.97,
+          "E": 0.95,
+          "F": 0.95
+        },
+        "comment": "The assessment lists three specific diagnoses, satisfying the requirement for at least two diagnoses (A). No cardiac ischemia terms are present (B). Gastrointestinal diagnoses such as GERD and hiatal hernia are mentioned (C). The phrase \"Most likely\" explicitly states probability (D). There is no generic implicit differential phrasing (E) and no implied-but-not-explicit probability statements (F). Confidence is high for all judgments."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.97,
+          "C": 0.96
+        },
+        "comment": "The assessment section lists possible diagnoses but does not provide any supporting data points, risk factors, or historical features. Therefore none of the rubric features are satisfied. Confidence is high due to clear absence of required content."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.95,
+          "C": 0.95
+        },
+        "comment": "The assessment list provides possible diagnoses (GERD/H. pylori, sliding hiatal hernia, biliary disease) but does not explicitly link each alternative diagnosis to specific supporting data points from the history or exam, nor does it mention any risk factors or key historical features relevant to cardiac or GI disease. Therefore all rubric features are not met, and confidence is high given the clear absence of required content."
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.6,
+          "B": 0.95,
+          "C": 0.98,
+          "D": 0.95,
+          "E": 0.97
+        },
+        "comment": "Feature A is judged false because the plan lists the H. pylori urea breath test without an explicit phrase linking it to evaluating or ruling out a specific diagnosis, though the assessment mentions H. pylori. Feature B is absent; no cardiac ischemia diagnosis is mentioned. Feature C is present via GERD and biliary disease in the assessment. Feature D is absent; no cardiac test is listed. Feature E is present as the plan includes an H. pylori test, which matches the GI test criterion."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d5f",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.9,
+          "B": 1.0,
+          "C": 1.0,
+          "D": 1.0,
+          "E": 0.85,
+          "F": 0.95,
+          "G": 0.9
+        },
+        "comment": "The statement is a concise summary highlighting key features, includes age, cardiac risk factors, substernal location, mentions triggers (brought on by eating, stress, lying down) which satisfy episodic nature, notes worsening over 6 months indicating progression, and contains at least two semantic qualifiers (progressive and risk factors). Confidence is slightly lower for episodic nature due to lack of explicit terms like 'intermittent', but triggers meet rubric criteria."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.99,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.98,
+          "E": 0.95,
+          "F": 0.94
+        },
+        "comment": "The assessment lists two specific diagnoses (GERD and stable angina), fulfilling the requirement for \u22652 diagnoses (A). Both a cardiac ischemia term (stable angina) and a GI term (GERD) are explicitly mentioned, satisfying B and C. The phrase \"most likely\" provides an explicit probability statement, meeting D. No generic implicit category such as \"cardiac disease\" or \"esophageal/GI disease\" appears, so E is not met. The probability statements are explicit rather than merely implied, so F is also not satisfied."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.95,
+          "C": 0.94
+        },
+        "comment": "The note links GERD (the leading diagnosis) to specific supporting data (post\u2011prandial discomfort, burning sensation, obesity). It explicitly cites risk factors (overweight/obesity for GERD; hypertension, hyperlipidemia, smoking for cardiac disease). It also mentions key historical features: quality of pain (burning), precipitating factor (worse after eating), and a cardiac\u2011related feature (pressure with exertion). Confidence is high for all features."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.97,
+          "C": 0.95
+        },
+        "comment": "The note explicitly links the alternative diagnosis (stable angina) to supporting data (exertional pain, hypertension, hyperlipidemia, smoking) satisfying A. It lists specific risk factors\u2014overweight/obesity for GERD and hypertension, hyperlipidemia, smoking for cardiac disease\u2014meeting B. It also references key historical features: burning quality, post\u2011prandial worsening, and exertional pressure, fulfilling C. Confidence is high as the required elements are clearly present."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.97,
+          "B": 0.97,
+          "C": 0.97,
+          "D": 0.97,
+          "E": 0.97
+        },
+        "comment": "The plan explicitly links each test to a specific diagnosis, and both cardiac and GI diagnoses and their corresponding tests are mentioned in the assessment and plan sections. Confidence is high because the language matches the rubric criteria directly."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d67",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 1.0,
+          "C": 0.95,
+          "D": 0.95,
+          "E": 0.95,
+          "F": 0.95,
+          "G": 0.95
+        },
+        "comment": "The statement is a concise summary highlighting key features (age, risk factors, symptom characteristics, exam findings, and differential) rather than a full recount, satisfying A. All other rubric items are explicitly present. Confidence for A is slightly lower due to potential interpretation of \"summary\" vs. detailed recap, but the rest are clear."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.97,
+          "B": 0.96,
+          "C": 0.96,
+          "D": 0.98,
+          "E": 0.92,
+          "F": 0.95
+        },
+        "comment": "The note lists three specific diagnoses (GERD, CAD, PUD) satisfying A. It explicitly mentions stable coronary artery disease, fulfilling B, and mentions GERD and PUD, fulfilling C. The phrase \"The most likely diagnosis is gastroesophageal reflux disease\" provides an explicit probability statement for D. No generic category statements are present, so E is false. The note uses language like \"alternative diagnosis\" and \"possible, though less likely\" indicating implied probabilities, satisfying F. Confidence is high across all features, slightly lower for E due to interpretation of implicit statements."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.97,
+          "C": 0.96
+        },
+        "comment": "The note explicitly links GERD to specific supporting data (positional nature, burning quality, antacid response, lack of ischemic features) satisfying A. It lists several specific cardiac risk factors (hypertension, hyperlipidemia, obesity, smoking) satisfying B. It also describes key historical features: pressure\u2011like burning pain, intermittent course, worsens when lying down, improves when sitting up, and partial response to antacids, meeting the requirements of C. Confidence is high for all features."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.97,
+          "C": 0.9
+        },
+        "comment": "The note explicitly links the alternative diagnosis of CAD to specific risk factors and clinical findings (A). It lists several concrete cardiac risk factors (hypertension, hyperlipidemia, obesity, smoking, age) satisfying the requirement (B). It also describes key historical features\u2014pressure\u2011like burning quality, intermittent nature, worsening when lying down, and partial response to antacids\u2014that support both GI and cardiac considerations, meeting the criteria for C. Confidence is high overall, with slightly lower certainty for C due to the broader range of possible key features."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.99,
+          "E": 0.98
+        },
+        "comment": "The plan explicitly links cardiac testing to ruling out cardiac ischemia (A). Both cardiac (stable CAD, cardiac ischemia) and GI (GERD, PUD) diagnoses are mentioned in the assessment (B, C). Cardiac tests (ECG, stress test) and a GI test (EGD) are clearly listed in the plan (D, E). Confidence is high for all features."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d6a",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.99,
+          "C": 0.97,
+          "D": 0.98,
+          "E": 0.9,
+          "F": 0.95,
+          "G": 0.8
+        },
+        "comment": "The summary is concise and focuses on key clinical features, satisfying the summary requirement (A). Age, hypertension, and obesity are clearly mentioned, covering risk factors (C) and age (B). Location of pain is specified as substernal central chest discomfort (D). The note references an episodic nature ('occasionally') and triggers (eating, exertion) and notes progression to rest pain, meeting time\u2011course criteria for episodic nature (E) and progression (F). However, the rubric for semantic qualifiers (G) requires at least two exact qualifiers from the provided list. The text includes 'progressed' (close to 'progressive') and mentions 'exertion' (not the exact word 'exertional'), which may not be counted as explicit qualifiers, so the requirement is not clearly met."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.94,
+          "E": 0.97,
+          "F": 0.96
+        },
+        "comment": "The assessment lists two diagnoses (ACS and GERD) satisfying feature A. ACS is an acute coronary syndrome, meeting the cardiac ischemia requirement (B). GERD meets the GI diagnosis requirement (C). The phrase \"leading diagnosis\" explicitly conveys probability, satisfying D. No generic implicit differential wording is present, so E is false. Probability is explicitly stated, not just implied, and there is no \"should consider\" language, so F is false."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.96,
+          "C": 0.96
+        },
+        "comment": "The provided assessment snippet only lists the leading diagnosis (ACS) and a secondary diagnosis (GERD) without any supporting data points, risk factor discussion, or historical key features. Therefore none of the rubric criteria are satisfied. Confidence is high due to clear absence of required content."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.93,
+          "B": 0.93,
+          "C": 0.93
+        },
+        "comment": "The provided excerpt only lists the assessment diagnoses (ACS and GERD) without any explanation linking GERD to specific data points, risk factors, or key historical features. Therefore none of the rubric criteria are satisfied. Confidence is high because the excerpt lacks any relevant detail."
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.98,
+          "C": 0.98,
+          "D": 0.98,
+          "E": 0.95
+        },
+        "comment": "The plan lists only \"EKG\" without linking it explicitly to a diagnosis, so feature A is not met. ACS (acute coronary syndrome) appears in the assessment, satisfying cardiac ischemia diagnosis (B). GERD appears, satisfying GI diagnosis (C). An EKG is mentioned, covering a cardiac test (D). No gastrointestinal test is mentioned, so feature E is not satisfied."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d66",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": true,
+          "F": false,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.9,
+          "B": 0.97,
+          "C": 0.95,
+          "D": 0.96,
+          "E": 0.9,
+          "F": 0.94,
+          "G": 0.85
+        },
+        "comment": "The statement reads more like a brief recount of history and exam rather than a concise summary, so feature A is not met. Age is clearly stated (B). No cardiac or GI risk factors are mentioned (C). Chest pain location is identified (D). Triggers such as eating and walking are described, satisfying the \"made worse with\" criterion for episodic nature (E). No progression of pain is noted (F). The required semantic qualifier words are not explicitly used; concepts are implied but the specific terms are absent, so G is not satisfied."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.99,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.95,
+          "E": 0.95,
+          "F": 0.96
+        },
+        "comment": "The assessment lists two specific diagnoses (ACS and GERD), satisfying the requirement for at least two diagnoses (A) and covering both a cardiac ischemia term (ACS) (B) and a GI term (GERD) (C). No explicit probability language such as \"likely\" or \"most likely\" is present, so D is not met. Implicit broader categories like \"cardiac disease\" are not mentioned, so E is not met. The diagnoses are presented as a numbered list (#1, #2), which the rubric counts as an implied statement of probability, satisfying F."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.96,
+          "C": 0.9
+        },
+        "comment": "Feature A is satisfied because each diagnosis (ACS, GERD) is directly linked to a supporting data point (worsening with exercise, worsening after eating). Feature B is not met; the note does not mention any specific cardiac or GI risk factors such as diabetes, hypertension, smoking, obesity, age, NSAID or steroid use. Feature C is satisfied as the note includes precipitating factors: exertional worsening for ACS and post\u2011prandial worsening for GERD, which are key historical features per the rubric."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.98,
+          "C": 0.94
+        },
+        "comment": "Feature A is satisfied because each alternative diagnosis (ACS, GERD) is directly linked to a specific supporting data point (exertional worsening, post\u2011prandial worsening). Feature B is not met; the note does not mention any cardiac or GI risk factors such as diabetes, hypertension, smoking, obesity, age, NSAID or steroid use. Feature C is met, as the note cites key historical features that support the diagnoses: worsening with exertion for ACS and worsening after eating for GERD, both of which are listed precipitating factors in the rubric. Confidence is high for all judgments given the clear presence or absence of the required elements."
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.75,
+          "B": 0.95,
+          "C": 0.95,
+          "D": 0.98,
+          "E": 0.95
+        },
+        "comment": "Feature A is marked false because the plan mentions an EKG without explicitly linking it to evaluating or ruling out ACS; the rubric requires an explicit connection. The other features are clearly satisfied: ACS (acute coronary syndrome) and GERD are named, an EKG is listed as a cardiac test, and no GI test is mentioned. Confidence is high for B, C, D, and E, with slightly lower confidence for A due to potential interpretation of implied linkage."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d70",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": false,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 0.98,
+          "C": 0.95,
+          "D": 0.97,
+          "E": 0.8,
+          "F": 0.9,
+          "G": 0.85
+        },
+        "comment": "The summary captures key points and includes age, chest discomfort location, and mentions cardiac risk factors, satisfying A-D. It notes that discomfort is brought on by walking/stress, meeting the episodic trigger criterion (E). No explicit statement of worsening over time, so F is not met. Only one semantic qualifier ('cardiac risk factors') is present, falling short of the required two for G."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.97,
+          "B": 0.97,
+          "C": 0.98,
+          "D": 0.96,
+          "E": 0.9,
+          "F": 0.94
+        },
+        "comment": "The note lists three distinct diagnoses, satisfying the requirement for two or more (A). It includes specific cardiac ischemia terms (stable angina, myocardial infarction) meeting (B). No gastrointestinal diagnoses are mentioned, so (C) is not met. The phrase \"most likely\" explicitly states probability, fulfilling (D). The differential is presented as a numbered list of specific entities rather than an implicit category like \"cardiac disease,\" so (E) is not satisfied. Because probability is explicitly stated rather than merely implied, the condition for implied probability without explicit wording (F) is not met."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.9,
+          "B": 0.95,
+          "C": 0.85
+        },
+        "comment": "The assessment links the leading diagnosis (stable angina) to specific data (pain with lying down or walking), satisfying feature A. No cardiac or GI risk factors (e.g., diabetes, hypertension, smoking) are mentioned, so feature B is not met. The note does cite a precipitating factor for the pain, which fulfills feature C's requirement of mentioning any key historical feature."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.9,
+          "C": 0.9
+        },
+        "comment": "Feature A is satisfied because each alternative diagnosis is directly linked to supporting data (e.g., pain on lying down/walking for angina, lack of friction rub for pericarditis, waxing/waning symptoms for MI). Feature B is not met; the note does not mention any cardiac or GI risk factors such as diabetes, hypertension, smoking, obesity, age, NSAID or steroid use. Feature C is met since the note cites precipitating factors from the history (pain worsened when lying down and with walking), which are among the key historical features listed in the rubric."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.98,
+          "C": 0.97,
+          "D": 0.96,
+          "E": 0.95
+        },
+        "comment": "The plan links the EKG directly to evaluating for cardiac ischemia (A). Cardiac ischemia diagnoses (stable angina, myocardial infarction) are present in the assessment (B). No GI diagnoses or GI-specific tests are mentioned (C, E). An EKG is explicitly listed, satisfying the cardiac test criterion (D). Confidence is high for all items."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d4f",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.8,
+          "B": 1.0,
+          "C": 0.95,
+          "D": 0.95,
+          "E": 0.8,
+          "F": 1.0,
+          "G": 0.9
+        },
+        "comment": "The statement repeats many historical and exam details rather than providing a concise synthesis, so it fails the 'summary not recap' criterion (A). Age is clearly stated (B). Obesity and hypertension are mentioned as risk factors for cardiac disease, satisfying C. Chest location is described (D). The note lacks explicit episodic language (e.g., intermittent, recurrent) so E is not met. Progression from 4/10 to 7/10 is noted, meeting F. It includes at least two semantic qualifiers ('post\u2011prandial' and 'progressed'), satisfying G."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.97,
+          "E": 0.95,
+          "F": 0.96
+        },
+        "comment": "The assessment lists three distinct diagnoses (GERD, ACS, anxiety), satisfying feature A. It explicitly names a cardiac ischemia diagnosis (acute coronary syndrome) for feature B and a GI diagnosis (GERD) for feature C. The phrase \"leading diagnosis is\" provides an explicit probability statement, meeting feature D. There is no generic/implicit phrasing like \"cardiac disease\" or \"esophageal disease,\" so feature E is not met. The probability statements are explicit rather than implied, so feature F is also not met."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.94,
+          "C": 0.86
+        },
+        "comment": "A is clearly satisfied as the note links GERD to specific historical data and obesity. B is satisfied because obesity and hypertension are explicitly mentioned as risk factors. C is satisfied by noting that the pain \"arises at rest,\" which matches the rubric's example of a precipitating factor (occurs at rest); however, the note lacks other key descriptors, so confidence is slightly lower."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.92,
+          "B": 0.94,
+          "C": 0.9
+        },
+        "comment": "The note links each alternative diagnosis to specific supporting data (A). It explicitly mentions obesity and hypertension as risk factors (B). It includes a precipitating factor\u2014pain arising at rest\u2014supporting cardiac disease (C). Confidence is high given the clear statements, though limited excerpt prevents verification of all possible key features."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.97,
+          "C": 0.98,
+          "D": 0.99,
+          "E": 0.99
+        },
+        "comment": "The plan links each test to a specific diagnostic concern (EKG/troponin for possible ACS, endoscopy for GERD), satisfying feature A. The assessment explicitly names acute coronary syndrome and GERD, covering features B and C. The plan mentions an EKG (feature D) and an upper GI endoscopy (feature E). Confidence is high for all features as the required terms are clearly present."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d51",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.8,
+          "B": 0.95,
+          "C": 0.9,
+          "D": 0.95,
+          "E": 0.85,
+          "F": 0.9,
+          "G": 0.8
+        },
+        "comment": "The summary captures key clinical points and thus satisfies the summary requirement (A). Age is not mentioned, so B is false. Diabetes and hypertension are listed, meeting the risk\u2011factor criterion (C). Pain location is clearly described (D). The note notes that pain worsens after meals, satisfying the episodic/time\u2011course element (E), and it explicitly describes increasing intensity, satisfying progression (F). However, the text does not contain at least two of the exact semantic qualifier words listed (e.g., \"intermittent\", \"post\u2011prandial\", \"progressive\"), so G is false. Confidence levels reflect certainty about each determination."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.98,
+          "C": 0.98,
+          "D": 0.85,
+          "E": 0.97,
+          "F": 0.95
+        },
+        "comment": "The assessment lists three distinct diagnoses, satisfying feature A. Both a cardiac ischemia diagnosis (coronary artery disease) and GI diagnoses (peptic ulcer disease, GERD) are present, meeting features B and C. The phrase \"less likely\" is an explicit probability statement, supporting feature D, though interpretation could vary, hence slightly lower confidence. No implicit category statements are made, so feature E is false. The diagnoses are numbered (1, 2, 3), which the rubric counts as an implied probability format, satisfying feature F."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.9,
+          "C": 0.94
+        },
+        "comment": "The assessment links the leading diagnosis (peptic ulcer disease) directly to supporting data (pain with eating, lack of medication response) satisfying A. Hypertension is explicitly mentioned as a cardiac risk factor, meeting B. The note references key historical features\u2014pain worsening with food and lack of response to medication\u2014addressing precipitating factors and associated symptom criteria for C."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.94,
+          "C": 0.95
+        },
+        "comment": "The assessment links each alternative diagnosis to specific supporting data (pain with eating, lack of medication response, S4 and hypertension). Hypertension is an explicit cardiac risk factor, satisfying feature B. The note also cites precipitating factor (pain worsened by eating) and lack of response to medication, meeting feature C. Confidence is high due to clear alignment with rubric criteria."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.99,
+          "B": 0.98,
+          "C": 0.99,
+          "D": 0.97,
+          "E": 0.98
+        },
+        "comment": "The plan explicitly links H. pylori testing to suspected peptic ulcer disease (A). The assessment includes coronary artery disease, a cardiac ischemia diagnosis (B), and both peptic ulcer disease and GERD, GI diagnoses (C). No cardiac test is mentioned (D). H. pylori testing qualifies as a GI test (E). All judgments are based on clear statements, leading to high confidence."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d5a",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": false,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 0.99,
+          "C": 0.98,
+          "D": 0.97,
+          "E": 0.96,
+          "F": 0.9,
+          "G": 0.75
+        },
+        "comment": "The summary is concise and highlights key features, meeting the definition of a summary (A). Age is explicitly stated (B). Cardiac risk factors (HTN, T2DM, HLD) are listed (C). Chest burning location is mentioned (D). Episodic nature and triggers are described (E). No explicit mention of pain progression (F). At least two semantic qualifiers are present: 'exertional' and the presence of cardiac risk factors (G), though the latter is not phrased exactly as in the list, leading to moderate confidence."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.97,
+          "B": 0.96,
+          "C": 0.96,
+          "D": 0.94,
+          "E": 0.94,
+          "F": 0.95
+        },
+        "comment": "The note lists five distinct diagnoses, satisfying the requirement for at least two (A). It includes the specific cardiac ischemia term 'Acute coronary syndrome' (B) and several GI diagnoses such as GERD, peptic ulcer disease, and esophagitis (C). No explicit probability language like 'most likely' or 'probable' is used, so D is not met. The note does not provide a generic implicit category statement (e.g., 'cardiac disease'), so E is not satisfied. However, the differential is presented as a numbered list, which the rubric counts as an implied probability statement, satisfying F."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.9,
+          "B": 0.95,
+          "C": 0.9
+        },
+        "comment": "The note explicitly links GERD (the first and implied leading diagnosis) to supporting data (episodic burning after meals and lying down, obesity). It mentions specific risk factors such as obesity, hypertension, hyperlipidemia, and diabetes. It also includes key historical features like burning quality, episodic nature, and aggravation by food and recumbency, satisfying the rubric criteria. Confidence is high, with slight uncertainty about the interpretation of 'leading diagnosis' given the list of differentials."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.95,
+          "C": 0.94
+        },
+        "comment": "The note lists each alternative diagnosis and directly ties it to specific supporting data (e.g., burning after meals for GERD, hypertension/diabetes/obesity and an S4 for ACS, medication use for esophagitis). It mentions explicit cardiac and GI risk factors (HTN, hyperlipidemia, diabetes, obesity). It also includes key historical features such as burning quality, episodic nature, and aggravation by food and lying down, satisfying the rubric\u2019s requirement for key pain characteristics. Confidence is high because the criteria are clearly met in the provided text."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.97,
+          "C": 0.96,
+          "D": 0.98,
+          "E": 0.97
+        },
+        "comment": "The plan explicitly links tests to specific diagnoses (EGD for GI pathology, stress test for angina), mentions cardiac ischemia diagnoses (angina, acute coronary syndrome) and GI diagnoses (GERD, PUD, esophagitis). It includes a cardiac test (stress test) and GI tests (EGD, H. pylori breath test). Confidence is high for all features."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d52",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": false,
+          "E": false,
+          "F": false,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.9,
+          "B": 0.98,
+          "C": 0.98,
+          "D": 0.98,
+          "E": 0.98,
+          "F": 0.98,
+          "G": 0.98
+        },
+        "comment": "The summary statement merely notes a well visit and an S4 finding; it does not provide a concise summary of key clinical features, nor does it include age, risk factors, pain location, temporal descriptors, or the required semantic qualifiers. All rubric criteria are unmet, and the absence of these elements is clear, yielding high confidence in the false assessments."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.95,
+          "E": 0.7,
+          "F": 0.96
+        },
+        "comment": "The note lists three specific cardiac diagnoses, satisfying the requirement for two or more diagnoses (A). No cardiac ischemia or GI diagnoses are mentioned, so B and C are false. Probability language is not explicit (e.g., \"most likely\"), making D false, but the phrase \"may be suffering from\" implies a possible diagnosis, fulfilling feature F. The rubric's implicit differential (E) expects a generic category statement such as \"cardiac disease,\" which is not present; the list of specific diagnoses does not meet that criterion, though there is some ambiguity, reflected in the lower confidence."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.95,
+          "C": 0.94
+        },
+        "comment": "The assessment lists possible cardiac diagnoses but does not reference any patient-specific supporting data, risk factors, or key historical features required by the rubric. Therefore none of the rubric features are satisfied, and confidence is high given the clear absence of the required elements."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.96,
+          "C": 0.96
+        },
+        "comment": "The assessment lists alternative cardiac diagnoses but does not connect them to specific data points from the history, exam, or investigations, nor does it mention any cardiac risk factors or relevant historical features required by the rubric."
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 0.95,
+          "C": 0.95,
+          "D": 0.98,
+          "E": 0.95
+        },
+        "comment": "Feature A is not satisfied because the plan does not explicitly link a test to a specific diagnosis (e.g., 'EKG to rule in hypertrophic cardiomyopathy'). Feature B is absent as no ischemic cardiac diagnoses are mentioned. Feature C and E are absent due to no GI diagnoses or tests. Feature D is satisfied by the mention of an EKG. Confidence levels reflect certainty about the presence or absence of these explicit statements."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d5c",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.9,
+          "B": 0.98,
+          "C": 0.95,
+          "D": 0.96,
+          "E": 0.9,
+          "F": 0.94,
+          "G": 0.8
+        },
+        "comment": "The summary reads more like a detailed recount of history and exam rather than a concise synthesis, so feature A is not met. Age, hypertension, diabetes, and chest location are clearly stated, satisfying B, C, and D. The note mentions worsening over time (progression) but does not describe an episodic or intermittent pattern, so E is false while F is true. For G, only one possible qualifier ('worsened') appears, which may not meet the explicit list; therefore, the requirement of at least two qualifiers is not satisfied."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.99,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.98,
+          "E": 0.97,
+          "F": 0.97
+        },
+        "comment": "The note lists two diagnoses (GERD and angina), includes a specific cardiac ischemia term (angina) and a specific GI term (GERD). It explicitly states a leading diagnosis, satisfying D. No broader implicit category like \u201ccardiac disease\u201d is present, so E is false. The phrase \u201ccould be angina\u201d implies probability without explicit wording, meeting F."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 0.9,
+          "C": 0.9
+        },
+        "comment": "Feature A is satisfied because the student explicitly links the GERD diagnosis to the location, quality, and onset of symptoms, though the specific data points are not enumerated, leading to slightly lower confidence. Feature B is met by mentioning hypertension (HTN) as a cardiac risk factor. Feature C is not met; the note lacks any of the required historical details such as specific pain quality, precipitating/alleviating factors, or associated symptom information."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.95,
+          "C": 0.9
+        },
+        "comment": "The note links the alternative diagnosis (angina) to specific supporting data (mild HTN and an S4), satisfying feature A. It explicitly mentions hypertension, a specific cardiac risk factor, meeting feature B. However, it does not provide any of the key historical features listed (pain quality descriptors, precipitating/alleviating factors, or associated symptom details), so feature C is not met."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.97,
+          "C": 0.97,
+          "D": 0.98,
+          "E": 0.96
+        },
+        "comment": "The plan explicitly links cardiac testing to ruling out a cardiac cause (feature A) and includes specific cardiac diagnoses (angina) in the assessment (feature B) as well as a GI diagnosis (GERD) (feature C). Cardiac tests (EKG, stress test) are mentioned (feature D). No GI diagnostic test is listed, so feature E is not met. Confidence is high for all judgments."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d5d",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 0.99,
+          "C": 0.98,
+          "D": 0.97,
+          "E": 0.9,
+          "F": 0.99,
+          "G": 0.95
+        },
+        "comment": "The summary statement concisely highlights key patient data, age, relevant cardiac/GI risk factors, chest location with burning quality, episodic and progressive time course, and includes semantic qualifiers such as \"progressively\" and post\u2011prandial worsening. All rubric criteria appear satisfied with high confidence."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 1.0,
+          "B": 1.0,
+          "C": 1.0,
+          "D": 0.85,
+          "E": 1.0,
+          "F": 0.9
+        },
+        "comment": "The assessment lists three diagnoses, satisfying the requirement for \u22652 items (A). Both a cardiac ischemia diagnosis (ACS) and a GI diagnosis (GERD) are explicitly mentioned (B, C). The student provides probability language such as \"most common\" and \"less likely,\" which counts as explicit probability statements (D). No broad, implicit categories like \"cardiac disease\" are used, so E is false. The numbered list (1., 2., 3.) implies an ordered differential, satisfying the implied probability criterion (F). Confidence is highest for the clear\u2011cut items and slightly lower for D and F due to interpretation nuances."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 0.95,
+          "C": 0.9
+        },
+        "comment": "The note links GERD as the primary diagnosis to specific supporting data (burning pain worsened by eating and lying down), satisfying feature A. No specific cardiac or GI risk factors are mentioned, so feature B is not met. The description includes key historical features\u2014burning quality and post\u2011prandial/positional worsening\u2014fulfilling feature C."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.97,
+          "C": 0.95
+        },
+        "comment": "The student links each alternative diagnosis to specific data points from the case (e.g., worsening after eating, positional nature, absence of rash), satisfying feature A. No specific cardiac or gastrointestinal risk factors (e.g., diabetes, hypertension, smoking, obesity, NSAID use) are mentioned, so feature B is not met. The note includes key historical features such as burning quality and precipitating factors like post\u2011prandial worsening and lying\u2011down aggravation, fulfilling feature C."
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.75,
+          "B": 0.98,
+          "C": 0.98,
+          "D": 0.99,
+          "E": 0.99
+        },
+        "comment": "Feature A is considered not satisfied because the plan does not explicitly link a test to a specific diagnosis; it only prescribes medication and mentions an endoscopy to assess complications, not to rule in/out a diagnosis. The other features are clearly present: ACS (cardiac ischemia) and GERD (GI) are mentioned, a GI test (upper endoscopy) is ordered, and no cardiac test is referenced."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d4c",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.8,
+          "B": 0.95,
+          "C": 0.9,
+          "D": 0.95,
+          "E": 0.85,
+          "F": 0.9,
+          "G": 0.8
+        },
+        "comment": "The summary reads more like a recap of history and exam rather than a concise synthesis, and it omits the patient's age. It does include cardiac risk factors (HTN, DM) and specifies chest location of pain. It mentions worsening (progression) but does not describe episodic nature, and only provides one semantic qualifier (worsening) which may not meet the requirement of at least two listed qualifiers."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.98,
+          "E": 0.95,
+          "F": 0.85
+        },
+        "comment": "The assessment lists three specific diagnoses (GERD, unstable angina, costochondritis) satisfying A. It explicitly mentions the cardiac ischemia diagnosis 'unstable angina' (B) and the GI diagnosis 'GERD' (C). The phrase 'most likely the pain is from GERD' provides an explicit probability statement (D). No generic implicit categories like 'cardiac disease' or 'esophageal disease' appear, so E is false. The note also uses implied probability language such as 'could also be' and 'could be', meeting the criteria for F, though there is some ambiguity about whether this satisfies the implied\u2011only requirement, hence a slightly lower confidence."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.95,
+          "C": 0.9
+        },
+        "comment": "Feature A is satisfied because the assessment explicitly links GERD to the patient's described burning sensation. Feature B is not satisfied; the note only mentions \"risk factors\" without specifying any of the required risk factors. Feature C is satisfied as the note cites a key quality of pain (burning sensation) supporting a GI etiology, which meets the rubric's requirement for mentioning a relevant historical feature."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.95,
+          "C": 0.9
+        },
+        "comment": "The note links each alternative diagnosis (GERD, unstable angina, costochondritis) to specific supporting data, satisfying Feature A. It only mentions vague \"risk factors\" without naming any, so Feature B is not met. It does reference key historical features such as a burning quality of pain and occurrence at rest, meeting Feature C."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.99,
+          "E": 0.99
+        },
+        "comment": "The plan explicitly links ordered tests to suspected diagnoses (EKG for cardiac origin, endoscopy for GI cause), satisfying feature A. The assessment mentions \"unstable angina\" (cardiac ischemia) and \"GERD\" (GI), covering features B and C. The plan includes an EKG (cardiac test) and an endoscopy (GI test), meeting features D and E. All rubric criteria are clearly met, leading to high confidence in each judgment."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d71",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 0.99,
+          "C": 0.98,
+          "D": 0.95,
+          "E": 0.7,
+          "F": 0.99,
+          "G": 0.8
+        },
+        "comment": "The note includes many details (social history, medication use) beyond key features, making it more of a recap than a concise summary (A). Age is clearly stated (B). Hypertension and hyperlipidemia are cardiac risk factors, satisfying C. Chest discomfort is mentioned, meeting D. While triggers are listed, the note does not explicitly describe the pain as intermittent/episodic, so E is not met. The phrase \"progressively worsening\" directly addresses progression, satisfying F. Only one explicit semantic qualifier (\"progressively worsening\") appears, and the phrase \"risk factors\" is not used, so G is not satisfied."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.97,
+          "B": 0.96,
+          "C": 0.97,
+          "D": 0.95,
+          "E": 0.85,
+          "F": 0.9
+        },
+        "comment": "The assessment lists three distinct diagnoses (A), includes a specific cardiac ischemia term (B) and specific GI terms (C). An explicit probability phrase \"Most likely\" is present for GERD (D). Implicit category statements like \"cardiac disease\" or \"GI disease\" are absent (E). The diagnoses are presented as a numbered list, satisfying the implied probability criterion (F). Confidence is high for most items; slightly lower for E due to potential interpretation of implicit wording."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.95,
+          "C": 0.85
+        },
+        "comment": "The note links GERD (the leading diagnosis) to specific data points (pain characteristics, posture, postprandial onset) satisfying A. It lists concrete cardiac risk factors (age, hypertension, hyperlipidemia) satisfying B. It includes several key historical features: indigestion-like pain, worsening with lying down, postprandial onset, pain with exertion, and prior antacid use, meeting C. Confidence is slightly lower for C because the response to antacids is implied rather than explicitly described as incomplete."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.94,
+          "C": 0.95
+        },
+        "comment": "The assessment explicitly links each alternative diagnosis to specific supporting data (A). It mentions concrete cardiac risk factors such as hypertension, hyperlipidemia, age, and female sex (B). It also includes key historical features\u2014quality of pain, precipitating/alleviating factors, and prior antacid use\u2014supporting both GI and cardiac etiologies (C). Confidence is high for all features."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.98,
+          "E": 0.97
+        },
+        "comment": "All rubric elements are present. The plan explicitly links each test to a specific diagnosis (cardiac work\u2011up with EKG/troponin, GERD management with PPI, H. pylori testing, and upper endoscopy). The assessment lists specific cardiac ischemia terminology (angina, stable ischemic heart disease) and GI diagnoses (GERD, esophageal spasm/esophagitis). Cardiac and GI tests are mentioned by name. Confidence is high for each feature."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d4e",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.99,
+          "C": 0.98,
+          "D": 0.97,
+          "E": 0.8,
+          "F": 0.97,
+          "G": 0.75
+        },
+        "comment": "The summary is concise and highlights key features, includes age, and lists cardiac risk factors (HTN, diabetes) and chest location of pain. It mentions progression of pain (worsening frequency/intensity) fulfilling feature F. However, it does not explicitly use episodic qualifiers (intermittent, recurrent, etc.), so feature E is not met. For semantic qualifiers, only 'worsened' (progressive) is evident, lacking a second qualifier from the specified list, thus feature G is not satisfied. Confidence scores reflect certainty about each judgment, with lower confidence on E and G due to interpretation nuances."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.99,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.99,
+          "E": 0.8,
+          "F": 0.9
+        },
+        "comment": "The note lists multiple diagnoses (GERD, MI, pancreatitis, cholecystitis) satisfying A-C. It explicitly states a leading diagnosis, meeting D. It does not provide a generic implicit category statement, so E is false. The phrase \"other differentials to consider\" implies probability without explicit wording, satisfying F. Confidence is lower for E due to potential interpretation of \"cardiac history\" as an implicit cardiac disease reference."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.85,
+          "C": 0.95
+        },
+        "comment": "Feature A is met because the diagnosis (GERD) is directly linked to the burning sensation and partial relief with TUMS. Feature B is not met; the note references \"cardiac history\" but does not list specific risk factors (e.g., hypertension, diabetes, smoking) nor does it use the exact phrase \"cardiac risk factors.\" Feature C is satisfied as the note mentions a key pain quality (burning) and an associated history of incomplete response to TUMS, which aligns with the rubric's required elements."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.9,
+          "B": 0.85,
+          "C": 0.95
+        },
+        "comment": "Feature A is false because alternative diagnoses (pancreatitis, cholecystitis) are listed without any specific supporting data points from the history. Feature B is false; the note mentions a cardiac history but does not list specific risk factors nor use the exact phrase \u201ccardiac risk factors.\u201d Feature C is true: the note cites a burning sensation (pain quality) and partial relief with TUMS (antacid response), which are key historical features supporting GERD. Confidence levels reflect certainty of these interpretations."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.9,
+          "C": 0.95,
+          "D": 0.9,
+          "E": 0.95
+        },
+        "comment": "Features A, B, C, and D are satisfied because the plan links a PPI to GERD (A), the assessment mentions MI (cardiac ischemia) (B), GERD is explicitly noted (C), and an EKG is recommended in the assessment (D). No GI-specific diagnostic test (e.g., endoscopy, H. pylori testing) is mentioned, so feature E is not met. Confidence is high for each judgment."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d63",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": false,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.99,
+          "C": 0.98,
+          "D": 0.97,
+          "E": 0.96,
+          "F": 0.96,
+          "G": 0.95
+        },
+        "comment": "The summary is concise and highlights key features (age, duration, chest discomfort, antacid response), satisfying A. Age is mentioned (B). No risk factors are listed (C). Chest location is identified (D). There is no mention of episodic or progressive nature, nor any semantic qualifiers beyond basic description, so E, F, and G are not met."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.97,
+          "C": 0.97,
+          "D": 0.98,
+          "E": 0.9,
+          "F": 0.93
+        },
+        "comment": "The assessment lists two diagnoses (GERD and angina), satisfying feature A. Both a cardiac ischemia term (angina) and a GI term (GERD) are present, meeting B and C. The phrase \"most likely diagnosis is GERD\" provides an explicit probability statement for D. No generic implicit differential phrase like \"cardiac disease\" appears, so E is false. The numbered list and the qualifier \"but less likely\" imply probability without explicit wording, satisfying F."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.98,
+          "C": 0.9
+        },
+        "comment": "Feature A is satisfied because the assessment explicitly links the GERD diagnosis to the patient's history and symptoms. Feature B is not met; no specific cardiac or GI risk factors are listed. Feature C is met by noting the lack of response to antacids, which is one of the key associated history points required."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.96,
+          "C": 0.9
+        },
+        "comment": "Feature A is not met because the alternative diagnosis (angina) is listed without any supporting data points linking it to the patient's presentation. Feature B is absent as the student does not mention any specific cardiac or GI risk factors. Feature C is satisfied since the note cites a key historical feature\u2014lack of response to antacid\u2014which aligns with the rubric's requirement for mentioning associated symptoms/history supporting GERD."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.9,
+          "B": 0.98,
+          "C": 0.99,
+          "D": 0.95,
+          "E": 0.97
+        },
+        "comment": "The plan links an upper GI endoscopy to the GERD diagnosis, satisfying feature A. Both cardiac (angina) and GI (GERD) diagnoses are mentioned, meeting B and C. No cardiac test is referenced, so D is false. An upper GI endoscopy is a GI test, satisfying E. Confidence is high for all judgments, with slight uncertainty for the explicitness of the linkage in A."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d68",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 1.0,
+          "C": 1.0,
+          "D": 1.0,
+          "E": 0.7,
+          "F": 1.0,
+          "G": 0.9
+        },
+        "comment": "The summary captures key patient data without extraneous detail, includes age and cardiac risk factors, specifies chest discomfort location, notes progression and post\u2011prandial pattern (fulfilling episodic nature), and uses multiple semantic qualifiers such as 'persistent', 'worsened', and mentions risk factors. Confidence is slightly lower for the episodic qualifier (E) due to lack of the exact term 'post\u2011prandial' but the description is equivalent."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.99,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.98,
+          "E": 0.85,
+          "F": 0.95
+        },
+        "comment": "The note lists four diagnoses (A). It explicitly mentions angina and related cardiac terms (B) and GERD, esophageal spasm, PUD (C). It states \"The leading diagnosis is gastroesophageal reflux disease\" (D). It also refers to \"Cardiac causes\" in a category sense, satisfying an implicit differential (E), though interpretation could vary. The note uses language like \"Next on the differential is\" and \"is less likely but possible\", indicating implied probability without explicit qualifiers (F)."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.96,
+          "C": 0.92
+        },
+        "comment": "The note explicitly links GERD to post\u2011prandial and positional symptoms (A). It lists specific cardiac risk factors\u2014hypertension, hyperlipidemia, smoking (B). It describes heartburn\u2011like quality, post\u2011prandial and supine worsening, and lack of antacid response, plus nausea and diaphoresis, fulfilling the key historical features required (C)."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.97,
+          "C": 0.95
+        },
+        "comment": "The note explicitly links each alternative diagnosis to specific supporting data (e.g., postprandial/positional symptoms for GERD, cardiovascular risk factors and diaphoresis for angina, smoking and meal\u2011related pain for ulcer disease). It mentions specific cardiac/GI risk factors (hypertension, hyperlipidemia, smoking) rather than vague statements. It also cites key historical features such as burning quality, worsening after meals and when supine, lack of response to antacid therapy, and associated nausea/diaphoresis, satisfying the required history elements. Confidence is high for all features."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.97,
+          "B": 0.96,
+          "C": 0.97,
+          "D": 0.98,
+          "E": 0.95
+        },
+        "comment": "The plan explicitly links cardiac testing to ruling out cardiac causes (A). Both the assessment and plan mention angina, satisfying the cardiac ischemia diagnosis criterion (B). GERD, esophageal spasm, and peptic ulcer disease are listed in the assessment, meeting the GI diagnosis requirement (C). The plan includes an EKG and cardiac stress test, covering the cardiac test requirement (D). No GI diagnostic test (e.g., endoscopy, H. pylori testing) is mentioned, so the GI test criterion is not met (E). Confidence is high across all items due to clear presence or absence of the required language."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d58",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.97,
+          "B": 0.99,
+          "C": 0.98,
+          "D": 0.96,
+          "E": 0.97,
+          "F": 0.95,
+          "G": 0.85
+        },
+        "comment": "The summary provides key patient details and risk factors, meeting most rubric criteria. It lacks mention of episodic nature, so feature E is false. Feature G is judged true based on inclusion of risk factors and the term 'worsening' as a proxy for 'progressive', though confidence is lower due to synonym interpretation."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.97,
+          "B": 0.98,
+          "C": 0.98,
+          "D": 0.65,
+          "E": 0.95,
+          "F": 0.97
+        },
+        "comment": "The assessment lists multiple specific diagnoses (GERD, peptic ulcer disease, esophageal adenocarcinoma, coronary artery disease), satisfying features A, B, and C. No explicit probability wording such as \"most likely\" or \"probable\" is used, so feature D is marked false, though the phrase \"less likely\" creates some uncertainty (confidence 0.65). Implicit broad categories are not stated, so feature E is false. Implicit probability language like \"possible\" and \"possibility\" is present, fulfilling feature F."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.95,
+          "C": 0.9
+        },
+        "comment": "The note explicitly ties the leading diagnoses (GERD, peptic ulcer disease) to specific data points (worse with fried meals, relief with TUMS, post\u2011prandial pain), satisfying feature A. No specific cardiac or GI risk factors (e.g., diabetes, hypertension, smoking, NSAID use) are mentioned, nor does it state \"cardiac risk factors,\" so feature B is not met. The note does include key historical features supporting GI disease\u2014worsening after meals, worsening when lying down, and partial relief with antacids\u2014meeting feature C."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.95,
+          "C": 0.9
+        },
+        "comment": "Feature A is met because each alternative diagnosis (GERD, peptic ulcer, esophageal adenocarcinoma, coronary artery disease) is explicitly linked to supporting data (e.g., worse with fried meals, stomach pain, absence of dysphagia, pain after meals/lying down). Feature B is not met; the note does not mention any specific cardiac or GI risk factors such as diabetes, hypertension, smoking, obesity, age, NSAID or steroid use, nor does it state \"cardiac risk factors.\" Feature C is satisfied because the note includes precipitating/alleviating factors (worse with fried meals, after meals, when lying down) and associated history (absence of dysphagia) that support GI versus cardiac etiology."
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.7,
+          "B": 0.95,
+          "C": 0.95,
+          "D": 0.95,
+          "E": 0.95
+        },
+        "comment": "Feature A is likely not met because the plan does not explicitly state the purpose of the endoscopy (e.g., 'to evaluate for GERD' or 'to rule out peptic ulcer disease'), though the context implies it. Cardiac ischemia diagnosis (coronary artery disease) is mentioned, satisfying B. Multiple GI diagnoses are listed, satisfying C. No cardiac-specific test is referenced, so D is false. An endoscopy is explicitly ordered, satisfying E."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d6e",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.82,
+          "B": 0.98,
+          "C": 0.97,
+          "D": 0.96,
+          "E": 0.95,
+          "F": 0.95,
+          "G": 0.96
+        },
+        "comment": "Feature A is judged false because the statement reads more like a detailed recap (including full past medical history and exam findings) rather than a concise summary highlighting only key points. All other features are clearly satisfied: age is mentioned, multiple cardiac/GI risk factors are listed, chest location is specified, episodic and post\u2011prandial nature as well as progression are described, and at least two semantic qualifiers (episodic, post\u2011prandial, exertional) are present. Confidence is high for all except A, where some subjectivity exists."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.98,
+          "E": 0.85,
+          "F": 0.95
+        },
+        "comment": "The note lists three diagnoses (GERD, ACS, esophagitis) satisfying A. It mentions ACS, a specific cardiac ischemia term, satisfying B, and GERD, a specific GI term, satisfying C. The phrase \"leading diagnosis is GERD\" is an explicit probability statement, meeting D. No generic category-only statements are present, so E is not met. The phrase \"ACS is possible\" is an implied probability, fulfilling F."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.97,
+          "B": 0.96,
+          "C": 0.96
+        },
+        "comment": "The assessment explicitly links GERD to pain worsening when lying down and relief with antacids (A). It mentions hypertension and hyperlipidemia, which are specific cardiac risk factors (B). It also includes key historical features: burning quality, episodic nature, worsening when lying down, and relief with antacids (C). Confidence is high given clear statements matching rubric criteria."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.96,
+          "C": 0.95
+        },
+        "comment": "The note links each alternative diagnosis to specific supporting data (risk factors for ACS, episodic nature for esophagitis). It explicitly mentions hypertension (a cardiac risk factor) and hyperlipidemia. It also includes key historical features such as burning quality, worsening when lying down, and relief with antacids, satisfying the required history elements."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.97,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.99,
+          "E": 0.98
+        },
+        "comment": "All rubric features are satisfied. The plan explicitly links each test or treatment to a specific diagnosis (e.g., EKG to rule out ACS, PPIs for GERD). The assessment and plan mention acute coronary syndrome and GERD, fulfilling cardiac and GI diagnosis requirements. Cardiac and GI tests are clearly listed (EKG, upper endoscopy, H. pylori stool test). Confidence is high for each feature."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d6b",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.99,
+          "C": 0.85,
+          "D": 0.98,
+          "E": 0.99,
+          "F": 0.96,
+          "G": 0.8
+        },
+        "comment": "The summary captures key information without excessive detail (A). Age is explicitly stated (B). Obesity is implied via BMI, which should satisfy the risk\u2011factor requirement though the wording is indirect, leading to slightly lower confidence (C). The location of discomfort is clearly described (D). No episodic descriptors are present (E). The statement that symptoms may have worsened fulfills the progression criterion (F). The note includes at least two semantic qualifiers: a mention of worsening (progressive) and an implicit obesity risk factor, meeting the qualifier count, but the interpretation of \"risk factor\" and whether \"worsened\" counts as a qualifier adds some uncertainty (G)."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.99,
+          "C": 0.98,
+          "D": 0.9,
+          "E": 0.97,
+          "F": 0.96
+        },
+        "comment": "Feature A is clearly met with three listed diagnoses. No cardiac ischemia terms appear, so B is false. GERD is explicitly mentioned, satisfying C. The phrase \"more likely\" includes the word likely, meeting the explicit probability statement requirement for D, though there is slight uncertainty about whether \"more likely\" counts as explicit, hence a lower confidence. No generic/implicit category statements are present, so E is false. Probability statements are explicit rather than merely implied, so F is false."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.97,
+          "C": 0.75
+        },
+        "comment": "A is clearly satisfied: diagnosis is linked to symptoms and obesity. B is satisfied by explicit mention of obesity as a risk factor. C is partially satisfied \u2013 the note mentions persistent (chronic) discomfort and a response to antacid therapy, which are key historical features, though it lacks detailed pain quality or precipitating factors, leading to moderate confidence."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.97,
+          "C": 0.6
+        },
+        "comment": "The note explicitly links each alternative diagnosis to supporting data (Feature A) and mentions obesity as a specific risk factor for GERD (Feature B). For Feature C, while the note describes \"persistent upper abdominal discomfort\" (which could be interpreted as chronic), it does not clearly include any of the listed key historical features such as pain quality descriptors, precipitating/alleviating factors, or the specific associated symptom criteria required by the rubric, making its satisfaction uncertain."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 0.98,
+          "C": 0.99,
+          "D": 0.98,
+          "E": 0.99
+        },
+        "comment": "Feature A is satisfied because the plan explicitly links the 24\u2011hour pH monitoring to confirming GERD. No cardiac diagnosis or cardiac tests are mentioned, so B and D are false. GERD is clearly stated as the primary diagnosis, fulfilling C. The plan lists Upper Endoscopy (EGD) and esophageal manometry, meeting the GI test requirement for E."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d69",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 0.98,
+          "C": 0.97,
+          "D": 0.96,
+          "E": 0.9,
+          "F": 0.99,
+          "G": 0.88
+        },
+        "comment": "The summary concisely highlights key clinical features and includes age, cardiac risk factors, chest location, progression, and an exertional trigger, meeting all rubric criteria. Confidence is highest for explicit items (age, progression) and slightly lower for semantic qualifier count, which relies on inferred terms like \"exertional\" and risk factor presence."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.99,
+          "C": 0.96,
+          "D": 0.99,
+          "E": 0.95,
+          "F": 0.94
+        },
+        "comment": "The note lists at least three diagnoses (GERD, PUD, stable angina) satisfying A. It includes the specific cardiac diagnosis 'stable angina' (B) and GI diagnoses 'GERD' and 'PUD' (C). An explicit probability statement 'The most likely diagnosis is GERD' fulfills D. No implicit broad category statement is present, so E is false. The note also uses implied probability language ('PUD is another possible option', 'Stable angina is still a possibility'), satisfying F. Confidence is high for most items; slight uncertainty for C due to a typographical error and for F regarding whether the implied language is sufficient."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.9,
+          "B": 0.9,
+          "C": 0.9
+        },
+        "comment": "The assessment links the leading diagnosis (GERD) to smoking history and diet, satisfying feature A. It explicitly mentions smoking as a risk factor, meeting feature B. However, it does not provide any key historical features such as pain quality, precipitating/alleviating factors, or response to medications, so feature C is not met."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 0.9,
+          "C": 0.85
+        },
+        "comment": "Feature A is met because each alternative diagnosis (GERD, PUD, stable angina) is linked to supporting data (smoking history, need for H. pylori testing, absence of chest pain). Feature B is satisfied by the explicit mention of smoking as a risk factor. Feature C is not met; the note does not include any key historical details such as pain quality, precipitating/alleviating factors, or associated symptom information like response to PPIs or presence of blood in stool."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.99,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.99,
+          "E": 0.98
+        },
+        "comment": "The plan explicitly links each test to a specific diagnosis (EKG to rule out cardiac ischemia, H. pylori stool test to rule out PUD). Both cardiac and GI diagnoses (stable angina, GERD, PUD) are mentioned, and appropriate cardiac (EKG) and GI (H. pylori stool) tests are listed. Confidence is high due to clear, direct statements."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d64",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 0.98,
+          "C": 0.97,
+          "D": 0.96,
+          "E": 0.78,
+          "F": 0.95,
+          "G": 0.92
+        },
+        "comment": "The summary captures key features without excessive detail, includes age, multiple cardiac/GI risk factors, location of discomfort, mentions worsening (progression) and triggers (post\u2011prandial, relief by sitting up) which satisfy episodic nature criteria, and contains at least two semantic qualifiers (progressive, post\u2011prandial). Confidence is lower for feature E due to the indirect phrasing of episodic nature."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.99,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.98,
+          "E": 0.95,
+          "F": 0.9
+        },
+        "comment": "The assessment lists two distinct diagnoses (GERD and ACS), satisfying feature A. Both a specific cardiac ischemia diagnosis (ACS) and a specific GI diagnosis (GERD) are mentioned, meeting B and C. Explicit probability language is used (\"leading diagnosis\", \"probable\"), fulfilling D. No generic category statements like \"cardiac disease\" or \"esophageal/GI disease\" are present, so E is not met. The diagnoses are numbered (1., 2.), which aligns with the rubric's example of an implied probability list, satisfying F."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.97,
+          "C": 0.96
+        },
+        "comment": "The note links the leading diagnosis (GERD) to specific data points (post\u2011prandial pain, positional discomfort, smoking, obesity) satisfying A. It explicitly names smoking and obesity as risk factors, meeting B. It also cites a precipitating factor\u2014post\u2011prandial pain\u2014and positional discomfort, which are key historical features per C. Confidence is high due to clear alignment with rubric criteria."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.95,
+          "C": 0.9
+        },
+        "comment": "The note links the alternative diagnosis (ACS) to specific data points (chest discomfort, smoking, obesity) satisfying feature A. It explicitly mentions smoking and obesity, which are recognized risk factors, meeting feature B. It references post\u2011prandial pain and positional chest discomfort, which correspond to precipitating/alleviating factors from the rubric, fulfilling feature C. Confidence is high for A and B; slightly lower for C due to interpretation of the described features."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.99,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.99,
+          "E": 0.99
+        },
+        "comment": "All required elements are present except a GI diagnostic test. The plan explicitly links the EKG to ruling out ACS, and both cardiac and GI diagnoses are mentioned. No GI test is listed, so feature E is not satisfied."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d7f",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 0.99,
+          "C": 0.8,
+          "D": 0.99,
+          "E": 0.9,
+          "F": 0.95,
+          "G": 0.9
+        },
+        "comment": "The summary provides a concise overview with key clinical details, includes age, mentions hypertension and obesity as cardiac risk factors, specifies chest location and burning quality, notes episodic/exertional nature and relief, and indicates worsening over time. It also contains at least two semantic qualifiers (worsening/progressive and exertional). Confidence is slightly lower for the risk\u2011factor criterion because the factors are not explicitly labeled as risk factors, but their presence (BP, BMI) is evident."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.96,
+          "C": 0.96,
+          "D": 0.93,
+          "E": 0.85,
+          "F": 0.9
+        },
+        "comment": "The assessment lists two specific diagnoses (stable angina and GERD), satisfying feature A. Both cardiac ischemia and GI diagnoses are explicitly named, meeting B and C. No explicit probability language (e.g., \"most likely diagnosis is\") is present, so D is false. Implicit categorical statements like \"cardiac disease\" are absent; the note provides specific diagnoses rather than generic categories, so E is false. However, the list is numbered and includes phrasing such as \"must be considered,\" which implies probability without stating it outright, satisfying feature F."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.97,
+          "B": 0.96,
+          "C": 0.97
+        },
+        "comment": "The note explicitly links the leading diagnosis (stable angina) to supporting data (exertional pain, relief with rest, diaphoresis, elevated BP, S4). It mentions a specific cardiac risk factor (hypertension). It also includes multiple key historical features for both cardiac (exertional quality, relief with rest, associated diaphoresis/nausea) and GI (burning quality, post\u2011prandial occurrence, lack of response to TUMS) supporting the diagnoses."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.9,
+          "C": 0.96
+        },
+        "comment": "The note links each alternative diagnosis (stable angina, GERD) to specific supporting data (symptoms, physical findings, medication response). Hypertension is explicitly noted, satisfying the risk\u2011factor requirement. The assessment includes key historical features: pain quality (burning, exertional), precipitating/alleviating factors (post\u2011prandial, exertion, relief with rest), and associated findings such as lack of response to TUMS. Confidence is high for all features."
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.6,
+          "B": 0.95,
+          "C": 0.95,
+          "D": 0.97,
+          "E": 0.95
+        },
+        "comment": "Feature A likely not met because the plan does not explicitly state that tests are ordered to evaluate or rule out a specific diagnosis, though the tests are appropriate for the cardiac concern. Features B and C are clearly satisfied by the assessment's mention of stable angina and GERD. Feature D is satisfied by the inclusion of an EKG and stress test. Feature E is not satisfied as no gastrointestinal diagnostic test is mentioned."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d61",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 1.0,
+          "C": 1.0,
+          "D": 1.0,
+          "E": 0.95,
+          "F": 0.95,
+          "G": 0.9
+        },
+        "comment": "The summary statement succinctly highlights key patient information (age, risk factors, chief complaint, relevant temporal features) without extraneous detail, satisfying the summary requirement. All required elements\u2014age, cardiac/GI risk factors, chest discomfort location, episodic nature, progression, and at least two semantic qualifiers\u2014are present. Confidence is highest for explicit criteria (age, risk factors, location, progression) and slightly lower for the overall 'summary vs. recap' judgment."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.97,
+          "C": 0.96,
+          "D": 0.97,
+          "E": 0.93,
+          "F": 0.95
+        },
+        "comment": "The note lists three specific diagnoses (GERD, unstable angina, duodenal ulcer) satisfying A. It mentions unstable angina, a cardiac ischemia term, satisfying B, and mentions GERD, meeting C. The phrase \"most likely diagnosis is uncontrolled GERD\" is an explicit probability statement, satisfying D. No generic category statements (e.g., \"cardiac disease\") are present, so E is not met. However, the note includes implied probability language such as \"could be\" and \"is also possible,\" meeting F. Confidence is high for all judgments."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.7,
+          "B": 0.95,
+          "C": 0.9
+        },
+        "comment": "Feature A likely not met because the note only vaguely references \"history and physical exam\" without specifying the data points that support GERD. Feature B is satisfied as the student lists hypertension, hyperlipidemia, and smoking as risk factors. Feature C is not met; there is no mention of specific pain qualities, precipitating/alleviating factors, or response to therapy."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.96,
+          "C": 0.9
+        },
+        "comment": "The note links unstable angina to specific cardiac risk factors (HTN, HLD, smoking), satisfying feature A. It explicitly mentions those risk factors, meeting feature B. However, it provides no details about pain quality, precipitating/alleviating factors, or associated symptoms such as response to PPIs, which are required for feature C."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.9,
+          "C": 0.95,
+          "D": 0.98,
+          "E": 0.98
+        },
+        "comment": "All rubric criteria are met. The plan explicitly links tests (EKG, endoscopy) to ruling out or confirming specific diagnoses, mentions both cardiac (unstable angina) and GI (GERD) diagnoses, and includes the required cardiac and GI tests. Confidence is high for each feature, with slightly lower certainty for the cardiac diagnosis link because it appears in the assessment rather than the plan."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d6c",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.8,
+          "B": 0.95,
+          "C": 0.95,
+          "D": 0.9,
+          "E": 0.9,
+          "F": 0.9,
+          "G": 0.7
+        },
+        "comment": "The statement reads more like a detailed recount of history rather than a concise summary, so feature A is not satisfied. Age, hypertension, cholesterol, and smoking are clearly mentioned, satisfying B and C. Chest location is noted, meeting D. Intermittent nature and increased frequency fulfill E and F. Only one explicit semantic qualifier ('intermittent') appears; other qualifiers are implied but not stated verbatim, so G is not met."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.99,
+          "B": 0.98,
+          "C": 0.98,
+          "D": 0.94,
+          "E": 0.9,
+          "F": 0.9
+        },
+        "comment": "The note lists two distinct diagnoses (GERD and coronary disease/angina), satisfying feature A and the specific diagnosis requirements for features B and C. No explicit probability language is present, so D is false. The note does not provide an implicit category statement or a probabilistic qualifier such as \"should consider\" or a numbered list, so both E and F are judged false. Confidence is high for the presence/absence determinations, with slightly lower confidence for E and F due to possible interpretation of the list as an implicit differential."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.97,
+          "C": 0.94
+        },
+        "comment": "The assessment links each leading diagnosis to specific supporting data (pain pattern for GERD, risk factors for coronary disease), mentions explicit cardiac risk factors (hypertension, smoking, cholesterol), and includes precipitating/alleviating factors (pain after eating, better when lying down) that satisfy the key history features rubric."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.97,
+          "C": 0.92
+        },
+        "comment": "The note lists an alternative diagnosis (coronary disease/angina) and links it to specific risk factors, satisfying feature A. It explicitly mentions hypertension, smoking, and cholesterol, meeting feature B. It provides a precipitating factor for GERD (pain after eating) and an alleviating factor (better when lying down), which counts as a key historical feature per feature C. Confidence is high for all features, with slightly lower confidence for C due to the atypical description of lying down as improvement."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.98,
+          "E": 0.98
+        },
+        "comment": "The plan explicitly ties each test/therapy to the relevant diagnosis (GERD and coronary disease), and both the assessment and plan mention specific cardiac and GI diagnoses as well as appropriate cardiac (ECG) and GI (EGD) tests. The language is clear and unambiguous, leading to high confidence in each judgment."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d72",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.7,
+          "B": 0.98,
+          "C": 0.96,
+          "D": 0.95,
+          "E": 0.9,
+          "F": 0.92,
+          "G": 0.88
+        },
+        "comment": "Feature A is marked false because the statement includes detailed vital signs and an irrelevant finding (tonsils) which makes it more of a recap than a concise summary. All other features are clearly met: age is mentioned, multiple cardiac/GI risk factors are listed, chest location of pain is described, progression ('worsening') is noted, and at least two semantic qualifiers ('worsening/progressive' and 'post\u2011prandial') are present. The episodic nature of the pain is not described, so feature E is false."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.95,
+          "E": 0.98,
+          "F": 0.94
+        },
+        "comment": "The assessment lists two diagnoses (ACS and anxiety), satisfying feature A. It explicitly mentions acute coronary syndrome and unstable angina, meeting feature B. No gastrointestinal diagnoses are referenced, so feature C is not met. The phrase \"The leading diagnosis is ACS\" directly uses the rubric's wording for an explicit probability statement, satisfying feature D. Implicit differential language like \"cardiac disease\" is absent, so feature E is not satisfied. The statement \"Another diagnosis to consider is anxiety\" aligns with the rubric's example of an implied probability, fulfilling feature F."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.97,
+          "C": 0.9
+        },
+        "comment": "Feature A is met because the note explicitly links ACS to specific data points (risk factors, symptom progression, exclusion of other causes). Feature B is met by naming hypertension, hyperlipidemia, and smoking as cardiac risk factors. Feature C is met by noting the pain is not pleuritic and occurs without exertion, which are key historical descriptors relevant to cardiac chest pain. Confidence is high for all features given the clear presence of the required elements."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.97,
+          "C": 0.94
+        },
+        "comment": "The note explicitly links the alternative diagnosis (anxiety) to supporting data (presence of chest pain, absence of tachycardia). It lists specific cardiac risk factors (hypertension, hyperlipidemia, smoking). It also references key historical features relevant to cardiac disease, such as the pain not being pleuritic or positional and its progression without exertion, satisfying the rubric criteria."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.85,
+          "B": 0.95,
+          "C": 0.99,
+          "D": 0.75,
+          "E": 0.99
+        },
+        "comment": "The plan explicitly ties actions (hospital transfer, cath lab evaluation, possible stenting) to the suspected ACS diagnosis, satisfying feature A. A specific cardiac ischemia diagnosis (ACS/unstable angina) is mentioned, meeting feature B. No gastrointestinal diagnoses or tests are referenced, so features C and E are not met. The term \"cath lab\" implies cardiac catheterization, a cardiac test, thus feature D is considered satisfied, though the wording is indirect, leading to slightly lower confidence."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d62",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.8,
+          "B": 0.98,
+          "C": 0.97,
+          "D": 0.96,
+          "E": 0.75,
+          "F": 0.99,
+          "G": 0.95
+        },
+        "comment": "Feature A likely fails because the note reads more like a recount of history and exam (including vitals) rather than a concise summary. All other features are present: age is stated; cardiac risk factors (hypertension, high cholesterol, obesity) are mentioned; pain location is specified as substernal; the statement includes triggers (after eating, stress, walking) satisfying episodic nature; progression is described as \"progressively worsening\"; and at least two semantic qualifiers are present (progressive, risk factors, post\u2011prandial). Confidence is lower for the episodic nature (E) due to lack of explicit terminology, but triggers are considered sufficient per rubric."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.98,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.95,
+          "E": 0.95,
+          "F": 0.96
+        },
+        "comment": "The assessment lists three distinct diagnoses, satisfying the requirement for two or more (A). It explicitly mentions ACS (acute coronary syndrome) and angina, meeting the cardiac ischemia criterion (B), and includes GERD and peptic ulcer disease, meeting the GI criterion (C). The phrase \"Leading diagnosis\" is an explicit statement of probability (D). No generic implicit statements like \"cardiac disease\" are present, so the implicit DDx criterion (E) is not met. The diagnoses are numbered, which the rubric counts as an implied probability statement (F)."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.9,
+          "C": 0.9
+        },
+        "comment": "A is satisfied because the assessment links ACS to severity, atypical presentation, risk factors, and pain with walking. B is not satisfied; the note only says \"patient risk factors\" without specifying any (e.g., diabetes, hypertension, smoking) or explicitly stating \"cardiac risk factors,\" which the rubric requires. C is satisfied as the note mentions a precipitating factor (pain with walking) and an associated symptom (no longer responding to antacids), both of which are among the key historical features outlined in the rubric."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.9,
+          "B": 0.95,
+          "C": 0.85
+        },
+        "comment": "Feature A is met because each alternative diagnosis is linked to specific supporting data (risk factors, pain with walking, lack of weight change, antacid response). Feature B is not met; the note only says \"patient risk factors\" without naming specific cardiac or GI risk factors required by the rubric. Feature C is met since the note mentions a precipitating factor (pain associated with walking) for ACS and lack of response to antacids for GERD, satisfying the requirement of mentioning any key historical features."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.97,
+          "B": 0.99,
+          "C": 0.99,
+          "D": 0.99,
+          "E": 0.98
+        },
+        "comment": "All rubric features are present. The plan explicitly links tests to suspected diagnoses (EKG/stress test for STEMI, endoscopy for PUD), mentions specific cardiac and GI diagnoses, and includes both cardiac and GI diagnostic tests. Confidence is very high with slight uncertainty only around the explicitness of the linkage for feature A."
+      }
+    }
+  },
+  {
+    "username": "fireworks/gpt-oss-120b",
+    "sim_id": "68465ed820fd80066ac57d5e",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.75,
+          "B": 0.95,
+          "C": 0.95,
+          "D": 0.95,
+          "E": 0.9,
+          "F": 0.95,
+          "G": 0.8
+        },
+        "comment": "The statement includes many details (exam findings, diet, alcohol) making it more of a recap than a concise summary, so feature A is not met. Age, risk factors, and chest pain location are clearly stated (B, C, D). The episodic nature is not described, only daily occurrence, so E is false. Progression is explicitly mentioned, satisfying F. For G, only one qualifier ('progressive') appears; other required terms like 'post-prandial' or 'intermittent' are absent, so the criterion is not met."
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.97,
+          "C": 0.96,
+          "D": 0.85,
+          "E": 0.9,
+          "F": 0.9
+        },
+        "comment": "The assessment lists multiple specific diagnoses (ACS, pancreatitis, gallstones, vascular disease) satisfying A\u2013C. It explicitly states a probability judgment ('pancreatitis is more likely'), meeting D. No generic category statements are present, so E is not met. While a list of other diagnoses is provided, there is no implied probability phrasing such as 'should consider' or 'possible', thus F is not satisfied. Confidence is slightly lower for D due to the nuance of whether 'more likely' counts as an explicit probability statement."
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.94,
+          "C": 0.93
+        },
+        "comment": "The note clearly identifies pancreatitis as the leading diagnosis and links it to specific data (post\u2011prandial pain, lack of response to heart\u2011burn meds, obesity, diabetes). It explicitly mentions obesity and diabetes as risk factors, satisfying feature B. It also includes key historical details such as pain after eating and non\u2011response to antacids, meeting feature C. Confidence is high for all three features."
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.96,
+          "B": 0.97,
+          "C": 0.95
+        },
+        "comment": "The note explicitly links each alternative diagnosis to specific supporting data (e.g., post\u2011prandial pain, obesity, diabetes, lack of tenderness, absence of bruits), satisfying feature A. It mentions concrete risk factors\u2014obesity and diabetes\u2014fulfilling feature B. It also cites key historical features such as pain worsening after eating and lack of response to heart\u2011burn medication, meeting the requirements of feature C. Confidence is high because the statements directly match rubric criteria."
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.95,
+          "B": 0.97,
+          "C": 0.96,
+          "D": 0.98,
+          "E": 0.9
+        },
+        "comment": "The plan explicitly links ECG/troponin to ruling out MI (A) and mentions checking amylase/lipase for pancreatitis. The assessment contains the cardiac diagnosis acute coronary syndrome/MI (B) and GI diagnoses including pancreatitis and gallstones (C). An ECG/EKG is named, satisfying the cardiac test requirement (D). No GI test from the rubric list (endoscopy, ultrasound, CT abdomen, etc.) is mentioned; serum amylase/lipase are labs, not the specified imaging or endoscopic tests, so E is not met."
+      }
+    }
+  }
+]
