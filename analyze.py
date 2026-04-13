@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 import re
 import numpy as np
 from sklearn.metrics import roc_auc_score
+import matplotlib.pyplot as plt
 
 
 def accuracy(path: str):
@@ -65,10 +66,35 @@ def accuracy_by_bin(path: str):
                 n_total[bin] += 1
 
     print(f"\nAccuracy by bin:")
+    bar_labels, bar_heights, bar_annotations = [], [], []
     for b in range(1, N_BINS+1):
         if n_total[b] == 0:
             print(f"Bin {b} ({bins[b-1]:.2f} to {bins[b]:.2f}): {n_correct[b]}/{n_total[b]} --> N/A")
-        print(f"Bin {b} ({bins[b-1]:.2f} to {bins[b]:.2f}): {n_correct[b]}/{n_total[b]} --> {n_correct[b]/n_total[b]}")
+            continue
+        acc = n_correct[b] / n_total[b]
+        print(f"Bin {b} ({bins[b-1]:.2f} to {bins[b]:.2f}): {n_correct[b]}/{n_total[b]} --> {acc}")
+        bar_labels.append(f"{bins[b-1]:.2f}–{bins[b]:.2f}")
+        bar_heights.append(acc)
+        bar_annotations.append(f"{n_correct[b]}/{n_total[b]}")
+
+    fig, ax = plt.subplots(figsize=(4, 3))
+    bars = ax.bar(bar_labels, bar_heights)
+    for bar, annotation in zip(bars, bar_annotations):
+        ax.text(
+            bar.get_x() + bar.get_width() / 2,
+            bar.get_height(),
+            annotation,
+            ha="center",
+            va="bottom",
+            fontsize=11,
+        )
+    ax.set_xlabel("Confidence Interval (bin)", fontsize=12)
+    ax.set_ylabel("Accuracy", fontsize=12)
+    ax.tick_params(labelsize=11)
+    ax.set_ylim(0, 1)
+    ax.set_title(f"{metric.upper()} Accuracy vs Confidence", fontsize=14)
+    plt.tight_layout()
+    plt.show()
 
 
 def ECE(path: str):
@@ -143,6 +169,4 @@ if __name__ == "__main__":
         ]
     for path in paths:
         print(f"\n\n---------- {path} ----------")
-        accuracy(path)
-        ECE(path)
-        AUROC(path)
+        accuracy_by_bin(path)

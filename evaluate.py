@@ -391,5 +391,5 @@ def evaluate_sc(model_id: str):
 
 
 if __name__ == "__main__":
-    # evaluate_vce("fireworks/kimi-k2p5")
-    evaluate_vce_rem("fireworks/kimi-k2p5", ['68465ed820fd80066ac57d5c', '68465ed820fd80066ac57d58'])
+    evaluate_msp("fireworks/kimi-k2p5")
+    # evaluate_vce_rem("fireworks/kimi-k2p5", ['68465ed820fd80066ac57d5c', '68465ed820fd80066ac57d58'])

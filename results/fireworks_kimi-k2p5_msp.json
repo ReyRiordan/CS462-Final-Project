@@ -1,0 +1,2522 @@
+[
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d4d",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.20236332959848902,
+          "B": 0.20236332959848902,
+          "C": 0.20236332959848902,
+          "D": 0.20236332959848902,
+          "E": 0.20236332959848902,
+          "F": 0.20236332959848902,
+          "G": 0.20236332959848902
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.41415833548364234,
+          "B": 0.41415833548364234,
+          "C": 0.41415833548364234,
+          "D": 0.41415833548364234,
+          "E": 0.41415833548364234,
+          "F": 0.41415833548364234
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6672583965851036,
+          "B": 0.6672583965851036,
+          "C": 0.6672583965851036
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.5996366543497222,
+          "B": 0.5996366543497222,
+          "C": 0.5996366543497222
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.715788848230043,
+          "B": 0.715788848230043,
+          "C": 0.715788848230043,
+          "D": 0.715788848230043,
+          "E": 0.715788848230043
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d62",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.3448055480665443,
+          "B": 0.3448055480665443,
+          "C": 0.3448055480665443,
+          "D": 0.3448055480665443,
+          "E": 0.3448055480665443,
+          "F": 0.3448055480665443,
+          "G": 0.3448055480665443
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.7733025131921124,
+          "B": 0.7733025131921124,
+          "C": 0.7733025131921124,
+          "D": 0.7733025131921124,
+          "E": 0.7733025131921124,
+          "F": 0.7733025131921124
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.8742702063908213,
+          "B": 0.8742702063908213,
+          "C": 0.8742702063908213
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 0.0
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.9202293484973014,
+          "B": 0.9202293484973014,
+          "C": 0.9202293484973014,
+          "D": 0.9202293484973014,
+          "E": 0.9202293484973014
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d59",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.6345640772546954,
+          "B": 0.6345640772546954,
+          "C": 0.6345640772546954,
+          "D": 0.6345640772546954,
+          "E": 0.6345640772546954,
+          "F": 0.6345640772546954,
+          "G": 0.6345640772546954
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.7067043201250492,
+          "B": 0.7067043201250492,
+          "C": 0.7067043201250492,
+          "D": 0.7067043201250492,
+          "E": 0.7067043201250492,
+          "F": 0.7067043201250492
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7165735076238011,
+          "B": 0.7165735076238011,
+          "C": 0.7165735076238011
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7564337424241401,
+          "B": 0.7564337424241401,
+          "C": 0.7564337424241401
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.6900500901309801,
+          "B": 0.6900500901309801,
+          "C": 0.6900500901309801,
+          "D": 0.6900500901309801,
+          "E": 0.6900500901309801
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d56",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.6730121313750215,
+          "B": 0.6730121313750215,
+          "C": 0.6730121313750215,
+          "D": 0.6730121313750215,
+          "E": 0.6730121313750215,
+          "F": 0.6730121313750215,
+          "G": 0.6730121313750215
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.7728337630072548,
+          "B": 0.7728337630072548,
+          "C": 0.7728337630072548,
+          "D": 0.7728337630072548,
+          "E": 0.7728337630072548,
+          "F": 0.7728337630072548
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.9013316161057402,
+          "B": 0.9013316161057402,
+          "C": 0.9013316161057402
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.8792579799497238,
+          "B": 0.8792579799497238,
+          "C": 0.8792579799497238
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.6627731494038596,
+          "B": 0.6627731494038596,
+          "C": 0.6627731494038596,
+          "D": 0.6627731494038596,
+          "E": 0.6627731494038596
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d5f",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.5579675001919155,
+          "B": 0.5579675001919155,
+          "C": 0.5579675001919155,
+          "D": 0.5579675001919155,
+          "E": 0.5579675001919155,
+          "F": 0.5579675001919155,
+          "G": 0.5579675001919155
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.8161580500012665,
+          "B": 0.8161580500012665,
+          "C": 0.8161580500012665,
+          "D": 0.8161580500012665,
+          "E": 0.8161580500012665,
+          "F": 0.8161580500012665
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.79274996572576,
+          "B": 0.79274996572576,
+          "C": 0.79274996572576
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6889574940906642,
+          "B": 0.6889574940906642,
+          "C": 0.6889574940906642
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 1.0,
+          "B": 1.0,
+          "C": 1.0,
+          "D": 1.0,
+          "E": 1.0
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d67",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.29378160185669966,
+          "B": 0.29378160185669966,
+          "C": 0.29378160185669966,
+          "D": 0.29378160185669966,
+          "E": 0.29378160185669966,
+          "F": 0.29378160185669966,
+          "G": 0.29378160185669966
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.7810424073310918,
+          "B": 0.7810424073310918,
+          "C": 0.7810424073310918,
+          "D": 0.7810424073310918,
+          "E": 0.7810424073310918,
+          "F": 0.7810424073310918
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7734842047110038,
+          "B": 0.7734842047110038,
+          "C": 0.7734842047110038
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 0.0
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.8517883106313926,
+          "B": 0.8517883106313926,
+          "C": 0.8517883106313926,
+          "D": 0.8517883106313926,
+          "E": 0.8517883106313926
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d6a",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.6283847078521569,
+          "B": 0.6283847078521569,
+          "C": 0.6283847078521569,
+          "D": 0.6283847078521569,
+          "E": 0.6283847078521569,
+          "F": 0.6283847078521569,
+          "G": 0.6283847078521569
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.8156545285294857,
+          "B": 0.8156545285294857,
+          "C": 0.8156545285294857,
+          "D": 0.8156545285294857,
+          "E": 0.8156545285294857,
+          "F": 0.8156545285294857
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.5713930606000613,
+          "B": 0.5713930606000613,
+          "C": 0.5713930606000613
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.7604977568352778,
+          "B": 0.7604977568352778,
+          "C": 0.7604977568352778
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.9554702449691395,
+          "B": 0.9554702449691395,
+          "C": 0.9554702449691395,
+          "D": 0.9554702449691395,
+          "E": 0.9554702449691395
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d66",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": true,
+          "F": false,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.32560952141122224,
+          "B": 0.32560952141122224,
+          "C": 0.32560952141122224,
+          "D": 0.32560952141122224,
+          "E": 0.32560952141122224,
+          "F": 0.32560952141122224,
+          "G": 0.32560952141122224
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.8995172217688475,
+          "B": 0.8995172217688475,
+          "C": 0.8995172217688475,
+          "D": 0.8995172217688475,
+          "E": 0.8995172217688475,
+          "F": 0.8995172217688475
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.9062715865138351,
+          "B": 0.9062715865138351,
+          "C": 0.9062715865138351
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.925419998463132,
+          "B": 0.925419998463132,
+          "C": 0.925419998463132
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.7096140334924831,
+          "B": 0.7096140334924831,
+          "C": 0.7096140334924831,
+          "D": 0.7096140334924831,
+          "E": 0.7096140334924831
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d70",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": false,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.5997454782407445,
+          "B": 0.5997454782407445,
+          "C": 0.5997454782407445,
+          "D": 0.5997454782407445,
+          "E": 0.5997454782407445,
+          "F": 0.5997454782407445,
+          "G": 0.5997454782407445
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.7779258042189121,
+          "B": 0.7779258042189121,
+          "C": 0.7779258042189121,
+          "D": 0.7779258042189121,
+          "E": 0.7779258042189121,
+          "F": 0.7779258042189121
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.927059900951819,
+          "B": 0.927059900951819,
+          "C": 0.927059900951819
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.8781610233802363,
+          "B": 0.8781610233802363,
+          "C": 0.8781610233802363
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.5546081749341747,
+          "B": 0.5546081749341747,
+          "C": 0.5546081749341747,
+          "D": 0.5546081749341747,
+          "E": 0.5546081749341747
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d4f",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.0010308022860791022,
+          "B": 0.0010308022860791022,
+          "C": 0.0010308022860791022,
+          "D": 0.0010308022860791022,
+          "E": 0.0010308022860791022,
+          "F": 0.0010308022860791022,
+          "G": 0.0010308022860791022
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.776898737628281,
+          "B": 0.776898737628281,
+          "C": 0.776898737628281,
+          "D": 0.776898737628281,
+          "E": 0.776898737628281,
+          "F": 0.776898737628281
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.5725886619733513,
+          "B": 0.5725886619733513,
+          "C": 0.5725886619733513
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6996802035669707,
+          "B": 0.6996802035669707,
+          "C": 0.6996802035669707
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.7758179891554341,
+          "B": 0.7758179891554341,
+          "C": 0.7758179891554341,
+          "D": 0.7758179891554341,
+          "E": 0.7758179891554341
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d51",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.49085999459840746,
+          "B": 0.49085999459840746,
+          "C": 0.49085999459840746,
+          "D": 0.49085999459840746,
+          "E": 0.49085999459840746,
+          "F": 0.49085999459840746,
+          "G": 0.49085999459840746
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.5318623804543172,
+          "B": 0.5318623804543172,
+          "C": 0.5318623804543172,
+          "D": 0.5318623804543172,
+          "E": 0.5318623804543172,
+          "F": 0.5318623804543172
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.5059337875821266,
+          "B": 0.5059337875821266,
+          "C": 0.5059337875821266
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.35788716731751835,
+          "B": 0.35788716731751835,
+          "C": 0.35788716731751835
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.8055228345719128,
+          "B": 0.8055228345719128,
+          "C": 0.8055228345719128,
+          "D": 0.8055228345719128,
+          "E": 0.8055228345719128
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d5a",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": false,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.7763744854433123,
+          "B": 0.7763744854433123,
+          "C": 0.7763744854433123,
+          "D": 0.7763744854433123,
+          "E": 0.7763744854433123,
+          "F": 0.7763744854433123,
+          "G": 0.7763744854433123
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.6311484801157983,
+          "B": 0.6311484801157983,
+          "C": 0.6311484801157983,
+          "D": 0.6311484801157983,
+          "E": 0.6311484801157983,
+          "F": 0.6311484801157983
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.44675278150641773,
+          "B": 0.44675278150641773,
+          "C": 0.44675278150641773
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6937989198608746,
+          "B": 0.6937989198608746,
+          "C": 0.6937989198608746
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.9393237459793456,
+          "B": 0.9393237459793456,
+          "C": 0.9393237459793456,
+          "D": 0.9393237459793456,
+          "E": 0.9393237459793456
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d5e",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.3179559902037571,
+          "B": 0.3179559902037571,
+          "C": 0.3179559902037571,
+          "D": 0.3179559902037571,
+          "E": 0.3179559902037571,
+          "F": 0.3179559902037571,
+          "G": 0.3179559902037571
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.5227268987404694,
+          "B": 0.5227268987404694,
+          "C": 0.5227268987404694,
+          "D": 0.5227268987404694,
+          "E": 0.5227268987404694,
+          "F": 0.5227268987404694
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.5497806215902554,
+          "B": 0.5497806215902554,
+          "C": 0.5497806215902554
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.8102876657146155,
+          "B": 0.8102876657146155,
+          "C": 0.8102876657146155
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.8994855566354414,
+          "B": 0.8994855566354414,
+          "C": 0.8994855566354414,
+          "D": 0.8994855566354414,
+          "E": 0.8994855566354414
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d52",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false,
+          "E": false,
+          "F": false,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.40148093349928626,
+          "B": 0.40148093349928626,
+          "C": 0.40148093349928626,
+          "D": 0.40148093349928626,
+          "E": 0.40148093349928626,
+          "F": 0.40148093349928626,
+          "G": 0.40148093349928626
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.8129502341362409,
+          "B": 0.8129502341362409,
+          "C": 0.8129502341362409,
+          "D": 0.8129502341362409,
+          "E": 0.8129502341362409,
+          "F": 0.8129502341362409
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.8755601813081968,
+          "B": 0.8755601813081968,
+          "C": 0.8755601813081968
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.7778829963310528,
+          "B": 0.7778829963310528,
+          "C": 0.7778829963310528
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.6050324425066242,
+          "B": 0.6050324425066242,
+          "C": 0.6050324425066242,
+          "D": 0.6050324425066242,
+          "E": 0.6050324425066242
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d5c",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.5252091005059859,
+          "B": 0.5252091005059859,
+          "C": 0.5252091005059859,
+          "D": 0.5252091005059859,
+          "E": 0.5252091005059859,
+          "F": 0.5252091005059859,
+          "G": 0.5252091005059859
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.6858822241140139,
+          "B": 0.6858822241140139,
+          "C": 0.6858822241140139,
+          "D": 0.6858822241140139,
+          "E": 0.6858822241140139,
+          "F": 0.6858822241140139
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.5898214754718125,
+          "B": 0.5898214754718125,
+          "C": 0.5898214754718125
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.6499165614470792,
+          "B": 0.6499165614470792,
+          "C": 0.6499165614470792
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.9353955122505664,
+          "B": 0.9353955122505664,
+          "C": 0.9353955122505664,
+          "D": 0.9353955122505664,
+          "E": 0.9353955122505664
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d5d",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.3108100503082455,
+          "B": 0.3108100503082455,
+          "C": 0.3108100503082455,
+          "D": 0.3108100503082455,
+          "E": 0.3108100503082455,
+          "F": 0.3108100503082455,
+          "G": 0.3108100503082455
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.5487464000607818,
+          "B": 0.5487464000607818,
+          "C": 0.5487464000607818,
+          "D": 0.5487464000607818,
+          "E": 0.5487464000607818,
+          "F": 0.5487464000607818
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.9081418662666326,
+          "B": 0.9081418662666326,
+          "C": 0.9081418662666326
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6785941399605092,
+          "B": 0.6785941399605092,
+          "C": 0.6785941399605092
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.5847022811187548,
+          "B": 0.5847022811187548,
+          "C": 0.5847022811187548,
+          "D": 0.5847022811187548,
+          "E": 0.5847022811187548
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d4c",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.5975765302286908,
+          "B": 0.5975765302286908,
+          "C": 0.5975765302286908,
+          "D": 0.5975765302286908,
+          "E": 0.5975765302286908,
+          "F": 0.5975765302286908,
+          "G": 0.5975765302286908
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.7510840300075253,
+          "B": 0.7510840300075253,
+          "C": 0.7510840300075253,
+          "D": 0.7510840300075253,
+          "E": 0.7510840300075253,
+          "F": 0.7510840300075253
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.848709385793211,
+          "B": 0.848709385793211,
+          "C": 0.848709385793211
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.684243453323466,
+          "B": 0.684243453323466,
+          "C": 0.684243453323466
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.974524924109925,
+          "B": 0.974524924109925,
+          "C": 0.974524924109925,
+          "D": 0.974524924109925,
+          "E": 0.974524924109925
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d71",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.13280427468124256,
+          "B": 0.13280427468124256,
+          "C": 0.13280427468124256,
+          "D": 0.13280427468124256,
+          "E": 0.13280427468124256,
+          "F": 0.13280427468124256,
+          "G": 0.13280427468124256
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.8271116819923516,
+          "B": 0.8271116819923516,
+          "C": 0.8271116819923516,
+          "D": 0.8271116819923516,
+          "E": 0.8271116819923516,
+          "F": 0.8271116819923516
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.5763764524584029,
+          "B": 0.5763764524584029,
+          "C": 0.5763764524584029
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.5576521785181912,
+          "B": 0.5576521785181912,
+          "C": 0.5576521785181912
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.45241995751976505,
+          "B": 0.45241995751976505,
+          "C": 0.45241995751976505,
+          "D": 0.45241995751976505,
+          "E": 0.45241995751976505
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d4e",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.41375225600885024,
+          "B": 0.41375225600885024,
+          "C": 0.41375225600885024,
+          "D": 0.41375225600885024,
+          "E": 0.41375225600885024,
+          "F": 0.41375225600885024,
+          "G": 0.41375225600885024
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.7050605007740395,
+          "B": 0.7050605007740395,
+          "C": 0.7050605007740395,
+          "D": 0.7050605007740395,
+          "E": 0.7050605007740395,
+          "F": 0.7050605007740395
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.8573580045774953,
+          "B": 0.8573580045774953,
+          "C": 0.8573580045774953
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.18296678660224275,
+          "B": 0.18296678660224275,
+          "C": 0.18296678660224275
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.4804157499717161,
+          "B": 0.4804157499717161,
+          "C": 0.4804157499717161,
+          "D": 0.4804157499717161,
+          "E": 0.4804157499717161
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d63",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": false,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.8420295131043164,
+          "B": 0.8420295131043164,
+          "C": 0.8420295131043164,
+          "D": 0.8420295131043164,
+          "E": 0.8420295131043164,
+          "F": 0.8420295131043164,
+          "G": 0.8420295131043164
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.9113664481623766,
+          "B": 0.9113664481623766,
+          "C": 0.9113664481623766,
+          "D": 0.9113664481623766,
+          "E": 0.9113664481623766,
+          "F": 0.9113664481623766
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.49098058935431654,
+          "B": 0.49098058935431654,
+          "C": 0.49098058935431654
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.3986312386495964,
+          "B": 0.3986312386495964,
+          "C": 0.3986312386495964
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.011777494226086427,
+          "B": 0.011777494226086427,
+          "C": 0.011777494226086427,
+          "D": 0.011777494226086427,
+          "E": 0.011777494226086427
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d68",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.7736921431387356,
+          "B": 0.7736921431387356,
+          "C": 0.7736921431387356,
+          "D": 0.7736921431387356,
+          "E": 0.7736921431387356,
+          "F": 0.7736921431387356,
+          "G": 0.7736921431387356
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.45540818117577786,
+          "B": 0.45540818117577786,
+          "C": 0.45540818117577786,
+          "D": 0.45540818117577786,
+          "E": 0.45540818117577786,
+          "F": 0.45540818117577786
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6180779557991314,
+          "B": 0.6180779557991314,
+          "C": 0.6180779557991314
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.5959851871949753,
+          "B": 0.5959851871949753,
+          "C": 0.5959851871949753
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.8970168907294036,
+          "B": 0.8970168907294036,
+          "C": 0.8970168907294036,
+          "D": 0.8970168907294036,
+          "E": 0.8970168907294036
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d58",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.4783128377357372,
+          "B": 0.4783128377357372,
+          "C": 0.4783128377357372,
+          "D": 0.4783128377357372,
+          "E": 0.4783128377357372,
+          "F": 0.4783128377357372,
+          "G": 0.4783128377357372
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.3619144328009367,
+          "B": 0.3619144328009367,
+          "C": 0.3619144328009367,
+          "D": 0.3619144328009367,
+          "E": 0.3619144328009367,
+          "F": 0.3619144328009367
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.6968094503525718,
+          "B": 0.6968094503525718,
+          "C": 0.6968094503525718
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.3584089340397052,
+          "B": 0.3584089340397052,
+          "C": 0.3584089340397052
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.7207684340553686,
+          "B": 0.7207684340553686,
+          "C": 0.7207684340553686,
+          "D": 0.7207684340553686,
+          "E": 0.7207684340553686
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d6e",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.2754532226130352,
+          "B": 0.2754532226130352,
+          "C": 0.2754532226130352,
+          "D": 0.2754532226130352,
+          "E": 0.2754532226130352,
+          "F": 0.2754532226130352,
+          "G": 0.2754532226130352
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.6387592889367382,
+          "B": 0.6387592889367382,
+          "C": 0.6387592889367382,
+          "D": 0.6387592889367382,
+          "E": 0.6387592889367382,
+          "F": 0.6387592889367382
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7347626549962223,
+          "B": 0.7347626549962223,
+          "C": 0.7347626549962223
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.39923162953912805,
+          "B": 0.39923162953912805,
+          "C": 0.39923162953912805
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.7971313487148803,
+          "B": 0.7971313487148803,
+          "C": 0.7971313487148803,
+          "D": 0.7971313487148803,
+          "E": 0.7971313487148803
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d6b",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.318039085185727,
+          "B": 0.318039085185727,
+          "C": 0.318039085185727,
+          "D": 0.318039085185727,
+          "E": 0.318039085185727,
+          "F": 0.318039085185727,
+          "G": 0.318039085185727
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.6767590610213257,
+          "B": 0.6767590610213257,
+          "C": 0.6767590610213257,
+          "D": 0.6767590610213257,
+          "E": 0.6767590610213257,
+          "F": 0.6767590610213257
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.46239519739992885,
+          "B": 0.46239519739992885,
+          "C": 0.46239519739992885
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.5067599881154521,
+          "B": 0.5067599881154521,
+          "C": 0.5067599881154521
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true,
+          "D": false,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.6917575064888795,
+          "B": 0.6917575064888795,
+          "C": 0.6917575064888795,
+          "D": 0.6917575064888795,
+          "E": 0.6917575064888795
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d69",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.7265428883318119,
+          "B": 0.7265428883318119,
+          "C": 0.7265428883318119,
+          "D": 0.7265428883318119,
+          "E": 0.7265428883318119,
+          "F": 0.7265428883318119,
+          "G": 0.7265428883318119
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.7860458636059956,
+          "B": 0.7860458636059956,
+          "C": 0.7860458636059956,
+          "D": 0.7860458636059956,
+          "E": 0.7860458636059956,
+          "F": 0.7860458636059956
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.7620908044765686,
+          "B": 0.7620908044765686,
+          "C": 0.7620908044765686
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.7070875507571797,
+          "B": 0.7070875507571797,
+          "C": 0.7070875507571797
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.7944820720602174,
+          "B": 0.7944820720602174,
+          "C": 0.7944820720602174,
+          "D": 0.7944820720602174,
+          "E": 0.7944820720602174
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d64",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.47630151949298605,
+          "B": 0.47630151949298605,
+          "C": 0.47630151949298605,
+          "D": 0.47630151949298605,
+          "E": 0.47630151949298605,
+          "F": 0.47630151949298605,
+          "G": 0.47630151949298605
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.9017430985772342,
+          "B": 0.9017430985772342,
+          "C": 0.9017430985772342,
+          "D": 0.9017430985772342,
+          "E": 0.9017430985772342,
+          "F": 0.9017430985772342
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7443416032648567,
+          "B": 0.7443416032648567,
+          "C": 0.7443416032648567
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.5798783497333091,
+          "B": 0.5798783497333091,
+          "C": 0.5798783497333091
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.8649296988108022,
+          "B": 0.8649296988108022,
+          "C": 0.8649296988108022,
+          "D": 0.8649296988108022,
+          "E": 0.8649296988108022
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d7f",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": true
+        },
+        "confidence": {
+          "A": 0.35306054883609195,
+          "B": 0.35306054883609195,
+          "C": 0.35306054883609195,
+          "D": 0.35306054883609195,
+          "E": 0.35306054883609195,
+          "F": 0.35306054883609195,
+          "G": 0.35306054883609195
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.7658306411637559,
+          "B": 0.7658306411637559,
+          "C": 0.7658306411637559,
+          "D": 0.7658306411637559,
+          "E": 0.7658306411637559,
+          "F": 0.7658306411637559
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7252636515040141,
+          "B": 0.7252636515040141,
+          "C": 0.7252636515040141
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.8265407994932481,
+          "B": 0.8265407994932481,
+          "C": 0.8265407994932481
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.7762855130118717,
+          "B": 0.7762855130118717,
+          "C": 0.7762855130118717,
+          "D": 0.7762855130118717,
+          "E": 0.7762855130118717
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d61",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.34162152488023256,
+          "B": 0.34162152488023256,
+          "C": 0.34162152488023256,
+          "D": 0.34162152488023256,
+          "E": 0.34162152488023256,
+          "F": 0.34162152488023256,
+          "G": 0.34162152488023256
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": false,
+          "F": true
+        },
+        "confidence": {
+          "A": 0.3387511687167798,
+          "B": 0.3387511687167798,
+          "C": 0.3387511687167798,
+          "D": 0.3387511687167798,
+          "E": 0.3387511687167798,
+          "F": 0.3387511687167798
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.7193704201033757,
+          "B": 0.7193704201033757,
+          "C": 0.7193704201033757
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.82762365997723,
+          "B": 0.82762365997723,
+          "C": 0.82762365997723
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.8032769519276155,
+          "B": 0.8032769519276155,
+          "C": 0.8032769519276155,
+          "D": 0.8032769519276155,
+          "E": 0.8032769519276155
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d6c",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.5315593599207883,
+          "B": 0.5315593599207883,
+          "C": 0.5315593599207883,
+          "D": 0.5315593599207883,
+          "E": 0.5315593599207883,
+          "F": 0.5315593599207883,
+          "G": 0.5315593599207883
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": false,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.7079212814485132,
+          "B": 0.7079212814485132,
+          "C": 0.7079212814485132,
+          "D": 0.7079212814485132,
+          "E": 0.7079212814485132,
+          "F": 0.7079212814485132
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.503602006863977,
+          "B": 0.503602006863977,
+          "C": 0.503602006863977
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.7272438300716886,
+          "B": 0.7272438300716886,
+          "C": 0.7272438300716886
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true
+        },
+        "confidence": {
+          "A": 0.8406567226478804,
+          "B": 0.8406567226478804,
+          "C": 0.8406567226478804,
+          "D": 0.8406567226478804,
+          "E": 0.8406567226478804
+        }
+      }
+    }
+  },
+  {
+    "username": "fireworks/kimi-k2p5",
+    "sim_id": "68465ed820fd80066ac57d72",
+    "evaluation": {
+      "Summary Statement": {
+        "features": {
+          "A": false,
+          "B": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "F": true,
+          "G": false
+        },
+        "confidence": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 0.0,
+          "D": 0.0,
+          "E": 0.0,
+          "F": 0.0,
+          "G": 0.0
+        }
+      },
+      "Differential Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": true,
+          "E": false,
+          "F": false
+        },
+        "confidence": {
+          "A": 0.8298146137445093,
+          "B": 0.8298146137445093,
+          "C": 0.8298146137445093,
+          "D": 0.8298146137445093,
+          "E": 0.8298146137445093,
+          "F": 0.8298146137445093
+        }
+      },
+      "Explanation of Lead Diagnosis": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": true
+        },
+        "confidence": {
+          "A": 0.5960991861309406,
+          "B": 0.5960991861309406,
+          "C": 0.5960991861309406
+        }
+      },
+      "Explanation of Alternative Diagnoses": {
+        "features": {
+          "A": true,
+          "B": false,
+          "C": false
+        },
+        "confidence": {
+          "A": 0.21157949188192626,
+          "B": 0.21157949188192626,
+          "C": 0.21157949188192626
+        }
+      },
+      "Plan": {
+        "features": {
+          "A": true,
+          "B": true,
+          "C": false,
+          "D": false,
+          "E": false
+        },
+        "confidence": {
+          "A": 0.4080525302088185,
+          "B": 0.4080525302088185,
+          "C": 0.4080525302088185,
+          "D": 0.4080525302088185,
+          "E": 0.4080525302088185
+        }
+      }
+    }
+  }
+]
